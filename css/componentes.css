@@ -1,0 +1,610 @@
+
+/* =========================================================
+   CAMPANHAS DO PERO
+   COMPONENTES REUTILIZÁVEIS
+   ========================================================= */
+
+
+/* =========================================================
+   BOTÕES
+   ========================================================= */
+
+.btn-pequeno {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+}
+
+.btn-grande {
+    padding: 13px 22px;
+    font-size: 1.05rem;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid var(--cor-destaque);
+    color: var(--cor-destaque);
+}
+
+.btn-outline:hover {
+    background: var(--cor-destaque);
+    color: #111111;
+}
+
+.btn-perigo {
+    background: #7a2929;
+    border-color: #7a2929;
+    color: #ffffff;
+}
+
+.btn-perigo:hover {
+    background: #963434;
+    border-color: #963434;
+}
+
+
+/* =========================================================
+   BADGES
+   ========================================================= */
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3px 9px;
+
+    border-radius: 999px;
+
+    background: var(--cor-card);
+    border: 1px solid var(--cor-borda);
+
+    color: var(--cor-texto-secundario);
+
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.badge-destaque {
+    background: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+
+    color: #111111;
+}
+
+.badge-secundario {
+    background: transparent;
+}
+
+.badge-perigo {
+    background: #7a2929;
+    border-color: #7a2929;
+
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   CARDS
+   ========================================================= */
+
+.card-header {
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 15px;
+}
+
+.card-title {
+    margin-bottom: 5px;
+}
+
+.card-subtitle {
+    color: var(--cor-texto-secundario);
+    font-size: 0.9rem;
+}
+
+.card-footer {
+    margin-top: 20px;
+    padding-top: 15px;
+
+    border-top: 1px solid var(--cor-borda);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+}
+
+
+/* =========================================================
+   PAINÉIS
+   ========================================================= */
+
+.painel {
+    padding: 20px;
+
+    background: var(--cor-fundo-secundario);
+
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+}
+
+.painel-titulo {
+    margin-bottom: 15px;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.painel-subtitulo {
+    margin-top: -8px;
+    margin-bottom: 15px;
+
+    color: var(--cor-texto-secundario);
+    font-size: 0.9rem;
+}
+
+
+/* =========================================================
+   LISTA DE ITENS
+   ========================================================= */
+
+.lista-itens {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.lista-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 15px;
+
+    padding: 12px 15px;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+}
+
+.lista-item:hover {
+    background: var(--cor-card-hover);
+}
+
+.lista-item-info {
+    min-width: 0;
+}
+
+.lista-item-titulo {
+    font-weight: bold;
+}
+
+.lista-item-descricao {
+    color: var(--cor-texto-secundario);
+    font-size: 0.9rem;
+}
+
+
+/* =========================================================
+   BLOCOS DE TEXTO
+   ========================================================= */
+
+.bloco-texto {
+    padding: 20px;
+
+    background: var(--cor-card);
+
+    border-left: 3px solid var(--cor-destaque);
+    border-radius: 0 var(--raio) var(--raio) 0;
+}
+
+.bloco-texto > :last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   CITAÇÃO
+   ========================================================= */
+
+.citacao {
+    margin: 20px 0;
+    padding: 20px;
+
+    border-left: 3px solid var(--cor-destaque);
+
+    color: var(--cor-texto-secundario);
+
+    font-style: italic;
+}
+
+.citacao-autor {
+    display: block;
+
+    margin-top: 10px;
+
+    color: var(--cor-texto);
+
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+
+/* =========================================================
+   ALERTAS
+   ========================================================= */
+
+.alerta {
+    position: fixed;
+
+    right: 20px;
+    bottom: 20px;
+
+    z-index: 2000;
+
+    max-width: 400px;
+
+    padding: 14px 18px;
+
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+
+    background: var(--cor-card);
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.35);
+}
+
+.alerta-info {
+    border-left: 4px solid var(--cor-destaque);
+}
+
+.alerta-sucesso {
+    border-left: 4px solid #4c8a57;
+}
+
+.alerta-aviso {
+    border-left: 4px solid #b58b3a;
+}
+
+.alerta-perigo {
+    border-left: 4px solid #9b3c3c;
+}
+
+
+/* =========================================================
+   MODAL
+   ========================================================= */
+
+.modal {
+    position: fixed;
+    inset: 0;
+
+    z-index: 1500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.modal-conteudo {
+    width: min(100%, 600px);
+    max-height: calc(100vh - 40px);
+
+    overflow-y: auto;
+
+    padding: 25px;
+
+    background: var(--cor-fundo-secundario);
+
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+.modal-fechar {
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--cor-borda);
+    border-radius: 50%;
+
+    background: transparent;
+    color: var(--cor-texto);
+
+    cursor: pointer;
+}
+
+.modal-fechar:hover {
+    background: var(--cor-card);
+}
+
+.modal-footer {
+    margin-top: 20px;
+    padding-top: 15px;
+
+    border-top: 1px solid var(--cor-borda);
+
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 10px;
+}
+
+body.modal-aberto {
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   FORMULÁRIOS
+   ========================================================= */
+
+.form-grupo {
+    margin-bottom: 18px;
+}
+
+.form-label {
+    display: block;
+
+    margin-bottom: 6px;
+
+    font-weight: bold;
+}
+
+.form-ajuda {
+    display: block;
+
+    margin-top: 5px;
+
+    color: var(--cor-texto-secundario);
+    font-size: 0.85rem;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+    width: 100%;
+
+    padding: 10px 12px;
+
+    background: var(--cor-fundo);
+    color: var(--cor-texto);
+
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+
+    outline: none;
+
+    transition:
+        border-color var(--transicao),
+        box-shadow var(--transicao);
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+    border-color: var(--cor-destaque);
+
+    box-shadow:
+        0 0 0 2px rgba(184, 134, 75, 0.15);
+}
+
+.form-textarea {
+    min-height: 140px;
+
+    resize: vertical;
+}
+
+
+/* =========================================================
+   TABELA RESPONSIVA
+   ========================================================= */
+
+.tabela-wrapper {
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+.tabela {
+    min-width: 600px;
+}
+
+.tabela tbody tr:hover {
+    background: var(--cor-card);
+}
+
+
+/* =========================================================
+   IMAGENS
+   ========================================================= */
+
+.imagem-arredondada {
+    border-radius: var(--raio);
+}
+
+.imagem-capa {
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+
+    border-radius: var(--raio);
+}
+
+.imagem-quadrada {
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   AVATAR / RETRATO
+   ========================================================= */
+
+.avatar {
+    width: 48px;
+    height: 48px;
+
+    flex-shrink: 0;
+
+    overflow: hidden;
+
+    border-radius: 50%;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.avatar-grande {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* =========================================================
+   DIVISOR
+   ========================================================= */
+
+.divisor {
+    width: 100%;
+
+    height: 1px;
+
+    margin: 25px 0;
+
+    background: var(--cor-borda);
+}
+
+
+/* =========================================================
+   LOADING
+   ========================================================= */
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100px;
+
+    color: var(--cor-texto-secundario);
+}
+
+.loading::after {
+    content: "";
+
+    width: 20px;
+    height: 20px;
+
+    margin-left: 10px;
+
+    border: 2px solid var(--cor-borda);
+    border-top-color: var(--cor-destaque);
+
+    border-radius: 50%;
+
+    animation:
+        loading-spin 0.8s linear infinite;
+}
+
+@keyframes loading-spin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+/* =========================================================
+   ESTADOS VAZIOS
+   ========================================================= */
+
+.estado-vazio {
+    padding: 40px 20px;
+
+    border: 1px dashed var(--cor-borda);
+    border-radius: var(--raio);
+
+    color: var(--cor-texto-secundario);
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    .card-header,
+    .card-footer,
+    .lista-item {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .modal {
+        padding: 10px;
+    }
+
+    .modal-conteudo {
+        max-height: calc(100vh - 20px);
+        padding: 20px;
+    }
+
+    .alerta {
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+
+        max-width: none;
+    }
+
+}
+

@@ -1,0 +1,672 @@
+/* =========================================================
+   EMPROD — CSS ESPECÍFICO DA CAMPANHA
+   ========================================================= */
+
+
+/* =========================================================
+   HERO DA CAMPANHA
+   ========================================================= */
+
+.campanha-hero {
+    position: relative;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+/* Conteúdo do hero */
+
+.campanha-hero .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 760px;
+}
+
+
+/* Título */
+
+.campanha-hero .hero-titulo {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    margin-bottom: 1rem;
+}
+
+
+/* Subtítulo */
+
+.campanha-hero .hero-subtitulo {
+    max-width: 650px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+
+/* Imagem de fundo */
+
+.campanha-hero .hero-background {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: 0;
+}
+
+
+/* Escurecimento da imagem */
+
+.campanha-hero::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.90) 0%,
+            rgba(0, 0, 0, 0.65) 45%,
+            rgba(0, 0, 0, 0.30) 100%
+        );
+
+    z-index: 1;
+}
+
+
+/* =========================================================
+   IDENTIDADE DA CAMPANHA
+   ========================================================= */
+
+.campanha-identidade {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+.campanha-identidade-imagem {
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    flex-shrink: 0;
+}
+
+
+.campanha-identidade-conteudo {
+    flex: 1;
+}
+
+
+/* =========================================================
+   CARDS ESPECÍFICOS DA CAMPANHA
+   ========================================================= */
+
+.campanha-card {
+    position: relative;
+    overflow: hidden;
+
+    min-height: 220px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 1.5rem;
+
+    border-radius: 12px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.85)
+        );
+
+    border: 1px solid var(--cor-borda);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.campanha-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--cor-destaque);
+}
+
+
+.campanha-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+
+.campanha-card p {
+    margin-bottom: 1rem;
+    color: var(--cor-texto-secundario);
+}
+
+
+/* =========================================================
+   BLOCOS DE INFORMAÇÃO
+   ========================================================= */
+
+.campanha-info {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 1rem;
+
+    margin: 2rem 0;
+}
+
+
+.campanha-info-item {
+    padding: 1.25rem;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+
+    border-radius: 10px;
+}
+
+
+.campanha-info-label {
+    display: block;
+
+    font-size: 0.8rem;
+    text-transform: uppercase;
+
+    letter-spacing: 0.05em;
+
+    color: var(--cor-texto-secundario);
+
+    margin-bottom: 0.4rem;
+}
+
+
+.campanha-info-valor {
+    display: block;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   DESTAQUES
+   ========================================================= */
+
+.campanha-destaque {
+    padding: 1.5rem;
+
+    margin: 2rem 0;
+
+    border-left: 4px solid var(--cor-destaque);
+
+    background: var(--cor-card);
+
+    border-radius: 0 8px 8px 0;
+}
+
+
+.campanha-destaque h3 {
+    margin-bottom: 0.75rem;
+}
+
+
+/* =========================================================
+   CAPA
+   ========================================================= */
+
+.campanha-capa {
+    width: 100%;
+
+    max-height: 600px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    border: 1px solid var(--cor-borda);
+
+    display: block;
+}
+
+
+/* =========================================================
+   NAVEGAÇÃO INTERNA DA CAMPANHA
+   ========================================================= */
+
+.campanha-navegacao {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.5rem;
+
+    padding: 1rem;
+
+    margin-bottom: 2rem;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+
+    border-radius: 10px;
+}
+
+
+.campanha-navegacao a {
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 0.6rem 0.9rem;
+
+    border-radius: 6px;
+
+    color: var(--cor-texto);
+
+    text-decoration: none;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+
+.campanha-navegacao a:hover,
+.campanha-navegacao a.ativo {
+    background: var(--cor-destaque);
+    color: #fff;
+}
+
+
+/* =========================================================
+   LISTAS DE CAMPANHA
+   ========================================================= */
+
+.campanha-lista {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0.75rem;
+
+    margin: 1.5rem 0;
+}
+
+
+.campanha-lista-item {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 1rem;
+
+    padding: 1rem 1.25rem;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+
+    border-radius: 8px;
+
+    transition:
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.campanha-lista-item:hover {
+    border-color: var(--cor-destaque);
+
+    transform: translateX(3px);
+}
+
+
+/* =========================================================
+   SESSÕES
+   ========================================================= */
+
+.sessao-card {
+    display: block;
+
+    padding: 1.5rem;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.sessao-card:hover {
+    transform: translateY(-3px);
+
+    border-color: var(--cor-destaque);
+}
+
+
+.sessao-numero {
+    display: inline-block;
+
+    margin-bottom: 0.5rem;
+
+    font-size: 0.8rem;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    color: var(--cor-destaque);
+}
+
+
+.sessao-data {
+    font-size: 0.85rem;
+
+    color: var(--cor-texto-secundario);
+}
+
+
+/* =========================================================
+   PERSONAGENS
+   ========================================================= */
+
+.personagem-card {
+    display: flex;
+
+    flex-direction: column;
+
+    overflow: hidden;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.personagem-card:hover {
+    transform: translateY(-4px);
+
+    border-color: var(--cor-destaque);
+}
+
+
+.personagem-imagem {
+    width: 100%;
+
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+}
+
+
+.personagem-conteudo {
+    padding: 1.25rem;
+}
+
+
+.personagem-nome {
+    margin-bottom: 0.35rem;
+}
+
+
+.personagem-descricao {
+    color: var(--cor-texto-secundario);
+
+    font-size: 0.9rem;
+}
+
+
+/* =========================================================
+   LOCAIS
+   ========================================================= */
+
+.local-card {
+    position: relative;
+
+    overflow: hidden;
+
+    min-height: 200px;
+
+    display: flex;
+
+    align-items: flex-end;
+
+    padding: 1.5rem;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    color: inherit;
+}
+
+
+.local-card:hover {
+    border-color: var(--cor-destaque);
+}
+
+
+.local-imagem {
+    position: absolute;
+
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: 0;
+}
+
+
+.local-card::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            transparent 20%,
+            rgba(0, 0, 0, 0.9)
+        );
+
+    z-index: 1;
+}
+
+
+.local-conteudo {
+    position: relative;
+
+    z-index: 2;
+}
+
+
+/* =========================================================
+   FACÇÕES
+   ========================================================= */
+
+.faccao-card {
+    padding: 1.5rem;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+
+    border-radius: 10px;
+}
+
+
+.faccao-simbolo {
+    width: 70px;
+    height: 70px;
+
+    object-fit: contain;
+
+    margin-bottom: 1rem;
+}
+
+
+.faccao-nome {
+    margin-bottom: 0.5rem;
+}
+
+
+.faccao-descricao {
+    color: var(--cor-texto-secundario);
+}
+
+
+/* =========================================================
+   CRIATURAS
+   ========================================================= */
+
+.criatura-card {
+    padding: 1.5rem;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+
+    border-radius: 10px;
+}
+
+
+.criatura-nome {
+    margin-bottom: 0.25rem;
+}
+
+
+.criatura-tipo {
+    font-size: 0.85rem;
+
+    color: var(--cor-destaque);
+
+    margin-bottom: 1rem;
+}
+
+
+.criatura-descricao {
+    color: var(--cor-texto-secundario);
+}
+
+
+/* =========================================================
+   REGRAS
+   ========================================================= */
+
+.regra-card {
+    padding: 1.5rem;
+
+    background: var(--cor-card);
+
+    border: 1px solid var(--cor-borda);
+
+    border-radius: 10px;
+}
+
+
+.regra-categoria {
+    display: inline-block;
+
+    margin-bottom: 0.5rem;
+
+    font-size: 0.8rem;
+
+    text-transform: uppercase;
+
+    color: var(--cor-destaque);
+}
+
+
+.regra-card h3 {
+    margin-bottom: 0.75rem;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    .campanha-hero {
+        min-height: 400px;
+    }
+
+
+    .campanha-identidade {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+
+    .campanha-identidade-imagem {
+        width: 140px;
+        height: 140px;
+    }
+
+
+    .campanha-navegacao {
+        flex-direction: column;
+    }
+
+
+    .campanha-navegacao a {
+        width: 100%;
+    }
+
+
+    .campanha-lista-item {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+}

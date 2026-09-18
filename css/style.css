@@ -1,30 +1,41 @@
+/* =========================================================
+   CAMPANHAS DO PERO
+   CSS GLOBAL
+   ========================================================= */
+
 :root {
+
     /* =====================================================
-       CORES GLOBAIS
+       CORES — BASE
        ===================================================== */
 
-    --cor-fundo: #0f0e0d;
-    --cor-fundo-secundario: #151311;
+    --cor-fundo: #0d0f12;
+    --cor-fundo-secundario: #12151a;
 
-    --cor-superficie: #1c1917;
-    --cor-superficie-2: #24201d;
-    --cor-superficie-3: #2b2622;
+    --cor-superficie: #181c22;
+    --cor-superficie-2: #1e232b;
+    --cor-superficie-3: #252b34;
 
-    --cor-primaria: #8f2929;
-    --cor-primaria-hover: #b33a3a;
-    --cor-primaria-escura: #5e1b1b;
+    --cor-primaria: #7c3aed;
+    --cor-primaria-hover: #8b5cf6;
+    --cor-primaria-escura: #5b21b6;
 
-    --cor-acento: #a8895a;
-    --cor-acento-clara: #c5aa76;
-    --cor-acento-escura: #705b3b;
+    --cor-acento: #d4a853;
+    --cor-acento-clara: #e5c477;
+    --cor-acento-escura: #987536;
 
-    --cor-texto: #ddd6cc;
-    --cor-texto-secundario: #aaa197;
-    --cor-texto-muted: #716b64;
-    --cor-titulo: #eee7dc;
+    --cor-texto: #e5e7eb;
+    --cor-texto-secundario: #a7adb7;
+    --cor-texto-muted: #6b7280;
+    --cor-titulo: #f3f4f6;
 
-    --cor-borda: #3a342e;
-    --cor-borda-clara: #4b433a;
+    --cor-borda: #2d333d;
+    --cor-borda-clara: #3b4350;
+
+    --cor-sucesso: #4ade80;
+    --cor-aviso: #facc15;
+    --cor-perigo: #f87171;
+    --cor-info: #60a5fa;
 
 
     /* =====================================================
@@ -37,6 +48,7 @@
         serif;
 
     --fonte-corpo:
+        Inter,
         Arial,
         Helvetica,
         sans-serif;
@@ -47,15 +59,20 @@
 
 
     /* =====================================================
-       TAMANHOS
+       TAMANHOS DE TEXTO
        ===================================================== */
 
     --tamanho-texto: 16px;
-    --altura-linha: 1.7;
 
-    --tamanho-h1: clamp(2.2rem, 5vw, 4.5rem);
-    --tamanho-h2: clamp(1.8rem, 3vw, 2.8rem);
+    --tamanho-h1:
+        clamp(2.4rem, 5vw, 4.5rem);
+
+    --tamanho-h2:
+        clamp(1.8rem, 3vw, 2.8rem);
+
     --tamanho-h3: 1.35rem;
+
+    --altura-linha: 1.65;
 
 
     /* =====================================================
@@ -75,25 +92,42 @@
        DIMENSÕES
        ===================================================== */
 
-    --largura-conteudo: 1400px;
+    --largura-conteudo: 1280px;
     --largura-texto: 850px;
 
-    --altura-header: 72px;
+    --altura-header: 68px;
 
 
     /* =====================================================
-       BORDAS E SOMBRAS
+       BORDAS
        ===================================================== */
 
     --raio-sm: 4px;
     --raio-md: 8px;
     --raio-lg: 12px;
+    --raio-xl: 16px;
+
+
+    /* =====================================================
+       SOMBRAS
+       ===================================================== */
 
     --sombra-padrao:
-        0 8px 30px rgba(0, 0, 0, 0.35);
+        0 8px 30px rgba(0, 0, 0, 0.30);
+
+    --sombra-forte:
+        0 15px 45px rgba(0, 0, 0, 0.45);
+
+
+    /* =====================================================
+       TRANSIÇÕES
+       ===================================================== */
+
+    --transicao-rapida:
+        150ms ease;
 
     --transicao-padrao:
-        180ms ease;
+        220ms ease;
 }
 
 
@@ -104,6 +138,7 @@
 * {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
 }
 
@@ -116,16 +151,26 @@ html {
 body {
     min-height: 100vh;
 
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    background:
+        var(--cor-fundo);
 
-    font-family: var(--fonte-corpo);
-    font-size: var(--tamanho-texto);
-    line-height: var(--altura-linha);
+    color:
+        var(--cor-texto);
 
-    text-rendering: optimizeLegibility;
+    font-family:
+        var(--fonte-corpo);
 
-    overflow-x: hidden;
+    font-size:
+        var(--tamanho-texto);
+
+    line-height:
+        var(--altura-linha);
+
+    text-rendering:
+        optimizeLegibility;
+
+    overflow-x:
+        hidden;
 }
 
 
@@ -155,12 +200,24 @@ select {
 
 button {
     border: 0;
+    cursor: pointer;
 }
 
 
 ul,
 ol {
-    list-style-position: inside;
+    padding-left: 1.25rem;
+}
+
+
+hr {
+    border: 0;
+
+    border-top:
+        1px solid var(--cor-borda);
+
+    margin:
+        var(--espaco-xl) 0;
 }
 
 
@@ -174,42 +231,81 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--cor-titulo);
+    color:
+        var(--cor-titulo);
 
-    font-family: var(--fonte-titulo);
-    font-weight: 600;
+    font-family:
+        var(--fonte-titulo);
 
-    line-height: 1.2;
+    font-weight:
+        600;
+
+    line-height:
+        1.2;
 }
 
 
 h1 {
-    font-size: var(--tamanho-h1);
+    font-size:
+        var(--tamanho-h1);
 }
 
 
 h2 {
-    font-size: var(--tamanho-h2);
+    font-size:
+        var(--tamanho-h2);
 }
 
 
 h3 {
-    font-size: var(--tamanho-h3);
+    font-size:
+        var(--tamanho-h3);
+}
+
+
+h4 {
+    font-size:
+        1.15rem;
 }
 
 
 p {
-    color: var(--cor-texto);
+    color:
+        var(--cor-texto);
+
+    margin-bottom:
+        var(--espaco-md);
 }
 
 
 strong {
-    color: var(--cor-titulo);
+    color:
+        var(--cor-titulo);
 }
 
 
 small {
-    color: var(--cor-texto-secundario);
+    color:
+        var(--cor-texto-secundario);
+}
+
+
+blockquote {
+    margin:
+        var(--espaco-lg) 0;
+
+    padding:
+        var(--espaco-md)
+        var(--espaco-lg);
+
+    border-left:
+        3px solid var(--cor-acento);
+
+    background:
+        var(--cor-superficie);
+
+    color:
+        var(--cor-texto-secundario);
 }
 
 
@@ -218,8 +314,11 @@ small {
    ========================================================= */
 
 ::selection {
-    background: var(--cor-primaria);
-    color: #ffffff;
+    background:
+        var(--cor-primaria);
+
+    color:
+        #ffffff;
 }
 
 
@@ -233,18 +332,23 @@ small {
 
 
 ::-webkit-scrollbar-track {
-    background: var(--cor-fundo);
+    background:
+        var(--cor-fundo);
 }
 
 
 ::-webkit-scrollbar-thumb {
-    background: var(--cor-borda-clara);
-    border-radius: 10px;
+    background:
+        var(--cor-borda-clara);
+
+    border-radius:
+        10px;
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--cor-acento-escura);
+    background:
+        var(--cor-primaria);
 }
 
 
@@ -253,8 +357,11 @@ small {
    ========================================================= */
 
 :focus-visible {
-    outline: 2px solid var(--cor-acento);
-    outline-offset: 3px;
+    outline:
+        2px solid var(--cor-acento);
+
+    outline-offset:
+        3px;
 }
 
 
@@ -262,33 +369,75 @@ small {
    UTILITÁRIOS
    ========================================================= */
 
+.container {
+    width:
+        min(
+            calc(100% - 2rem),
+            var(--largura-conteudo)
+        );
+
+    margin:
+        0 auto;
+}
+
+
 .text-muted {
-    color: var(--cor-texto-muted);
+    color:
+        var(--cor-texto-muted);
 }
 
 
 .text-secondary {
-    color: var(--cor-texto-secundario);
+    color:
+        var(--cor-texto-secundario);
 }
 
 
 .text-accent {
-    color: var(--cor-acento);
+    color:
+        var(--cor-acento);
 }
 
 
 .text-primary {
-    color: var(--cor-primaria);
+    color:
+        var(--cor-primaria);
+}
+
+
+.text-success {
+    color:
+        var(--cor-sucesso);
+}
+
+
+.text-warning {
+    color:
+        var(--cor-aviso);
+}
+
+
+.text-danger {
+    color:
+        var(--cor-perigo);
+}
+
+
+.text-info {
+    color:
+        var(--cor-info);
 }
 
 
 .serif {
-    font-family: var(--fonte-titulo);
+    font-family:
+        var(--fonte-titulo);
 }
 
 
 .mono {
-    font-family: var(--fonte-mono);
+    font-family:
+        var(--fonte-mono);
 }
 
 
@@ -298,28 +447,28 @@ small {
 
 body.light-theme {
 
-    --cor-fundo: #e8e2d9;
-    --cor-fundo-secundario: #ddd5ca;
+    --cor-fundo: #f3f4f6;
+    --cor-fundo-secundario: #e5e7eb;
 
-    --cor-superficie: #f1ece4;
-    --cor-superficie-2: #e5ddd2;
-    --cor-superficie-3: #d9d0c4;
+    --cor-superficie: #ffffff;
+    --cor-superficie-2: #f9fafb;
+    --cor-superficie-3: #eef0f3;
 
-    --cor-primaria: #762626;
-    --cor-primaria-hover: #952f2f;
-    --cor-primaria-escura: #551b1b;
+    --cor-primaria: #6d28d9;
+    --cor-primaria-hover: #7c3aed;
+    --cor-primaria-escura: #5b21b6;
 
-    --cor-acento: #80653d;
-    --cor-acento-clara: #6d532f;
-    --cor-acento-escura: #594426;
+    --cor-acento: #9a7227;
+    --cor-acento-clara: #b48b3d;
+    --cor-acento-escura: #79591f;
 
-    --cor-texto: #302b27;
-    --cor-texto-secundario: #5f5750;
-    --cor-texto-muted: #777067;
-    --cor-titulo: #201c19;
+    --cor-texto: #272b31;
+    --cor-texto-secundario: #5f6670;
+    --cor-texto-muted: #7b818a;
+    --cor-titulo: #17191d;
 
-    --cor-borda: #c5bbae;
-    --cor-borda-clara: #b4aa9e;
+    --cor-borda: #d8dce2;
+    --cor-borda-clara: #c5cad2;
 }
 
 
@@ -330,10 +479,15 @@ body.light-theme {
 @media (max-width: 768px) {
 
     :root {
-        --tamanho-texto: 15px;
 
-        --espaco-2xl: 2rem;
-        --espaco-3xl: 3rem;
+        --tamanho-texto:
+            15px;
+
+        --espaco-2xl:
+            2rem;
+
+        --espaco-3xl:
+            3rem;
     }
 
 }
@@ -342,11 +496,18 @@ body.light-theme {
 @media (max-width: 480px) {
 
     :root {
-        --tamanho-texto: 14px;
 
-        --tamanho-h1: 2.2rem;
-        --tamanho-h2: 1.8rem;
-        --tamanho-h3: 1.2rem;
+        --tamanho-texto:
+            14px;
+
+        --tamanho-h1:
+            2.2rem;
+
+        --tamanho-h2:
+            1.8rem;
+
+        --tamanho-h3:
+            1.2rem;
     }
 
 }
