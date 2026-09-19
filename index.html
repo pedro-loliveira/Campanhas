@@ -3,230 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Campanhas do Pero</title>
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/componentes.css">
 </head>
-
 <body>
-
-    <!-- =====================================================
-         HEADER
-         ===================================================== -->
+<div class="site-wrapper">
 
     <header class="site-header">
-
-        <div class="header-inner">
-
-            <a href="index.html" class="site-logo">
-                CAMPANHAS DO PERO
-            </a>
-
-            <div class="header-search">
-                <span class="header-search-icon">⌕</span>
-
-                <input
-                    type="search"
-                    id="site-search"
-                    class="header-search-input"
-                    placeholder="Pesquisar..."
-                    autocomplete="off"
-                    aria-label="Pesquisar"
-                >
-
-                <span class="header-search-shortcut">
-                    Ctrl K
-                </span>
-            </div>
-
-            <button
-                type="button"
-                id="theme-button"
-                class="theme-button"
-                aria-label="Alterar tema"
-                title="Alterar tema"
-            >
-                ◐
-            </button>
-
+        <div class="container header-content">
+            <a href="index.html" class="site-logo">Campanhas do Pero</a>
+            <label class="header-search">
+                <span aria-hidden="true">⌕</span>
+                <input type="search" data-busca placeholder="Pesquisar campanhas..." autocomplete="off" aria-label="Pesquisar">
+                <kbd>Ctrl K</kbd>
+            </label>
+            <button type="button" class="btn btn-pequeno" data-tema-toggle aria-label="Alternar tema">◐</button>
         </div>
-
     </header>
 
+    <main class="site-main">
 
-    <!-- =====================================================
-         CONTEÚDO PRINCIPAL
-         ===================================================== -->
-
-    <main class="home-page">
-
-        <section class="home-hero">
-
-            <div class="hero-content">
-
-                <span class="hero-eyebrow">
-                    COMPÊNDIO DE CAMPANHAS
-                </span>
-
-                <h1>
-                    Campanhas do Pero
-                </h1>
-
-                <p>
-                    Um espaço para reunir, organizar e consultar
-                    todas as campanhas narradas por mim.
-                </p>
-
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="badge badge-destaque">Compêndio de campanhas</span>
+                    <h1 class="hero-titulo">Campanhas do Pero</h1>
+                    <p class="hero-subtitulo">
+                        Um espaço para reunir, organizar e consultar
+                        todas as campanhas narradas por mim.
+                    </p>
+                </div>
             </div>
-
         </section>
 
-
-        <!-- =================================================
-             CAMPANHAS
-             ================================================= -->
-
-        <section class="content-section">
-
-            <div class="section-heading">
-
-                <div>
-                    <span class="section-eyebrow">
-                        ARQUIVO
-                    </span>
-
-                    <h2>
-                        Campanhas
-                    </h2>
+        <section class="secao">
+            <div class="container">
+                <div class="secao-titulo">
+                    <h2>Campanhas</h2>
                 </div>
 
+                <div class="grid">
+
+                    <a href="EmProd/index.html" class="card" data-item>
+                        <img class="card-imagem" src="EmProd/assets/images/capa.jpg" alt="" onerror="this.remove()">
+                        <div class="card-corpo">
+                            <span class="card-meta">Campanha</span>
+                            <h3 class="card-titulo">EmProd</h3>
+                            <p class="card-texto">Campanha atualmente em andamento.</p>
+                            <span class="card-link">Abrir campanha</span>
+                        </div>
+                    </a>
+
+                    <!-- MODELO PARA CAMPANHA NOVA: copie o bloco acima e troque o nome da pasta, o título e o texto. -->
+
+                </div>
             </div>
-
-
-            <div class="campaign-grid">
-
-                <!-- =========================================
-                     CAMPANHA: EMPROD
-                     ========================================= -->
-
-                <a
-                    href="EmProd/index.html"
-                    class="campaign-card"
-                >
-
-                    <div class="campaign-card-image">
-
-                        <img
-                            src="EmProd/assets/images/capa.jpg"
-                            alt=""
-                            onerror="this.style.display='none'"
-                        >
-
-                    </div>
-
-                    <div class="campaign-card-content">
-
-                        <span class="campaign-card-label">
-                            CAMPANHA
-                        </span>
-
-                        <h3>
-                            EmProd
-                        </h3>
-
-                        <p>
-                            Campanha atualmente em andamento.
-                        </p>
-
-                        <span class="campaign-card-link">
-                            Abrir campanha →
-                        </span>
-
-                    </div>
-
-                </a>
-
-
-                <!-- =========================================
-                     MODELO PARA FUTURAS CAMPANHAS
-
-                     Copie este bloco quando adicionar
-                     uma nova campanha.
-                     ========================================= -->
-
-                <!--
-
-                <a
-                    href="Nome-Da-Campanha/index.html"
-                    class="campaign-card"
-                >
-
-                    <div class="campaign-card-image">
-
-                        <img
-                            src="Nome-Da-Campanha/assets/images/capa.jpg"
-                            alt=""
-                        >
-
-                    </div>
-
-                    <div class="campaign-card-content">
-
-                        <span class="campaign-card-label">
-                            CAMPANHA
-                        </span>
-
-                        <h3>
-                            Nome da Campanha
-                        </h3>
-
-                        <p>
-                            Descrição da campanha.
-                        </p>
-
-                        <span class="campaign-card-link">
-                            Abrir campanha →
-                        </span>
-
-                    </div>
-
-                </a>
-
-                -->
-
-
-            </div>
-
         </section>
 
     </main>
 
-
-    <!-- =====================================================
-         FOOTER
-         ===================================================== -->
-
     <footer class="site-footer">
-
-        <p>
-            Campanhas do Pero
-            <span>•</span>
-            <span data-current-year></span>
-        </p>
-
+        <div class="footer-bottom container">
+            <p>Campanhas do Pero • <span data-ano-atual></span></p>
+        </div>
     </footer>
 
+</div>
 
-    <!-- =====================================================
-         JAVASCRIPT
-         ===================================================== -->
-
-    <script src="js/main.js"></script>
-    <script src="js/navigation.js"></script>
-    <script src="js/search.js"></script>
-
+<script src="js/main.js"></script>
 </body>
 </html>

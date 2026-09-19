@@ -1,610 +1,86 @@
+/* COMPONENTES reutilizáveis. Um card só serve para sessão, personagem, local, facção, criatura e regra. */
 
-/* =========================================================
-   CAMPANHAS DO PERO
-   COMPONENTES REUTILIZÁVEIS
-   ========================================================= */
-
-
-/* =========================================================
-   BOTÕES
-   ========================================================= */
-
-.btn-pequeno {
-    padding: 6px 12px;
-    font-size: 0.85rem;
+/* botões */
+.btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: .4rem;
+    padding: 9px 16px; font-weight: 600;
+    background: var(--cor-card); color: var(--cor-texto);
+    border: 1px solid var(--cor-borda); border-radius: var(--raio);
+    transition: background var(--transicao), border-color var(--transicao), color var(--transicao);
 }
+.btn:hover { background: var(--cor-card-hover); border-color: var(--cor-destaque); }
+.btn-destaque { background: var(--cor-destaque); border-color: var(--cor-destaque); color: var(--cor-destaque-texto); }
+.btn-destaque:hover { background: var(--cor-destaque); filter: brightness(1.1); }
+.btn-outline { background: transparent; border-color: var(--cor-destaque); color: var(--cor-destaque); }
+.btn-outline:hover { background: var(--cor-destaque); color: var(--cor-destaque-texto); }
+.btn-perigo { background: var(--cor-perigo); border-color: var(--cor-perigo); color: #fff; }
+.btn-pequeno { padding: 5px 11px; font-size: .85rem; }
 
-.btn-grande {
-    padding: 13px 22px;
-    font-size: 1.05rem;
-}
-
-.btn-outline {
-    background: transparent;
-    border: 1px solid var(--cor-destaque);
-    color: var(--cor-destaque);
-}
-
-.btn-outline:hover {
-    background: var(--cor-destaque);
-    color: #111111;
-}
-
-.btn-perigo {
-    background: #7a2929;
-    border-color: #7a2929;
-    color: #ffffff;
-}
-
-.btn-perigo:hover {
-    background: #963434;
-    border-color: #963434;
-}
-
-
-/* =========================================================
-   BADGES
-   ========================================================= */
-
+/* badges */
 .badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 3px 9px;
-
-    border-radius: 999px;
-
-    background: var(--cor-card);
-    border: 1px solid var(--cor-borda);
-
-    color: var(--cor-texto-secundario);
-
-    font-size: 0.75rem;
-    font-weight: bold;
+    display: inline-flex; align-items: center; padding: 2px 10px;
+    font-size: .75rem; font-weight: 700;
+    background: var(--cor-card); color: var(--cor-texto-secundario);
+    border: 1px solid var(--cor-borda); border-radius: 999px;
 }
+.badge-destaque { background: var(--cor-destaque); border-color: var(--cor-destaque); color: var(--cor-destaque-texto); }
+.badge-perigo { background: var(--cor-perigo); border-color: var(--cor-perigo); color: #fff; }
 
-.badge-destaque {
-    background: var(--cor-destaque);
-    border-color: var(--cor-destaque);
-
-    color: #111111;
+/* card */
+.card {
+    display: flex; flex-direction: column; overflow: hidden;
+    background: var(--cor-card); border: 1px solid var(--cor-borda); border-radius: var(--raio);
+    transition: transform var(--transicao), border-color var(--transicao);
 }
+a.card:hover { transform: translateY(-3px); border-color: var(--cor-destaque); }
+.card-imagem { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.card-imagem-quadrada { aspect-ratio: 1 / 1; }
+.card-corpo { flex: 1; display: flex; flex-direction: column; gap: .4rem; padding: 1.25rem; }
+.card-meta { font-size: .8rem; font-weight: 700; color: var(--cor-destaque); }
+.card-titulo { font-size: 1.2rem; }
+.card-texto { margin: 0; font-size: .95rem; color: var(--cor-texto-secundario); }
+.card-link { margin-top: auto; padding-top: .5rem; font-size: .9rem; font-weight: 600; color: var(--cor-destaque); }
 
-.badge-secundario {
-    background: transparent;
-}
+/* painel e ficha de informações */
+.painel { display: grid; gap: .75rem; padding: 1.25rem; background: var(--cor-fundo-secundario); border: 1px solid var(--cor-borda); border-radius: var(--raio); }
+.painel-titulo { font-size: 1.1rem; font-weight: 700; }
+.info-item { padding: .9rem 1rem; background: var(--cor-card); border: 1px solid var(--cor-borda); border-radius: var(--raio); }
+.info-label { display: block; font-size: .85rem; color: var(--cor-texto-secundario); }
+.info-value { font-weight: 700; }
 
-.badge-perigo {
-    background: #7a2929;
-    border-color: #7a2929;
-
-    color: #ffffff;
-}
-
-
-/* =========================================================
-   CARDS
-   ========================================================= */
-
-.card-header {
-    margin-bottom: 15px;
-
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-
-    gap: 15px;
-}
-
-.card-title {
-    margin-bottom: 5px;
-}
-
-.card-subtitle {
-    color: var(--cor-texto-secundario);
-    font-size: 0.9rem;
-}
-
-.card-footer {
-    margin-top: 20px;
-    padding-top: 15px;
-
-    border-top: 1px solid var(--cor-borda);
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    gap: 10px;
-}
-
-
-/* =========================================================
-   PAINÉIS
-   ========================================================= */
-
-.painel {
-    padding: 20px;
-
-    background: var(--cor-fundo-secundario);
-
-    border: 1px solid var(--cor-borda);
-    border-radius: var(--raio);
-}
-
-.painel-titulo {
-    margin-bottom: 15px;
-
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-
-.painel-subtitulo {
-    margin-top: -8px;
-    margin-bottom: 15px;
-
-    color: var(--cor-texto-secundario);
-    font-size: 0.9rem;
-}
-
-
-/* =========================================================
-   LISTA DE ITENS
-   ========================================================= */
-
-.lista-itens {
-    display: flex;
-    flex-direction: column;
-
-    gap: 5px;
-
-    padding: 0;
-
-    list-style: none;
-}
-
+/* lista (também usada nos resultados da busca) */
+.lista-itens { display: flex; flex-direction: column; gap: 6px; padding: 0; list-style: none; }
 .lista-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    gap: 15px;
-
-    padding: 12px 15px;
-
-    background: var(--cor-card);
-
-    border: 1px solid var(--cor-borda);
-    border-radius: var(--raio);
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    padding: 12px 16px; background: var(--cor-card);
+    border: 1px solid var(--cor-borda); border-radius: var(--raio);
 }
-
-.lista-item:hover {
-    background: var(--cor-card-hover);
-}
-
-.lista-item-info {
-    min-width: 0;
-}
-
-.lista-item-titulo {
-    font-weight: bold;
-}
-
-.lista-item-descricao {
-    color: var(--cor-texto-secundario);
-    font-size: 0.9rem;
-}
-
-
-/* =========================================================
-   BLOCOS DE TEXTO
-   ========================================================= */
-
-.bloco-texto {
-    padding: 20px;
-
-    background: var(--cor-card);
-
-    border-left: 3px solid var(--cor-destaque);
-    border-radius: 0 var(--raio) var(--raio) 0;
-}
-
-.bloco-texto > :last-child {
-    margin-bottom: 0;
-}
-
-
-/* =========================================================
-   CITAÇÃO
-   ========================================================= */
-
-.citacao {
-    margin: 20px 0;
-    padding: 20px;
-
-    border-left: 3px solid var(--cor-destaque);
-
-    color: var(--cor-texto-secundario);
-
-    font-style: italic;
-}
-
-.citacao-autor {
-    display: block;
-
-    margin-top: 10px;
-
-    color: var(--cor-texto);
-
-    font-style: normal;
-    font-size: 0.9rem;
-}
-
-
-/* =========================================================
-   ALERTAS
-   ========================================================= */
-
-.alerta {
-    position: fixed;
-
-    right: 20px;
-    bottom: 20px;
-
-    z-index: 2000;
-
-    max-width: 400px;
-
-    padding: 14px 18px;
-
-    border: 1px solid var(--cor-borda);
-    border-radius: var(--raio);
-
-    background: var(--cor-card);
-
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.35);
-}
-
-.alerta-info {
-    border-left: 4px solid var(--cor-destaque);
-}
-
-.alerta-sucesso {
-    border-left: 4px solid #4c8a57;
-}
-
-.alerta-aviso {
-    border-left: 4px solid #b58b3a;
-}
-
-.alerta-perigo {
-    border-left: 4px solid #9b3c3c;
-}
-
-
-/* =========================================================
-   MODAL
-   ========================================================= */
-
-.modal {
-    position: fixed;
-    inset: 0;
-
-    z-index: 1500;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 20px;
-
-    background: rgba(0, 0, 0, 0.75);
-}
-
-.modal-conteudo {
-    width: min(100%, 600px);
-    max-height: calc(100vh - 40px);
-
-    overflow-y: auto;
-
-    padding: 25px;
-
-    background: var(--cor-fundo-secundario);
-
-    border: 1px solid var(--cor-borda);
-    border-radius: var(--raio);
-}
-
-.modal-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    gap: 15px;
-
-    margin-bottom: 20px;
-}
-
-.modal-fechar {
-    width: 32px;
-    height: 32px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border: 1px solid var(--cor-borda);
-    border-radius: 50%;
-
-    background: transparent;
-    color: var(--cor-texto);
-
-    cursor: pointer;
-}
-
-.modal-fechar:hover {
-    background: var(--cor-card);
-}
-
-.modal-footer {
-    margin-top: 20px;
-    padding-top: 15px;
-
-    border-top: 1px solid var(--cor-borda);
-
-    display: flex;
-    justify-content: flex-end;
-
-    gap: 10px;
-}
-
-body.modal-aberto {
-    overflow: hidden;
-}
-
-
-/* =========================================================
-   FORMULÁRIOS
-   ========================================================= */
-
-.form-grupo {
-    margin-bottom: 18px;
-}
-
-.form-label {
-    display: block;
-
-    margin-bottom: 6px;
-
-    font-weight: bold;
-}
-
-.form-ajuda {
-    display: block;
-
-    margin-top: 5px;
-
-    color: var(--cor-texto-secundario);
-    font-size: 0.85rem;
-}
-
-.form-input,
-.form-select,
-.form-textarea {
-    width: 100%;
-
-    padding: 10px 12px;
-
-    background: var(--cor-fundo);
-    color: var(--cor-texto);
-
-    border: 1px solid var(--cor-borda);
-    border-radius: var(--raio);
-
-    outline: none;
-
-    transition:
-        border-color var(--transicao),
-        box-shadow var(--transicao);
-}
-
-.form-input:focus,
-.form-select:focus,
-.form-textarea:focus {
-    border-color: var(--cor-destaque);
-
-    box-shadow:
-        0 0 0 2px rgba(184, 134, 75, 0.15);
-}
-
-.form-textarea {
-    min-height: 140px;
-
-    resize: vertical;
-}
-
-
-/* =========================================================
-   TABELA RESPONSIVA
-   ========================================================= */
-
-.tabela-wrapper {
-    width: 100%;
-
-    overflow-x: auto;
-}
-
-.tabela {
-    min-width: 600px;
-}
-
-.tabela tbody tr:hover {
-    background: var(--cor-card);
-}
-
-
-/* =========================================================
-   IMAGENS
-   ========================================================= */
-
-.imagem-arredondada {
-    border-radius: var(--raio);
-}
-
-.imagem-capa {
-    width: 100%;
-
-    aspect-ratio: 16 / 9;
-
-    object-fit: cover;
-
-    border-radius: var(--raio);
-}
-
-.imagem-quadrada {
-    aspect-ratio: 1 / 1;
-
-    object-fit: cover;
-}
-
-
-/* =========================================================
-   AVATAR / RETRATO
-   ========================================================= */
-
-.avatar {
-    width: 48px;
-    height: 48px;
-
-    flex-shrink: 0;
-
-    overflow: hidden;
-
-    border-radius: 50%;
-
-    background: var(--cor-card);
-
-    border: 1px solid var(--cor-borda);
-}
-
-.avatar img {
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-}
-
-.avatar-grande {
-    width: 100px;
-    height: 100px;
-}
-
-
-/* =========================================================
-   DIVISOR
-   ========================================================= */
-
-.divisor {
-    width: 100%;
-
-    height: 1px;
-
-    margin: 25px 0;
-
-    background: var(--cor-borda);
-}
-
-
-/* =========================================================
-   LOADING
-   ========================================================= */
-
-.loading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    min-height: 100px;
-
-    color: var(--cor-texto-secundario);
-}
-
-.loading::after {
-    content: "";
-
-    width: 20px;
-    height: 20px;
-
-    margin-left: 10px;
-
-    border: 2px solid var(--cor-borda);
-    border-top-color: var(--cor-destaque);
-
-    border-radius: 50%;
-
-    animation:
-        loading-spin 0.8s linear infinite;
-}
-
-@keyframes loading-spin {
-
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-
-}
-
-
-/* =========================================================
-   ESTADOS VAZIOS
-   ========================================================= */
-
-.estado-vazio {
-    padding: 40px 20px;
-
-    border: 1px dashed var(--cor-borda);
-    border-radius: var(--raio);
-
-    color: var(--cor-texto-secundario);
-
-    text-align: center;
-}
-
-
-/* =========================================================
-   RESPONSIVIDADE
-   ========================================================= */
-
-@media (max-width: 600px) {
-
-    .card-header,
-    .card-footer,
-    .lista-item {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    .modal {
-        padding: 10px;
-    }
-
-    .modal-conteudo {
-        max-height: calc(100vh - 20px);
-        padding: 20px;
-    }
-
-    .alerta {
-        right: 10px;
-        bottom: 10px;
-        left: 10px;
-
-        max-width: none;
-    }
-
-}
-
+.lista-item:hover { background: var(--cor-card-hover); }
+.lista-item-titulo { font-weight: 700; }
+.lista-item-descricao { font-size: .9rem; color: var(--cor-texto-secundario); }
+.estado-vazio { padding: 2.5rem 1rem; text-align: center; color: var(--cor-texto-secundario); border: 1px dashed var(--cor-borda); border-radius: var(--raio); }
+
+/* texto */
+.bloco-texto { padding: 1.25rem; background: var(--cor-card); border-left: 3px solid var(--cor-destaque); border-radius: 0 var(--raio) var(--raio) 0; }
+.bloco-texto > :last-child { margin-bottom: 0; }
+.prosa h2 { margin: 2rem 0 .75rem; }
+.prosa h3 { margin: 1.5rem 0 .5rem; }
+.prosa ul, .prosa ol { margin-bottom: 1rem; }
+.citacao { margin: 1.25rem 0; padding: 1.25rem; font-style: italic; color: var(--cor-texto-secundario); border-left: 3px solid var(--cor-destaque); }
+
+/* tabela */
+.tabela-wrapper { overflow-x: auto; }
+.tabela { width: 100%; min-width: 500px; border-collapse: collapse; }
+.tabela th, .tabela td { padding: .6rem .8rem; text-align: left; border-bottom: 1px solid var(--cor-borda); }
+.tabela th { color: var(--cor-titulo); }
+.tabela tbody tr:hover { background: var(--cor-card); }
+
+/* imagens */
+.imagem-capa { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--raio); }
+.avatar { width: 48px; height: 48px; flex-shrink: 0; overflow: hidden; border-radius: 50%; border: 1px solid var(--cor-borda); background: var(--cor-card); }
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+/* variações de card */
+.card-em-breve { opacity: .55; }
+.card-imagem-contida { object-fit: contain; padding: 1rem; background: var(--cor-fundo-secundario); }
+.card-corpo small { margin-top: auto; padding-top: .5rem; }
