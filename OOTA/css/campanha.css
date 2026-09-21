@@ -9,7 +9,7 @@
 
 /* tema escuro */
 :root {
-    --cor-destaque: #7e4e64;
+    --cor-destaque: #5ab9ca;
     --cor-destaque-texto: #ffffff;
     --fonte-titulo: Georgia, "Times New Roman", serif;
 
@@ -18,7 +18,10 @@
 
 /* tema claro */
 body.light-theme {
-    --cor-destaque: #6e1b42;
+    --cor-destaque: #1b646e;
     --cor-destaque-texto: #ffffff;
 
 }
+
+.hero { min-height: 600px; }                   /* o padrão é 450px */
+.hero-background { object-position: center 75%; }   /* qual parte da imagem aparece */
