@@ -20,7 +20,7 @@
             ["Início", "index.html"],
             ["Campanha", "resumo-da-campanha.html"],
             ["Sessões", "sessoes/", "Registro cronológico das sessões e acontecimentos da campanha."],
-            ["Personagens", "personagens/", "Personagens dos jogadores, NPCs e figuras importantes."],
+            ["Npcs", "Npcs/", "Npcs e figuras importantes."],
             ["Locais", "locais/", "Regiões, cidades, masmorras e outros locais."],
             ["Facções", "faccoes/", "Organizações, grupos, alianças e inimigos."],
             ["Criaturas", "criaturas/", "Criaturas encontradas, catalogadas ou relevantes para a campanha."],

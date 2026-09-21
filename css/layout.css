@@ -40,6 +40,13 @@
 .hero-titulo { margin: .75rem 0 1rem; }
 .hero-subtitulo { max-width: 650px; margin-bottom: 1.5rem; font-size: 1.1rem; color: var(--cor-texto-secundario); }
 
+/* conteúdo - barra lateral */
+.content-layout-sembarra { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; align-items: start; }
+/* .sidebar { position: sticky; top: 90px; } */
+.page-header { margin-bottom: 2rem; }
+.page-header h1, .page-header h2 { margin: .5rem 0; }
+.page-header p { max-width: 750px; color: var(--cor-texto-secundario); }
+
 /* conteúdo + barra lateral */
 .content-layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; align-items: start; }
 .sidebar { position: sticky; top: 90px; }
