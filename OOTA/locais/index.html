@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locais</title>
+    <link rel="stylesheet" href="../css/campanha.css">
+</head>
+<body>
+<div class="site-wrapper">
+
+    <header class="site-header" data-site-header></header>
+
+    <main class="site-main secao">
+        <div class="container content-layout">
+
+            <div>
+                <div class="page-header">
+                    <span class="badge" data-campanha="nome"></span>
+                    <h1>Locais</h1>
+                    <p>Regiões, cidades, construções e outros locais importantes da campanha.</p>
+                </div>
+
+                <div class="grid">
+                    <a href="local.html" class="card">
+                        <div class="card-corpo">
+                            <span class="card-meta">Local</span>
+                            <h3 class="card-titulo">Nome do Local</h3>
+                            <p class="card-texto">Breve descrição do local e sua importância para a campanha.</p>
+                        </div>
+                    </a>
+
+                    <div class="card card-em-breve">
+                        <div class="card-corpo">
+                            <span class="card-meta">Em breve</span>
+                            <h3 class="card-titulo">Novo local</h3>
+                            <p class="card-texto">Este local ainda não foi registrado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="painel sidebar">
+                <div class="painel-titulo">Informações</div>
+                <div class="info-item"><span class="info-label">Campanha</span><span class="info-value" data-campanha="nome"></span></div>
+                <div class="info-item"><span class="info-label">Locais</span><span class="info-value">1 registrado</span></div>
+                <div class="info-item"><span class="info-label">Status</span><span class="badge badge-destaque" data-campanha="status"></span></div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="site-footer" data-site-footer></footer>
+
+</div>
+
+<script src="../campanha.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* EMPROD — tema da campanha.
+   Os CSS compartilhados são carregados aqui, então cada página só precisa de UM <link> para este arquivo.
+   Para uma campanha nova: copie a pasta, troque só os valores abaixo. */
+@import url("../../css/style.css");
+@import url("../../css/layout.css");
+@import url("../../css/componentes.css");
+
+/* Fonte própria (opcional): coloque o @import do Google Fonts logo acima e use o nome em --fonte-titulo. */
+
+/* tema escuro */
+:root {
+    --cor-destaque: #7e4e64;
+    --cor-destaque-texto: #ffffff;
+    --fonte-titulo: Georgia, "Times New Roman", serif;
+
+    /* opcionais: --cor-fundo, --cor-fundo-secundario, --cor-card, --cor-borda ... */
+}
+
+/* tema claro */
+body.light-theme {
+    --cor-destaque: #6e1b42;
+    --cor-destaque-texto: #ffffff;
+
+}

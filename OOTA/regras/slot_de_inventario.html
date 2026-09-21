@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Munição (Dado de Munição)</title>
+<link rel="stylesheet" href="../css/campanha.css">
+</head>
+<body>
+
+<div class="site-wrapper">
+<header class="site-header" data-site-header></header>
+
+<main class="site-main secao">
+<div class="container content-layout">
+
+<article class="prosa">
+  <div class="page-header">
+    <span class="badge">Regra · Giffyglyph</span>
+    <h1>Slots de Inventário</h1>
+    <p>Inventário mede duas coisas — Slots (quanto você consegue carregar) e Bulk (quanto esforço/espaço cada item ocupa).</p>
+  </div>
+
+
+    <h3>Suprimentos básicos (não ocupam slot):</h3>
+
+    <li>Caixa de ração: até 5 rações</li>
+    <li>Cantil: até 5 doses de água</li>
+    <li>Bolsa de moedas: até 100 moedas</li>
+
+<h3>Condição: Sobrecarregado (Encumbered) — ativa quando ultrapassa a capacidade:</h3>
+<li>Velocidade reduzida pela metade</li>
+  <li>Desvantagem em testes/ataques/resistências de FOR, DES ou CON</li>
+  <li>Limite máximo: não pode exceder mais que metade dos slots totais (arredondado pra baixo) além do limite normal</li>
+
+<h3>Interação de inventário em combate:</h3>
+<p>1 interação gratuita por turno (pegar OU guardar 1 item)
+Uma segunda interação no mesmo turno = precisa gastar a ação "Usar um Objeto"</p>
+
+  <h2>Calculo de Slots</h2>
+  <table class="tabela">
+    <thead><tr> <th>Tamanho da criatura</th> <th>Espaços de inventário</th> <th>Volume mínimo</th> </tr></thead>
+    <tbody>
+      <tr> <td>Pequeno</td> <td>6 + For</td> <td>5</td> </tr>
+      <tr> <td>Pequeno</td> <td>14 + For</td> <td>10</td> </tr>
+      <tr> <td>Médio</td> <td>18 + For</td> <td>20</td> </tr>
+      <tr> <td>Grande</td> <td>22 + For*2</td> <td>40</td> </tr>
+      <tr> <td>Enorme</td> <td>30 + For*4</td> <td>80</td> </tr>
+      <tr> <td>Colossal</td> <td>46 + For*8</td> <td>160</td> </tr>
+    </tbody>
+  </table>
+
+  <h2>Categorias Gerais</h2>
+  <p>Regra especial — Itens extremamente pequenos (moedas, clipes, pregos): 100 desses = 1 slot.</p>
+    <table class="tabela">
+    <thead><tr> <th>Categoria</th> <th>Bulk</th> <th>Tamanho</th> <th>Peso equivalente</th> </tr></thead>
+    <tbody>
+      <tr> <td>Miúdo</td> <td>0,2</td> <td>Cabe na mão</td> <td>Peso risório</td> </tr>
+      <tr> <td>Pequeno</td> <td>1</td> <td>Até 1 palmo</td> <td>Até 1~kg</td> </tr>
+      <tr> <td>Médio</td> <td>2</td> <td>Até 1 braço</td> <td>Até 2,5~kg</td></tr>
+      <tr> <td>Grande</td> <td>3</td> <td>Maior que 1 braço</td> <td>Até 4,5~kg</td> </tr>
+      <tr> <td>Ex-Grande</td> <td>6</td> <td>Maior que 1 pessoa</td> <td>Até 16~kg</td> </tr>
+      <tr> <td>Ex-Ex-Grande</td> <td>9</td> <td>Maior que 2 pessoas </td> <td>Até 32~kg</td> </tr>
+    </tbody>
+  </table>
+
+  <h2>Regras Rapidas</h2>
+  <p>
+    <i>Aós a emboscada na caverna, o grupo encontra o corpo pesado de um ogro morto, um monte de sacos de grãos saqueados dos goblins, e uma velha carroça de mão abandonada num canto.</i></p>
+
+Krazak decide <b>arrastar</b> o corpo do ogro (18 de bulk normalmente) pra fora da passagem estreita — puxando pelo braço, ele só precisa lidar com <b>9 de bulk</b> (metade, arredondado pra baixo), já que está arrastando e não carregando nas costas.</i></p>
+
+<p><i>Enquanto isso, Valiant ajunta os sacos de grãos espalhados — individualmente seriam 2 bulk cada saco, seis sacos ao todo (12 de bulk no total). Mas como ele está <b>arrastando o monte inteiro</b> amarrado numa lona, ele soma tudo primeiro e só depois divide: 12 de bulk vira 6 de bulk — bem mais leve do que seria calcular saco por saco.
+Por fim, Chansi encontra a carrocinha de mão enferrujada. Ela decide jogar os sacos de grãos dentro dela e empurrar em vez de arrastar na lona — como é um transporte com rodas, o bulk despenca ainda mais: os mesmos 12 de bulk agora viram apenas 3 de bulk (um quarto do valor original).
+  </i></p>
+
+  <h3>Regra de Arrastar/Puxar objetos</h3>
+<li>Ao arrastar (não carregar) um objeto, <b>divida o bulk por 2</b> (arredondando pra baixo).</li>
+<li>Se for um monte de objetos empilhados, <b>divida o total pela metade</b> (não item por item).</li>
+<li>Veículos de rodas (carroça, trenó) puxados: <b>divida o bulk por 4</b>.</li>
+
+  <h3>Vestíveis (Attire vs. Armadura)</h3>
+<li><b>Roupas/adereços comuns (colares, anéis) NÃO ocupam slot enquanto vestidos</b> — a não ser que sejam "estranhos/desconfortáveis" por natureza.</li>
+<li><b>Armaduras SEMPRE ocupam slot mesmo vestidas</b> (ex: cota de malha ocupa 9 slots do inventário do personagem o tempo todo que estiver vestida).</li>
+
+</article>
+
+<aside class="painel sidebar">
+  <div class="painel-titulo">Referência Rápida</div>
+  <div class="info-item"><span class="info-label">Fonte</span><span class="info-value">Giffyglyph — Darker Dungeons</span></div>
+  <div class="info-item"><span class="info-label">Gatilho de queda</span><span class="info-value">Rolar 1 ou 2</span></div>
+  <div class="info-item"><span class="info-label">Status</span><span class="badge badge-destaque">Ativo nesta campanha</span></div>
+</aside>
+
+</div>
+</main>
+
+<footer class="site-footer" data-site-footer></footer>
+</div>
+
+<script src="../campanha.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>

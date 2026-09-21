@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Munição (Dado de Munição)</title>
+<link rel="stylesheet" href="../css/campanha.css">
+</head>
+<body>
+
+<div class="site-wrapper">
+<header class="site-header" data-site-header></header>
+
+<main class="site-main secao">
+<div class="container content-layout">
+
+<article class="prosa">
+  <div class="page-header">
+    <span class="badge">Regra · Giffyglyph</span>
+    <h1>Dado de Munição</h1>
+    <p>Substitui contar flecha por flecha por um único dado que representa a pilha inteira.</p>
+  </div>
+
+  <p>
+    Cada tipo de munição usa um dado de munição, começando em
+    <strong>d12</strong> (pilha cheia). Toda vez que a munição é
+    usada, role o dado. Se sair <strong>1 ou 2</strong>, o dado desce
+    um degrau.
+  </p>
+
+  <h2>Progressão do dado</h2>
+  <table class="tabela">
+    <thead><tr> <th>Situação</th> <th>Dado</th> <th>% aumento</th> </tr></thead>
+    <tbody>
+      <tr> <td>Pilha cheia</td> <td>d12</td> <td>20%</td> </tr>
+      <tr> <td>1º degrau abaixo</td> <td>d10</td> <td>25%</td> </tr>
+      <tr> <td>2º degrau</td> <td>d8</td> <td>33%</td> </tr>
+      <tr> <td>3º degrau</td> <td>d6</td> <td>50%</td> </tr>
+      <tr> <td>4º degrau</td> <td>d4</td> <td>100%</td> </tr>
+      <tr> <td>Último degrau</td> <td>1 (item único)</td> <td>0%</td> </tr>
+    </tbody>
+  </table>
+
+  <h2>Múltiplas pilhas</h2>
+  <p>
+    Se o personagem carrega mais de uma pilha do mesmo tipo, role
+    sempre a <strong>menor pilha primeiro</strong>.
+  </p>
+
+  <h2>Reabastecimento</h2>
+  <p>
+    Recuperando munição do ambiente ou pagando uma % do valor total,
+    o dado pode subir um degrau. Custo por degrau varia pelo tamanho
+    máximo do dado daquele tipo de munição.
+  </p>
+</article>
+
+<aside class="painel sidebar">
+  <div class="painel-titulo">Referência Rápida</div>
+  <div class="info-item"><span class="info-label">Fonte</span><span class="info-value">Giffyglyph — Darker Dungeons</span></div>
+  <div class="info-item"><span class="info-label">Gatilho de queda</span><span class="info-value">Rolar 1 ou 2</span></div>
+  <div class="info-item"><span class="info-label">Status</span><span class="badge badge-destaque">Ativo nesta campanha</span></div>
+</aside>
+
+</div>
+</main>
+
+<footer class="site-footer" data-site-footer></footer>
+</div>
+
+<script src="../campanha.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>

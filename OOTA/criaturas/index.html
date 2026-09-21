@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criaturas</title>
+    <link rel="stylesheet" href="../css/campanha.css">
+</head>
+<body>
+<div class="site-wrapper">
+
+    <header class="site-header" data-site-header></header>
+
+    <main class="site-main secao">
+        <div class="container content-layout">
+
+            <div>
+                <div class="page-header">
+                    <span class="badge" data-campanha="nome"></span>
+                    <h1>Criaturas</h1>
+                    <p>Criaturas, monstros e seres encontrados durante a campanha.</p>
+                </div>
+
+                <div class="grid">
+                    <a href="criatura.html" class="card">
+                        <div class="card-corpo">
+                            <span class="card-meta">Tipo: A definir</span>
+                            <h3 class="card-titulo">Nome da Criatura</h3>
+                            <p class="card-texto">Breve descrição da criatura, suas características e sua relação com a campanha.</p>
+                        </div>
+                    </a>
+
+                    <div class="card card-em-breve">
+                        <div class="card-corpo">
+                            <span class="card-meta">Em breve</span>
+                            <h3 class="card-titulo">Nova Criatura</h3>
+                            <p class="card-texto">Esta criatura ainda não foi registrada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="painel sidebar">
+                <div class="painel-titulo">Informações</div>
+                <div class="info-item"><span class="info-label">Campanha</span><span class="info-value" data-campanha="nome"></span></div>
+                <div class="info-item"><span class="info-label">Criaturas</span><span class="info-value">1 registrada</span></div>
+                <div class="info-item"><span class="info-label">Status</span><span class="badge badge-destaque" data-campanha="status"></span></div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="site-footer" data-site-footer></footer>
+
+</div>
+
+<script src="../campanha.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>

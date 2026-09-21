@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Personagem</title>
+    <link rel="stylesheet" href="../css/campanha.css">
+</head>
+<body>
+<!-- PERSONAGEM 01. Para criar o 02, 03...: copie este arquivo e troque título, nome, badge, imagem, ficha, textos e Relações. -->
+<div class="site-wrapper">
+
+    <header class="site-header" data-site-header></header>
+
+    <main class="site-main secao">
+        <div class="container content-layout">
+
+            <article class="prosa">
+                <div class="page-header">
+                    <span class="badge">Jogador</span>
+                    <h1>Nome do Personagem</h1>
+                    <p>Título, alcunha ou resumo em uma frase.</p>
+                </div>
+
+                <h2>Aparência</h2>
+                <p>Descreva a aparência, o jeito de se vestir e qualquer traço marcante.</p>
+
+                <h2>Personalidade</h2>
+                <p>Como o personagem age, o que valoriza e o que o incomoda.</p>
+
+                <h2>História</h2>
+                <p>Origem, passado e os acontecimentos que o trouxeram até a campanha.</p>
+
+                <h2>Objetivos</h2>
+                <ul>
+                    <li>Objetivo principal.</li>
+                    <li>Objetivo secundário.</li>
+                </ul>
+
+                <h2>Relações</h2>
+                <div class="lista-itens">
+                    <a href="Perso02.html" class="lista-item">
+                        <div>
+                            <div class="lista-item-titulo">Nome do outro personagem</div>
+                            <div class="lista-item-descricao">Como eles se conhecem.</div>
+                        </div>
+                        <span class="badge">Aliado</span>
+                    </a>
+                </div>
+
+                <hr>
+                <div class="flex gap">
+                    <a href="index.html" class="btn">← Todos os personagens</a>
+                </div>
+            </article>
+
+            <!-- Retrato + ficha. Se não tiver imagem, ela some sozinha. -->
+            <aside class="card sidebar">
+                <img class="card-imagem card-imagem-quadrada" src="../assets/images/personagens/perso01.jpg" alt="Retrato do personagem" onerror="this.remove()">
+                <div class="card-corpo">
+                    <div class="painel-titulo">Ficha</div>
+                    <div class="info-item"><span class="info-label">Jogador</span><span class="info-value">A definir</span></div>
+                    <div class="info-item"><span class="info-label">Classe</span><span class="info-value">A definir</span></div>
+                    <div class="info-item"><span class="info-label">Raça</span><span class="info-value">A definir</span></div>
+                    <div class="info-item"><span class="info-label">Nível</span><span class="info-value">1</span></div>
+                    <div class="info-item"><span class="info-label">Status</span><span class="badge badge-destaque">Vivo</span></div>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="site-footer" data-site-footer></footer>
+
+</div>
+
+<script src="../campanha.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
