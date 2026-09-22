@@ -1,516 +1,497 @@
-# Chapter 1: Prisoners of the Drow
+# Alterações
 
-Deep beneath the surface of the world lies the Underdark, a realm of endless labyrinthine tunnels and caverns where the sun never shines. The Underdark is filled with races and creatures too numerous to count or list, and foremost among these are the dark elves—the drow. Hated and feared even by their fellow dwellers in darkness, the drow raid other settlements in the Underdark as well as the surface world, taking prisoners back with them. Rendered unconscious with *drow poison*, then collared and shackled, these prisoners are eventually sold as slaves or entertainment in the dark elves' subterranean cities.
 
-The adventurers have all had the misfortune of falling to such a fate. Captured by the drow, they are prisoners at one of the dark elves' outposts, awaiting transportation to Menzoberranzan, the City of Spiders. Whether they came into the Underdark seeking knowledge or fortune, or were just in the wrong place at the wrong time, they were ripe prey for a drow raid.
+# Capítulo 1: Prisioneiros dos Drow
 
-The setup of *Out of the Abyss* is such that the characters need have no connections with events in the Underdark, or with each other, prior to the start of the adventure. They can meet and get to know each other as prisoners of the drow. Players who would like their characters to have a stronger Underdark connection can choose from the background options in appendix A.
+Bem abaixo da superfície do mundo encontra-se o Subterrâneo (*Underdark*), um reino de túneis e cavernas labirínticos e intermináveis, onde o sol jamais brilha. O Subterrâneo é habitado por raças e criaturas numerosas demais para serem contadas ou listadas; entre elas, destacam-se os elfos sombrios — os drow. Odiados e temidos até mesmo por outros habitantes da escuridão, os drow realizam incursões contra assentamentos tanto no Subterrâneo quanto na superfície, levando prisioneiros consigo. Inconscientes devido ao *veneno drow* e contidos por coleiras e grilhões, esses prisioneiros acabam sendo vendidos como escravos ou usados ​​como entretenimento nas cidades subterrâneas dos elfos sombrios.
 
-"Prisoners of the Drow" assumes the characters start at 1st level, and that they will achieve 2nd level (if not 3rd) by the end of this chapter of the adventure. Given the challenges of the adventure and the dangers of the Underdark, you can start the characters at a higher level (2nd or 3rd) to make things a bit easier for the players.
+Os aventureiros tiveram o infortúnio de sofrer esse destino. Capturados pelos drow, eles estão presos em um dos postos avançados dos elfos sombrios, aguardando transporte para Menzoberranzan, a Cidade das Aranhas. Quer tenham entrado no Subterrâneo em busca de conhecimento ou fortuna, ou simplesmente estivessem no lugar errado na hora errada, eles eram presas fáceis para uma incursão drow.
+
+A premissa de *Out of the Abyss* é tal que os personagens não precisam ter conexões prévias com eventos no Subterrâneo, nem uns com os outros, antes do início da aventura. Eles podem se conhecer enquanto estiverem prisioneiros dos drow. Jogadores que desejem que seus personagens tenham uma conexão mais forte com o Subterrâneo podem escolher entre as opções de antecedentes no apêndice A.
+
+"Prisioneiros dos Drow" pressupõe que os personagens comecem no 1º nível e alcancem o 2º nível (ou até mesmo o 3º) ao final deste capítulo da aventura. Dados os desafios da aventura e os perigos do Subterrâneo, você pode iniciar os personagens em um nível mais alto (2º ou 3º) para facilitar um pouco as coisas para os jogadores.
 
 ![](img/adventure/OotA/000-ooa01-01.webp)
 
-## Escape!
+## Fuga!
 
-The characters' goal in this chapter of the adventure is straightforward: escape from the drow outpost of Velkynvelve, with an eye toward escaping from the Underdark. However, this goal is complicated by the adventurers' lack of familiarity with their surroundings. Even if the prisoners can get away from the drow, where will they go and how will they survive?
+O objetivo dos personagens neste capítulo da aventura é simples: escapar do posto avançado drow de Velkynvelve, com o intuito final de fugir do Subterrâneo. No entanto, esse objetivo é dificultado pela falta de familiaridade dos aventureiros com o ambiente ao seu redor. Mesmo que os prisioneiros consigam escapar dos drow, para onde irão e como sobreviverão?
 
-### Restraints
+### Restrições
 
-All the drow's prisoners, including the characters, wear iron slave collars along with manacles connected to iron belts by a short length of chain. This leaves the prisoners restrained, but doesn't affect their movement or speed.
+Todos os prisioneiros dos drow, incluindo os personagens, usam coleiras de escravo de ferro, além de algemas conectadas a cintos de ferro por um pequeno trecho de corrente. Isso mantém os prisioneiros restringidos, mas não afeta seu movimento ou velocidade.
 
-In addition to being manacled, spellcasters don't have any spell components or focuses, initially limiting their spellcasting ability. (Wizard characters don't need their spellbooks to cast spells, but will be unable to change their prepared spells without them. As such, give wizard characters some leeway in determining which spells they had previously prepared before being captured.) Moreover, spellcasting isn't possible inside the slave pen because of its magical wards (see area 11).
+Além de estarem algemados, os conjuradores não possuem componentes ou focos de magia, o que limita inicialmente sua capacidade de conjurar feitiços. (Personagens magos não precisam de seus grimórios para conjurar magias, mas não conseguirão alterar as magias preparadas sem eles. Portanto, dê aos magos certa flexibilidade para determinar quais magias haviam preparado antes de serem capturados.) Além disso, não é possível conjurar magias dentro do recinto dos escravos devido às suas proteções mágicas (veja a área 11).
 
-Slipping out of manacles requires a successful DC 20 Dexterity check, while breaking them requires a successful DC 20 Strength check. A character can unlock the manacles using thieves' tools with a successful DC 15 Dexterity check. The manacles have 15 hit points. The iron collars can be broken with a successful DC 20 Strength check. The collars have 12 hit points. A character who fails a check to break a collar, break a set of manacles, or escape from a set of manacles can't attempt checks of that kind again until he or she finishes a long rest. A character can still use the Help action to aid another character, however.
+Escapar das algemas exige um teste de Destreza (CD 20) bem-sucedido, enquanto quebrá-las exige um teste de Força (CD 20) bem-sucedido. Um personagem pode abrir as algemas usando ferramentas de ladrão com um teste de Destreza (CD 15) bem-sucedido. As algemas possuem 15 pontos de vida. As coleiras de ferro podem ser quebradas com um teste de Força (CD 20) bem-sucedido. As coleiras possuem 12 pontos de vida. Um personagem que falhe em um teste para quebrar uma coleira, quebrar algemas ou escapar de algemas não pode tentar testes desse tipo novamente até terminar um descanso longo. No entanto, um personagem ainda pode usar a ação de Ajuda para auxiliar outro personagem.
 
-## The Adventure Begins
+## A Aventura Começa
 
-The characters begin the adventure in the slave pens of Velkynvelve. Stripped of everything but their underclothing, they are at the mercy of the dark elves and in the company of other prisoners, many of who aren't what they seem.
+Os personagens iniciam a aventura no recinto de escravos de Velkynvelve. Despojados de tudo, exceto suas roupas de baixo, eles estão à mercê dos elfos sombrios e na companhia de outros prisioneiros — muitos dos quais não são o que parecem.
 
->>Captured by the drow! You wouldn't wish this fate upon anyone, yet here you are—locked in a dark cave, the cold, heavy weight of metal tight around your throat and wrists. You are not alone. Other prisoners are trapped in here with you, in an underground outpost far from the light of the sun. Your captors include a cruel drow priestess who calls herself Mistress Ilvara of House Mizzrym. Over the past several days, you've met her several times, robed in silken garments and flanked by two male drow, one of whom has a mass of scars along one side of his face and neck. Mistress Ilvara likes to impress her will with scourge in hand and remind you that your life now belongs to her. "Accept your fate, learn to obey, and you may survive." Her words echo in your memory, even as you plot your escape.
+>>Capturados pelos drow! Você não desejaria esse destino a ninguém, mas aqui está você — trancado em uma caverna escura, com o peso frio e pesado do metal apertando sua garganta e seus pulsos. Você não está sozinho. Outros prisioneiros estão presos aqui com você, em um posto avançado subterrâneo, longe da luz do sol. Seus captores incluem uma cruel sacerdotisa drow que se autodenomina Senhora Ilvara, da Casa Mizzrym. Nos últimos dias, você a encontrou diversas vezes, vestida com trajes de seda e ladeada por dois drow homens — um dos quais ostenta uma profusão de cicatrizes cobrindo um lado do rosto e do pescoço. A Mestra Ilvara gosta de impor sua vontade com o chicote em punho e lembrá-lo de que sua vida agora lhe pertence. "Aceite seu destino, aprenda a obedecer e talvez você sobreviva." As palavras dela ecoam em sua memória, mesmo enquanto você planeja sua fuga.
 >>
 
-Assume that each player character has been a prisoner in Velkynvelve for 1d10 days. (Roll separately for each character.) The characters spend most of this time locked in the slave pen, emerging occasionally under heavy guard to perform menial chores for their captors' amusement (see "Hard Labor").
+Considere que cada personagem jogador está preso em Velkynvelve há 1d10 dias. (Faça a rolagem separadamente para cada personagem.) Os personagens passam a maior parte desse tempo trancados no recinto dos escravos, saindo ocasionalmente sob forte escolta para realizar tarefas servis para o divertimento de seus captores (veja "Trabalho Forçado").
 
-Feel free to play out any interaction between the drow, the player characters, and the other prisoners. This is an opportunity to reveal who the characters are and to flesh out their backgrounds and personalities through roleplaying, even as you introduce some of their fellow prisoners. Ilvara's newest consort, Shoor, wants to impress his mistress, while Jorlan, her former consort, sullenly does his duty but casts a curious eye over the prisoners. Any hostile move is met with poisoned crossbow bolts from the drow, and possibly a strike from Ilvara's scourge or a *ray of sickness* spell. The giant spiders attack and poison anyone who attacks the drow. The drow don't kill any of the prisoners (leaving them unconscious at 0 hit points) but have no compunction about beating them.
+Sinta-se à vontade para encenar qualquer interação entre os drow, os personagens jogadores e os outros prisioneiros. Esta éuma oportunidade para revelar quem são os personagens e desenvolver suas histórias e personalidades por meio da interpretação, ao mesmo tempo em que você apresenta alguns de seus companheiros de prisão. Shoor, o novo consorte de Ilvara, quer impressionar sua amante, enquanto Jorlan, o antigo consorte, cumpre seu dever de forma taciturna, mas observa os prisioneiros com curiosidade. Qualquer movimento hostil é respondido com virotes de besta envenenados disparados pelos drow e, possivelmente, com um golpe do chicote de Ilvara ou a magia *raio de doença*. As aranhas gigantes atacam e envenenam qualquer um que ataque os drow. Os drow não matam nenhum dos prisioneiros (deixando-os inconscientes com 0 pontos de vida), mas não hesitam em espancá-los.
 
-## In the Slave Pen
+## No Cercado de Escravos
 
-Velkynvelve's slave pen is closed with a heavy iron gate bolted into the stone. See area 11 for more information about the slave pen, including options for opening or breaking through the gate.
+O cercado de escravos de Velkynvelve é fechado por um pesado portão de ferro fixado na pedra. Consulte a área 11 para mais informações sobre o cercado, incluindo opções para abrir ou romper o portão.
 
-The prisoners are provided with clay chamber pots, and one of the duties of slaves is to empty them into the pool during their shift. There are no other comforts in the slave pen. Prisoners must sit or lie on the stone floor, and are fed only once each day—a thin mushroom broth served in small clay bowls passed through gaps in the bars of the gate.
+Os prisioneiros dispõem de penicos de argila, e uma das tarefas dos escravos é esvaziá-los no lago durante seu turno. Não há outros confortos no cercado. Os prisioneiros devem sentar-se ou deitar-se no chão de pedra e são alimentados apenas uma vez por dia — com um caldo ralo de cogumelos servido em pequenas tigelas de argila, passadas pelas frestas das grades do portão.
 
-### Scavenged Possessions
+### Pertences Improvisados
 
-The player characters have not been idle during their captivity. Have each player roll a d20, and add the number of days (1d10) that player's character has been imprisoned in Velkynvelve. The result determines what, if anything, the character has in his or her possession when the adventure begins.
+Os personagens dos jogadores não ficaram ociosos durante o cativeiro. Peça a cada jogador que role um d20 e some o número de dias (1d10) que seu personagem passou preso em Velkynvelve. O resultado determina o que (se algo) o personagem tem em sua posse quando a aventura começa.
 
-#### Scavenged Possessions
+#### Pertences Improvisados
 
-| Result | Item                                                                                                          |
-|:------:|---------------------------------------------------------------------------------------------------------------|
-|   2–9  | —                                                                                                             |
-|  10–12 | A gold coin                                                                                                   |
-|  13–15 | A living **spider** the size of a tarantula                                                                   |
-|  16–18 | A 5-foot-long strand of silk rope                                                                             |
-|  19–21 | A flawed carnelian gemstone worth 10 gp                                                                       |
-|  22–24 | A rusted iron bar that can be used as a club                                                                  |
-|  25–27 | A flint shard that can be used as a dagger                                                                    |
-|  28–30 | A hand crossbow bolt coated with *drow poison* (see "*Poisons*" in chapter 8 of the *Dungeon Master's Guide*) |
+| Resultado | Item                                                                                                          |
+|:---------:|---------------------------------------------------------------------------------------------------------------|
+| 2–9    | —                                                                                                             |
+| 10–12   | Uma moeda de ouro                                                                                             |
+| 13–15   | Uma **aranha** viva do tamanho de uma tarântula                                                                |
+| 16–18   | Um pedaço de corda de seda com 1,5 metro (5 pés) de comprimento                                                |
+| 19–21   | Uma gema de cornalina imperfeita no valor de 10 po                                                             |
+| 22–24   | Uma barra de ferro enferrujada que pode ser usada como clava                                                                  |
+| 25–27 | Um fragmento de sílex que pode ser usado como adaga                                                                    |
+| 28–30 | Um virote de besta de mão revestido com *veneno drow* (veja "*Venenos*" no capítulo 8 do *Livro do Mestre*) |
 
-### Fellow Prisoners
+### Companheiros de Prisão
 
-The characters are held with ten other prisoners, captured during various raids and likewise awaiting transportation to Menzoberranzan. Some can expect to be sold as slaves, while others await death at the hands of the drow or their pets. Regardless of what they might think of the adventurers—and each other—outside the slave pens, all the NPCs have good reason to cooperate in order to escape and survive.
+Os personagens estão detidos com outros dez prisioneiros, capturados durante várias incursões e que também aguardam transporte para Menzoberranzan. Alguns podem esperar ser vendidos como escravos, enquanto outros aguardam a morte pelas mãos dos drow ou de suas criaturas de estimação. Independentemente do que pensem sobre os aventureiros — e uns sobre os outros — fora das celas de escravos, todos os NPCs têm bons motivos para cooperar a fim de escapar e sobreviver.
 
-#### Prisoners of the Drow
+#### Prisioneiros dos Drow
 
-|                           |                                               |
+| | |
 |---------------------------|-----------------------------------------------|
-| **Buppido**               | Talkative and cunning derro                   |
-| **Prince Derendil**       | Quaggoth who claims to be a cursed elf prince |
-| **Eldeth Feldrun**        | Shield dwarf scout from Gauntlgrym            |
-| **Jimjar**                | Deep gnome with a gambling problem            |
-| **Ront**                  | Orc bully                                     |
-| **Sarith Kzekarit**       | Drow accused of murder                        |
-| **Shuushar the Awakened** | Kuo-toa hermit and mystic                     |
-| **Stool**                 | Myconid sprout                                |
-| **Topsy** and **Turvy**   | Deep gnome wererat twins                      |
+| **Buppido**               | Derro falante e astuto                        |
+| **Príncipe Derendil**     | Quaggoth que afirma ser um príncipe elfo amaldiçoado |
+| **Eldeth Feldrun**        | Anã do Escudo batedora de Gauntlgrym          |
+| **Jimjar**                | Gnomo das Profundezas com vício em jogos      |
+| **Ront**                  | Orc valentão                                  |
+| **Sarith Kzekarit**       | Drow acusado de assassinato                   |
+| **Shuushar, o Desperto**  | Eremita e místico kuo-toa                     |
+| **Stool**                 | Broto de miconídeo                            |
+| **Topsy** e **Turvy**     | Gêmeos gnomos das profundezas e homens-rato   |
 
 ![](img/adventure/OotA/001-01-01.webp)
 
 #### Buppido
 
-A male **derro**, **Buppido** is surprisingly gregarious and talkative, demonstrating a keen mind and a disarming manner. This pleasant facade conceals the soul of an insane killer. **Buppido** secretly believes he is the living incarnation of the derro god Diinkarazan—an avatar of murder offering bloody sacrifices to create a path of carnage through the Underdark for his people to follow to glory. He rationalizes any setbacks (including his capture and imprisonment) as part of his "divine plan." His killings are carefully ritualized, following an exacting process of cutting open the victims and arranging their organs.
+Um **derro** macho, **Buppido** é surpreendentemente sociável e falante, demonstrando uma mente aguçada e um jeito cativante. Essa fachada agradável esconde a alma de um assassino insano. **Buppido** acredita secretamente ser a encarnação viva do deus derro Diinkarazan — um avatar do assassinato que oferece sacrifícios sangrentos para criar um caminho de carnificina através do Subterrâneo, para que seu povo o siga rumo à glória. Ele racionaliza quaisquer contratempos (incluindo sua captura e aprisionamento) como parte de seu "plano divino". Seus assassinatos são cuidadosamente ritualizados, seguindo um processo rigoroso de abrir as vítimas e dispor seus órgãos.
 
-Although mad, **Buppido** is cunning and capable of hiding his true nature to serve his own ends. Because he believes he is a god, he is convinced that he can't be killed (or at least that the death of his mortal form means nothing to him), so he is completely fearless. He assumes everything is part of his divine plan, and enthusiastically participates in any plot to escape from the drow so he can continue his holy work. **Buppido** is happy to consider his fellow prisoners allies until such time as he no longer needs them, or becomes convinced that the omens point toward the need for one or more of them to be sacrificed to his greater glory.
+Embora insano, **Buppido** é astuto e capaz de ocultar sua verdadeira natureza para servir aos seus próprios propósitos. Por acreditar ser um deus, está convencido de que não pode ser morto.
 
-#### Prince Derendil
+...e (ou, pelo menos, que a morte de sua forma mortal não significa nada para ele), portanto, ele é totalmente destemido. Ele presume que tudo faz parte de seu plano divino e participa com entusiasmo de qualquer plano de fuga dos drow, para que possa continuar sua obra sagrada. **Buppido** fica feliz em considerar seus companheiros de prisão como aliados até o momento em que não precise mais deles, ou até se convencer de que os presságios indicam a necessidade de sacrificar um ou mais deles para sua glória maior.
 
-This hulking **quaggoth** is the most menacing-looking prisoner in the slave pens, and the other prisoners give him a wide berth. If any of the characters speak to him, however, the quaggoth replies in urbane Elvish. He explains that he is not, in fact, a quaggoth, but a gold elf prince polymorphed into quaggoth form by a curse. He claims to be **Prince Derendil** of the kingdom of Nelrindenvane in the High Forest. His crown was usurped by the evil wizard Terrestor, who trapped him in this form and exiled him from his people.
+#### Príncipe Derendil
 
-Although Derendil behaves like the highborn prince he believes himself to be, he responds to stress—and particularly threats—like a quaggoth: violently tearing foes limb from limb and rending their flesh with sharp claws and teeth. He comes back to himself only after battle, or when someone reinforces his "true identity" to snap him out of it. Derendil laments that he is slowly but surely losing himself to the savagery of his quaggoth form.
+Este **quaggoth** de porte imponente é o prisioneiro de aparência mais ameaçadora nos currais de escravos, e os outros prisioneiros mantêm distância dele. Se algum dos personagens falar com ele, no entanto, o quaggoth responde em um élfico refinado. Ele explica que não é, de fato, um quaggoth, mas um príncipe elfo dourado transformado na forma de quaggoth por uma maldição. Ele afirma ser o **Príncipe Derendil**, do reino de Nelrindenvane, na Floresta Alta. Sua coroa foi usurpada pelo mago maligno Terrestor, que o aprisionou nessa forma e o exilou de seu povo.
 
-In fact, Derendil is simply mad, touched by the delusions of the demon lord Fraz-Urb'luu. The kingdom of Nelrindenvane doesn't exist, and all of "Derendil's" recollections and personality are an illusion created by the Demon Prince of Deception. The quaggoth refuses to believe the truth, and any incontrovertible evidence as to his real nature sends him into a murderous rage.
+Embora Derendil se comporte como o príncipe de sangue nobre que acredita ser, ele reage ao estresse — e particularmente a ameaças — como um quaggoth: despedaçando violentamente os inimigos membro a membro e rasgando suas carnes com garras e dentes afiados. Ele só recupera a consciência de si mesmo após a batalha, ou quando alguém reforça sua "verdadeira identidade" para trazê-lo de volta à realidade. Derendil lamenta estar perdendo-se, lenta mas inexoravelmente, para a selvageria de sua forma de quaggoth.
 
-#### Eldeth Feldrun
+Na verdade, Derendil está simplesmente louco, afetado pelos delírios do lorde demônio Fraz-Urb'luu. O reino de Nelrindenvane não existe, e todas as lembranças e a personalidade de "Derendil" são uma ilusão criada pelo Príncipe Demônio do Engano. O quaggoth se recusa a acreditar na verdade, e qualquer evidência irrefutável sobre sua natureza real o leva a uma fúria assassina. #### Eldeth Feldrun
 
-A female shield dwarf **scout** from Gauntlgrym, Eldeth is high spirited and proud of both her heritage and her people's achievement in reclaiming the ancient dwarven kingdom; she suggests Gauntlgrym as a destination to escape from the Underdark. Eldeth is stubborn and hates the drow and all other "corrupt dark dwellers" such as the derro and duergar.
+Uma **batedora** anã do escudo de Gauntlgrym, Eldeth é animada e orgulhosa tanto de sua herança quanto da conquista de seu povo ao retomar o antigo reino anão; ela sugere Gauntlgrym como destino para escapar do Subterrâneo. Eldeth é teimosa e odeia os drow e todos os outros "habitantes sombrios e corruptos", como os derro e os duergar.
 
-Eldeth wants to get back home, but she is also defiant and self sacrificing—and therefore among the most likely prisoners to perish before getting the opportunity. If that happens, Eldeth asks a character she trusts to promise to carry word of her fate back to her family in Gauntlgrym, along with her shield and warhammer if they are recovered. This might win the characters the approval of Eldeth's kin when they later visit Gauntlgrym.
+Eldeth quer voltar para casa, mas também é desafiadora e capaz de sacrifícios — sendo, portanto, uma das prisioneiras com maior probabilidade de morrer antes de ter essa oportunidade. Se isso acontecer, Eldeth pede a um personagem em quem confia que prometa levar notícias de seu destino à sua família em Gauntlgrym, juntamente com seu escudo e martelo de guerra, caso sejam recuperados. Isso pode garantir aos personagens a aprovação dos parentes de Eldeth quando visitarem Gauntlgrym mais tarde.
 
 ![](img/adventure/OotA/002-01-02.webp)
 
 #### Jimjar
 
-A male deep gnome **spy**, **Jimjar** is a feckless rogue with a devil-may-care attitude, a fondness for coin, and an obsession with betting on virtually anything and everything. Once he knows the characters, **Jimjar** regularly offers them bets on things from their own efforts ("I bet you ten gold you can't get past that sentry without being seen") to the outcomes of random events ("I bet you twenty gold this tunnel is the right way"). He sometimes uses betting to goad others into doing things, but characters can easily turn the tables knowing that **Jimjar** finds it difficult to refuse a wager. His behavior is unusual for the dour deep gnomes, and others of his kind (including **Topsy** and **Turvy**) find **Jimjar** annoying at best, and unstable and potentially mad at worst.
+Um **espião** gnomo das profundezas, **Jimjar** é um ladino irresponsável com uma atitude despreocupada, um gosto por moedas e uma obsessão por apostar em praticamente qualquer coisa. Assim que conhece os personagens, **Jimjar** frequentemente lhes propõe apostas sobre coisas que variam desde os próprios esforços deles ("Aposto dez peças de ouro que vocês não conseguem passar por aquela sentinela sem serem vistos") até o resultado de eventos aleatórios ("Aposto vinte peças de ouro que este túnel é o caminho certo"). Às vezes, ele usa as apostas para incitar os outros a fazerem coisas, mas os personagens podem facilmente inverter a situação, sabendo que **Jimjar** tem dificuldade em recusar uma aposta. Seu comportamento é incomum para os gnomos das profundezas, que costumam ser sombrios; outros de sua espécie (incluindo **Topsy** e **Turvy**) consideram **Jimjar** irritante, na melhor das hipóteses, e instável ou potencialmente louco, na pior.
 
-**Jimjar** is always true to his word, and he manages to keep exact track of his debits and credits in his head, paying up on his bets (or demanding payment) as soon as possible. He's not above pocketing a little extra coin when no one is watching, and he has an amazing ability to secret significant wealth on his person.
-
-**Jimjar** feels as though there's something odd about the twins **Topsy** and **Turvy**, but he keeps his opinion to himself unless asked. He does his best to get along with everyone, although some find his gregariousness and constant wagers grating.
+**Jimjar** sempre cumpre sua palavra e consegue controlar mentalmente, com precisão, seus débitos e créditos, pagando suas apostas (ou exigindo o pagamento) assim que possível. Ele não hesita em embolsar algumas moedas extras quando ninguém está olhando e possui uma habilidade incrível de esconder quantias significativas de riqueza junto ao corpo. **Jimjar** sente que há algo estranho nos gêmeos **Topsy** e **Turvy**, mas guarda sua opinião para si, a menos que lhe perguntem. Ele se esforça para conviver bem com todos, embora alguns achem irritantes sua natureza sociável e suas constantes apostas.
 
 #### Ront
 
-A male **orc** from the Iceshield tribe, **Ront** fled from the slaughter of a band of orcs at the hands of the dwarves, falling down a shaft and wandering in the Underdark before being captured by the drow. He's ashamed of his cowardly act and knows that Gruumsh, the god of the orcs, is punishing him. But he also doesn't want to die, or at least not in drow captivity. **Ront** is mean, stupid, and hateful, but he also knuckles under to authority and threats. He especially hates Eldeth, as his tribe is at war with her people.
+Um **orc** macho da tribo Escudo de Gelo (*Iceshield*), **Ront** fugiu do massacre de seu bando pelas mãos dos anões; ele caiu em um poço e vagou pelo Subterrâneo (*Underdark*) antes de ser capturado pelos drow. Ele se envergonha de sua covardia e sabe que Gruumsh, o deus dos orcs, está punindo-o. Mas ele também não quer morrer — ou, pelo menos, não em cativeiro drow. **Ront** é cruel, estúpido e cheio de ódio, mas também se submete à autoridade e a ameaças. Ele odeia especialmente Eldeth, já que sua tribo está em guerra com o povo dela.
 
-**Ront** engages in threatening behavior and bullying toward the other prisoners unless someone stands up to him.
+**Ront** adota um comportamento ameaçador e intimidador com os outros prisioneiros, a menos que alguém o enfrente.
 
 #### Sarith Kzekarit
 
-A male **drow**, Sarith is sullen and keeps to himself, rebuffing attempts to talk to him. He is disgraced by his imprisonment but is resigned to his fate, since there doesn't appear to be anything he can do about it. Sarith is accused of murdering one of his fellow drow warriors in a fit of madness, but he has no memory of it. He varies between believing the whole thing is a setup to discredit and destroy him, and fearing that it is all true—which, in fact, it is. He is being held until he can be sent back to Menzoberranzan as a sacrifice to Lolth and an example to others.
+Um **drow** macho, Sarith é taciturno e reservado, rejeitando tentativas de conversa. Ele se sente humilhado pelo aprisionamento, mas resignado com seu destino, visto que não parece haver nada que possa fazer a respeito.Sarith é acusado de assassinar um de seus companheiros guerreiros drow em um acesso de loucura, mas não se lembra do ocorrido. Ele oscila entre acreditar que tudo não passa de uma armação para desacreditá-lo e destruí-lo, e temer que tudo seja verdade — o que, de fato, é. Ele permanece detido até que possa ser enviado de volta a Menzoberranzan como sacrifício a Lolth e um exemplo para os outros.
 
-Unknown even to the other drow, Sarith is infected with tainted spores from myconids corrupted by Zuggtmoy, the Demon Queen of Fungi. The initial infestation of the spores caused Sarith's bout of madness, and his health and sanity continue to deteriorate as the spores grow within his brain.
+Sem que nem mesmo os outros drow saibam, Sarith está infectado por esporos contaminados de micônides corrompidos por Zuggtmoy, a Rainha Demônio dos Fungos. A infestação inicial dos esporos causou o surto de loucura de Sarith, e sua saúde e sanidade continuam a se deteriorar à medida que os esporos crescem em seu cérebro.
 
 ![](img/adventure/OotA/003-01-03.webp)
 
-#### Shuushar the Awakened
+#### Shuushar, o Desperto
 
-A **kuo-toa**, Shuushar is likely to be one of the more unusual creatures any of the adventurers have met. The aquatic hermit is a calm and peaceful presence. He is aware of his people's well-deserved reputation for madness, and claims to have spent a lifetime in contemplation and solitary meditation to overcome that legacy. He appears to have been successful, exuding an aura of enlightened balance. Shuushar is even calm and accepting of his current imprisonment, merely saying that it is what it is, and who can say what end it might eventually lead toward?
+Um **kuo-toa**, Shuushar é provavelmente uma das criaturas mais incomuns que qualquer um dos aventureiros já encontrou. O eremita aquático é uma presença calma e pacífica. Ele está ciente da reputação de loucura — bem merecida — de seu povo e afirma ter passado a vida em contemplação e meditação solitária para superar esse legado. Ele parece ter tido sucesso, emanando uma aura de equilíbrio iluminado. Shuushar mantém a calma e aceita seu aprisionamento atual, dizendo apenas que as coisas são como são, e quem poderia dizer a que fim isso pode levar?
 
-Although Shuushar is by far the most sane, stable, and honest of the adventurers' fellow prisoners, he is also the most useless to their immediate goals. The kuo-toa hermit is a complete pacifist. He doesn't fight or cause harm to any other creature, even refusing to defend himself or others. He gladly accompanies the party if permitted to do so, however, helping them in any way he can other than violating his most sacred vow.
+Embora Shuushar seja, de longe, o mais são, estável e honesto entre os companheiros de prisão dos aventureiros, ele também é o menos útil para os objetivos imediatos do grupo. O eremita kuo-toa é um pacifista convicto. Ele não luta nem causa dano a nenhuma outra criatura, recusando-se até mesmo a defender a si mesmo ou aos outros. No entanto, ele acompanha o grupo de bom grado, se lhe for permitido, ajudando-os de todas as formas possíveis, exceto ao violar seu voto mais sagrado.
 
-Shuushar is familiar with Sloobludop, the kuo-toa town near the Darklake, and has navigated the twisting routes of the Darklake for many years. He hopes to share his enlightenment with his fellow kuo-toa, although he isn't aware of recent events in Sloobludop (see chapter 3 for details).
+Shuushar conhece bem Sloobludop, a cidade kuo-toa próxima ao Lago Sombrio (*Darklake*), e navegou pelas rotas sinuosas do lago por muitos anos. Ele espera compartilhar sua iluminação com seus companheiros kuo-toa, embora não esteja a par dos eventos recentes em Sloobludop (veja o capítulo 3 para detalhes). #### Stool
 
-#### Stool
+**Stool** é um **broto de miconídeo** capturado por **Sarith Kzekarit**. **Stool** sente-se sozinho e assustado, desejando apenas retornar ao seu lar em Neverlight Grove. Se conquistar a amizade dos personagens, **Stool** prontamente se oferece para guiá-los até sua casa, prometendo-lhes abrigo entre seu povo, embora não tenha consciência dos perigos impostos pela influência de Zuggtmoy sobre os miconídeos (veja o capítulo 5).
 
-**Stool** is a **myconid sprout** captured by **Sarith Kzekarit**. **Stool** is lonely and frightened, wanting only to return to its home in Neverlight Grove. If befriended by the characters, **Stool** gladly offers to guide them to its home, promising them sanctuary with its folk, although it isn't aware of the dangers posed by Zuggtmoy's influence on the myconids (see chapter 5).
+**Stool** utiliza esporos de conexão para estabelecer comunicação telepática com outras criaturas, fazendo isso para interagir com personagens que se mostram gentis e amigáveis ​​com ele. O miconídeo também ajuda a estabelecer comunicação com habitantes do Subterrâneo (*Underdark*) com quem os personagens não compartilham um idioma. Ao criar laços com um ou mais aventureiros, **Stool** comporta-se de forma semelhante a um irmão mais novo entusiasmado e curioso, mantendo-se próximo aos personagens e fazendo todo tipo de pergunta.
 
-**Stool** uses rapport spores to establish telepathic communication with other creatures, and it does so to communicate with characters who are kind and friendly toward it. The myconid will also help establish communication with Underdark denizens with whom the characters don't share a language. Once it becomes attached to one or more of the adventurers, **Stool** behaves somewhat like an enthusiastic and curious younger sibling, sticking close to the characters and asking all kinds of questions.
+#### Topsy e Turvy
 
-#### Topsy and Turvy
+Gnomos das profundezas gêmeos, **Topsy** e seu irmão **Turvy** são originários de Blingdenstone, no Subterrâneo. Eles foram capturados por drow enquanto coletavam cogumelos nos túneis próximos ao seu lar. Como a maioria dos svirfneblin, **Topsy** possui uma cabeleira desgrenhada e rala, enquanto **Turvy** tem apenas algumas mechas no topo da cabeça, que é, no restante, careca. **Topsy** é, de longe, a mais sociável dos dois. **Turvy** vive resmungando e murmurando coisas sombrias, com **Topsy** repetindo ou traduzindo o que o irmão diz.
 
-Twin deep gnomes, **Topsy** and her brother **Turvy** are originally from Blingdenstone in the Underdark. They were captured by the drow while out gathering mushrooms in the tunnels near their home. Like most other svirfneblin, **Topsy** has a stringy mop of hair while **Turvy** only has a few tufts of hair atop his otherwise bald head. **Topsy** is by far the more social of the two. **Turvy** constantly mumbles and mutters darkly, with **Topsy** repeating or translating what her brother says.
-
-**Topsy** and **Turvy** hide the fact that they are **wererats**. Infected with the curse of lycanthropy, neither deep gnome has entirely embraced it yet, and they struggle to control their wererat instincts and urges. They are fearful of what potential allies might do if they learn the truth, and are looking out for each other and their own survival. With their transformations controlled by the unseen cycle of the moon, you can use the twins' impending change as a wild card in the adventure. They've been prisoners for less than a month, meaning the full moon is coming.
-
-> ##### A Motley Crew
+**Topsy** e **Turvy** escondem o fato de serem **homens-rato**. Infectados pela maldição da licantropia, nenhum dos dois gnomos das profundezas a aceitou totalmente ainda, e ambos lutam para controlar seus instintos e impulsos de homem-rato. Eles temem a reação de possíveis aliados caso a verdade seja revelada, preocupando-se apenas um com o outro e com a própria sobrevivência. Como suas transformações são regidas pelo ciclo invisível da lua, você pode usar a iminente mudança dos gêmeos como um elemento surpresa na aventura. Eles estão presos há menos de um mês, o que significa que a lua cheia está se aproximando. > ##### Um Grupo Heterogêneo
 >
->The other prisoners who manage to escape with the player characters are likely to become their companions for a substantial part of the adventure, so it is good to lay the groundwork for those relationships early on. Some of the NPCs might not survive the initial escape attempt. Others might be lost to the dangers of the Underdark—or might reveal their true colors and betray the party. A few could become true companions. Keep in mind the other prisoners have their own personalities and goals, but are generally willing to cooperate for their own benefit. Their knowledge of the Underdark should encourage the player characters to keep them around at least initially.
+> Os outros prisioneiros que conseguem escapar com os personagens dos jogadores provavelmente se tornarão seus companheiros durante boa parte da aventura; portanto, é bom estabelecer as bases para esses relacionamentos logo no início. Alguns dos NPCs podem não sobreviver à tentativa inicial de fuga. Outros podem sucumbir aos perigos do Subterrâneo — ou revelar sua verdadeira natureza e trair o grupo. Alguns poucos podem se tornar verdadeiros companheiros. Lembre-se de que os outros prisioneiros possuem suas próprias personalidades e objetivos, mas geralmente estão dispostos a cooperar em benefício próprio. O conhecimento que possuem sobre o Subterrâneo deve incentivar os personagens dos jogadores a mantê-los por perto, pelo menos inicialmente.
 >
->Since managing such a large cast of NPCs can be quite involved, enlist the aid of the players if you wish, having each of them take on the role of managing one or more of the party's companions. The player generally decides what that NPC is doing, with the knowledge that you, as Dungeon Master, can overrule them as needed by the story. Not only does this make the secondary characters easier to manage, it helps the players get to know them and strengthens the bonds between the NPCs and the adventurers.
+> Como gerenciar um elenco tão grande de NPCs pode ser uma tarefa complexa, você pode solicitar a ajuda dos jogadores, pedindo que cada um deles assuma a responsabilidade de controlar um ou mais dos companheiros do grupo. Geralmente, o jogador decide o que aquele NPC está fazendo, ciente de que você, como Mestre...O Mestre pode ignorá-las conforme a necessidade da história. Isso não apenas facilita o gerenciamento dos personagens secundários, mas também ajuda os jogadores a conhecê-los e fortalece os laços entre os NPCs e os aventureiros.
 >
 
-### What the Prisoners Know
+### O Que os Prisioneiros Sabem
 
-Allow the characters to freely mingle and interact with their fellow prisoners or even the drow guards, although the guards rarely talk to the "surface-dweller scum." Of all the prisoners, only Eldeth and **Jimjar** speak fluent Common. The others speak Undercommon (or at least understand it). **Ront** knows some Common, while Derendil speaks Elvish. **Stool**'s rapport spores can establish telepathic communication to allow everyone to speak freely. The guards aren't observant enough to notice.
+Permita que os personagens interajam livremente com seus companheiros de prisão ou até mesmo com os guardas drow, embora os guardas raramente conversem com a "escória da superfície". De todos os prisioneiros, apenas Eldeth e **Jimjar** falam o Comum fluentemente. Os outros falam Subcomum (ou pelo menos o compreendem). **Ront** sabe um pouco de Comum, enquanto Derendil fala Élfico. Os esporos de conexão de **Stool** podem estabelecer uma comunicação telepática, permitindo que todos conversem livremente. Os guardas não são atentos o suficiente para perceber isso.
 
-You might wish to consult the social interaction rules in the *Dungeon Master's Guide*, in which case the other prisoners are initially indifferent toward the characters. Handle the interactions using roleplaying, Charisma checks, or a balance of the two as best suits your group and the way the adventure unfolds.
+Você pode consultar as regras de interação social no *Livro do Mestre* (*Dungeon Master's Guide*); nesse caso, os outros prisioneiros são inicialmente indiferentes aos personagens. Conduza as interações usando interpretação, testes de Carisma ou uma combinação de ambos, conforme for mais adequado ao seu grupo e ao desenrolar da aventura.
 
-The characters can learn the following things from talking with their fellow prisoners, some of who have been captives of the drow for a tenday or two:
+Os personagens podem descobrir as seguintes informações conversando com seus companheiros de prisão, alguns dos quais estão cativos dos drow há uma ou duas décadas (períodos de dez dias):
 
-- There are nineteen drow at the outpost, including Ilvara, Shoor, and Jorlan, as well as another priestess named Asha. There are also a dozen quaggoths and a number of giant spiders.
-- Three drow guards watch the slave pen from the hanging guard tower across the rope bridge, visible through the locked gate.
-- The cell has some sort of antimagic effect on it (see area 11 for details).
-- Jorlan the drow warrior suffered disfiguring injuries recently. Before then, he seemed more in Ilvara's favor. Now Shoor seems to have displaced him.
-- Jorlan used to have a wand that shot globs of sticky material able to trap targets. Now Shoor carries it, as another sign of their change in status.
-- It might be a matter of days or tendays before a contingent from Menzoberranzan arrives to take prisoners back to the drow city.
+- Há dezenove drow no posto avançado, incluindo Ilvara, Shoor e Jorlan, além de outra sacerdotisa chamada Asha. Há também uma dúzia de quaggoths e várias aranhas gigantes.
+- Três guardas drow vigiam o recinto dos escravos a partir da torre de guarda suspensa, do outro lado da ponte de corda, visível através do portão trancado.
+- A cela possui algum tipo de efeito antimagia (veja a área 11 para detalhes).
+- Jorlan, o guerreiro drow, sofreu ferimentos que o deixaram desfigurado recentemente. Antes disso, ele parecia gozar de maior favor junto a Ilvara. Agora, Shoor parece tê-lo substituído.
+- Jorlan costumava portar uma varinha que disparava massas de material pegajoso, capaz de prender alvos. Agora, Shoor a carrega, como mais um sinal da mudança de status entre eles.
+- Pode levar dias ou décadas (períodos de dez dias) até que um contingente de Menzoberranzan chegue para levar os prisioneiros de volta à cidade drow. Além disso, o drow **Sarith Kzekarit** sabe o seguinte:
 
-Additionally, the drow **Sarith Kzekarit** knows the following:
+- Uma gosma cinzenta vive na piscina. Ela é inofensiva e alimenta-se de detritos, a menos que seja perturbada.
+- Uma patrulha de suprimentos vinda de Menzoberranzan está atrasada há alguns dias, o que é incomum.
 
-- A gray ooze lives in the pool. It's harmless, feeding off waste unless disturbed.
-- A supply patrol from Menzoberranzan is a few days overdue, which is unusual.
+### Trabalho Forçado
 
-### Hard Labor
+Os drow dividem seus prisioneiros em três grupos de tamanhos aproximadamente iguais e os colocam para trabalhar durante um terço do dia, sob a supervisão dos quaggoths. Suas tarefas braçais incluem encher e transportar barris de água, operar o elevador, limpar qualquer parte do posto avançado (fosse necessário ou não), esvaziar penicos, preparar e servir alimentos, lavar louça e lavar roupas. Os prisioneiros também recebem tarefas cruéis ou inúteis para mantê-los ocupados e para o entretenimento dos elfos sombrios. Tais trabalhos incluem mover ou empilhar pedras, enrolar cordas e organizar suprimentos, com os prisioneiros sendo forçados a refazer o trabalho que não atende aos padrões arbitrários dos drow.
 
-The drow divide their prisoners into three roughly equal-sized groups and put them to work for a third of the day, supervised by the quaggoths. Their menial tasks include filling and hauling water barrels, operating the lift, cleaning any or all parts of the outpost (whether they need it or not), emptying chamber pots, food preparation and service, washing dishes, and laundry. The prisoners are also given cruel or pointless tasks to occupy them, and for the dark elves' amusement. Such labors include moving or stacking rocks, coiling ropes, and organizing supplies, with prisoners forced to redo work that doesn't meet the drow's arbitrary standards.
+Os personagens podem ou não trabalhar juntos, dependendo de como os drow os dividem. Prisioneiros que se sabe serem amigáveis ​​entre si geralmente são mantidos separados, e não é permitido que mais de dois ou três prisioneiros trabalhem na mesma tarefa ao mesmo tempo.
 
-Characters might or might not work together, depending on how the drow split them up. Prisoners known to be friendly to each other are usually kept apart, and no more than two or three prisoners are allowed to work at a single task at once.
+Os drow e os quaggoths são cruéis e caprichosos, mas também estão um tanto entediados e em busca de diversão. Os quaggoths são péssimos conversadores, odiosos e desconfiados em relação aos prisioneiros. Os drow são mais propensos a conversar, nem que seja apenas para se gabar de sua superioridade. Os personagens podem enganá-los para que revelem informações úteis, como quanto tempo se espera que a viagem até Menzoberranzan leve, ou que o posto avançado fica relativamente perto do Lago Sombrio (Darklake).
 
-The drow and quaggoths are cruel and capricious, but also somewhat bored and looking for amusement. The quaggoths are poor conversationalists, hateful and mistrustful toward the prisoners. The drow are more inclined to talk, if only to boast of their superiority. Characters might trick them into dropping useful bits of information, such as how long the journey to Menzoberranzan is expected to take, or that the outpost is relatively close to the Darklake.
+### Pesadelos
 
-### Bad Dreams
+O sono dos personagens no recinto dos escravos é agitado e intranquilo, repleto de sonhos estranhos e imagens perturbadoras. Sombras escuras parecem se mover e estender-se em direção a eles enquanto vagam perdidos por labirintos intermináveis ​​de túneis. Tentáculos viscosos deslizam e roçam neles, enquanto um grande zumbido e uivos se elevam à distância. Feridas purulentas rompem-se em nuvens de esporos ou massas rastejantes de larvas ou insetos. Pelo menos um ou mais personagens devem acordar suando frio após esses pesadelos, sempre que descansarem, sentindo como se algo estivesse lá fora, nas profundezas escuras — algo muito pior do que os drow.
 
-The characters' sleep in the slave pen is troubled and fitful, filled with strange dreams and disturbing images. Dark shadows seem to move and reach out toward them as the characters wander lost through endless mazes of tunnels. Oily tentacles slide to brush up against them, while a great buzzing and howling rises in the distance. Suppurating wounds burst open in clouds of spores or crawling masses of maggots or insects. At least one or more of the characters should wake in a cold sweat from these nightmares after every rest, feeling as though something is out there in the dark depths—something far worse than the drow.
+Você não precisa explicar a causa desses sonhos e visões neste momento. Os personagens podem atribuí-los às condições do cativeiro ou aos efeitos residuais do *veneno drow*, mas eles são presságios do que está acontecendo no Subterrâneo. Conjuradores, especialmente clérigos e bruxos, podem ser mais suscetíveis a esses sonhos, mas eles podem afetar qualquer um ou todos os personagens.
 
-You need not explain the cause of these dreams and images at this time. Characters can chalk them up to the conditions in the slave pen, or to the aftereffects of *drow poison*, but they are omens of what is happening in the Underdark. Spellcasters, particularly clerics and warlocks, might be most prone to these dreams, but they can visit any or all of the characters.
+### Luta!
 
-### Fight!
+A maioria dos outros prisioneiros não busca confusão, e até mesmo assassinos como **Buppido** têm o cuidado de aguardar o momento certo. Ainda assim, tanto Derendil quanto **Ront** têm temperamento explosivo, e Sarith, o drow, é propenso a surtos de violência à medida que os esporos de Zuggtmoy dominam sua mente. É possível que os personagens acabem provocando uma briga.Se isso acontecer, alguns dos prisioneiros (incluindo os gnomos das profundezas) incitam os combatentes, enquanto outros mantêm distância ou até tentam apartar a briga.
 
-Most of the other prisoners aren't looking for trouble, and even killers such as **Buppido** are careful to bide their time. Still, both Derendil and **Ront** have quick tempers, and Sarith the drow is prone to bouts of violence as Zuggtmoy's spores take over his mind. It's possible the characters could provoke a fight. If they do, some of the prisoners (including the deep gnomes) egg on the fighters while others keep their distance or even try to break up the brawl.
+Qualquer conflito violento atrai a atenção dos guardas drow, que inicialmente ordenam que os prisioneiros parem de lutar, ameaçando-os com bestas de mão através do portão. Se necessário, eles atiram nos prisioneiros com virotes envenenados para incapacitá-los. (Consulte o *capítulo 8* do *Livro do Mestre* para informações sobre o *veneno drow*.) Os guardas deixam a briga acontecer para seu próprio entretenimento, desde que não pareça provável que os prisioneiros realmente matem uns aos outros.
 
-Any violent conflict draws the attention of the drow guards, who initially order any prisoners to stand down from a fight, threatening them with hand crossbows from outside the gate. If necessary, they shoot prisoners with poisoned crossbow bolts to incapacitate them. (See *chapter 8* of the *Dungeon Master's Guide* for information on *drow poison*.) The guards let any fight play out for their own amusement as long as the prisoners don't seem likely to actually kill one another.
+### Hora da Alimentação
 
-### Feeding Time
+Se um prisioneiro causar muitos problemas, ou se os drow precisarem dar uma lição sobre o preço da desobediência, eles transformam a alimentação de um dissidente em um espetáculo macabro, oferecendo-o às aranhas gigantes nas teias abaixo de Velkynvelve. Guardas drow ou servos quaggoth jogam o prisioneiro amarrado da borda em direção às teias, onde as aranhas rapidamente convergem para morder a vítima, injetando seu veneno. Assim que a vítima está paralisada, as aranhas envolvem sua refeição em teia.
 
-If a prisoner becomes too much trouble, or if the drow need to mete out a lesson on the price of disobedience, they make a gruesome spectacle of feeding a malcontent to the giant spiders in the webs beneath Velkynvelve. Drow guards or quaggoth servants throw the bound prisoner over the edge into the webs, where the spiders quickly converge to bite the victim, injecting their venom. Once the victim is paralyzed, the spiders wrap their meal up in webbing.
+Este evento é uma oportunidade conveniente para se livrar de um ou mais dos outros prisioneiros antes da tentativa de fuga, caso você não queira que eles estejam por perto. Além disso, você pode reforçar a crueldade e a ameaça dos drow eliminando um NPC com quem os personagens tenham criado um vínculo.
 
-This event is a convenient opportunity to get rid of one or more of the other prisoners before the escape attempt if you don't want them around. As well, you can drive home the cruelty and threat of the drow by eliminating an NPC with whom the characters have formed a bond.
+## Os Drow
 
-## The Drow
+A guarnição em Velkynvelve consiste em doze **drow**, cinco **guerreiros de elite drow**, uma sacerdotisa drow júnior chamada **Asha** (use a ficha de estatísticas de **sacerdote** do *Livro dos Monstros*, mas adicione as características Ancestralidade Feérica, Conjuração Inata e Sensibilidade à Luz Solar da ficha de estatísticas de **drow**) e a comandante do posto avançado, uma **sacerdotisa drow de Lolth** sênior chamada Ilvara. Os drow contam com a ajuda de um bando de doze **quaggoths** e seis **aranhas gigantes** treinadas.
 
-The garrison at Velkynvelve consists of twelve **drow**, five **drow elite warriors**, a junior drow priestess named **Asha** (use the **priest** stat block in the *Monster Manual*, but add the Fey Ancestry, Innate Spellcasting, and Sunlight Sensitivity features of the **drow** stat block), and the outpost's commander, a senior **drow priestess of Lolth** named Ilvara. The drow have the assistance of a pack of twelve **quaggoths** and six trained **giant spiders**.
+#### Drow de Destaque
 
-#### Prominent Drow
-
-|                    |                                                                              |
+| | |
 |--------------------|------------------------------------------------------------------------------|
-| **Ilvara Mizzrym** | Drow priestess and commander of the outpost                                  |
-| **Asha Vandree**   | Junior priestess                                                             |
-| **Shoor Vandree**  | Drow elite warrior. Ilvara's lieutenant and lover, and Asha's distant cousin |
-| **Jorlan Duskryn** | Maimed drow elite warrior. Ilvara's former lieutenant and lover.             |
+| **Ilvara Mizzrym** | Sacerdotisa drow e comandante do posto avançado                              |
+| **Asha Vandree**   | Sacerdotisa júnior                                                              |
+| **Shoor Vandree**  | Guerreiro de elite drow. Tenente e amante de Ilvara, e primo distante de Asha |
+| **Jorlan Duskryn** | Guerreiro de elite drow mutilado. Ex-tenente e ex-amante de Ilvara. |
 
 #### Ilvara Mizzrym
 
 ![](img/adventure/OotA/004-ooa01-12.webp)
 
-The commander of Velkynvelve is an ambitious drow priestess looking to rise in the esteem of Lolth and her house. She considers command of a mere outpost a stepping stone in her ascension. The posting is beneath her, and she treats both it and her prisoners with contempt. But she also knows the posting is temporary, and she intends to wring every advantage from it in the meantime.
+A comandante de Velkynvelve é uma ambiciosa sacerdotisa drow que busca elevar seu prestígio aos olhos de Lolth e de sua Casa. Ela considera o comando de um mero posto avançado apenas um degrau em sua ascensão. O posto está abaixo de sua dignidade, e ela trata tanto o local quanto seus prisioneiros com desprezo. No entanto, ela sabe que a designação é temporária e pretende extrair todas as vantagens possíveis dela enquanto isso durar.
 
-A member of a drow house with a long history as slavers, Ilvara is a cruel mistress who enjoys taunting and tormenting enemies and underlings alike. In addition to a scourge, she wields a *tentacle rod*. Although she has taken Shoor Vandree as her lover, Ilvara cares no more about him than she did about Jorlan Duskryn, the lover she discarded due to his crippling injuries.
+Membro de uma Casa drow com um longo histórico no tráfico de escravos, Ilvara é uma mestra cruel que sente prazer em provocar e atormentar tanto inimigos quanto subordinados. Além de um chicote de pontas múltiplas (*scourge*), ela empunha um *bastão de tentáculos* (*tentacle rod*). Embora tenha tomado Shoor Vandree como amante, Ilvara não se importa mais com ele do que se importava com Jorlan Duskryn — o amante que ela descartou devido aos ferimentos incapacitantes que ele sofreu.
 
 #### Asha Vandree
 
-A junior drow priestess under Ilvara's guidance, Asha initially considered Ilvara an example to emulate. That changed after she saw how Ilvara treated Jorlan Duskryn, a seasoned drow warrior who was the commander's lover up until he was badly wounded. Ilvara discarded Jorlan without a second thought, showing Asha the foolishness of expecting any reward for loyalty.
+Uma sacerdotisa drow júnior sob a tutela de Ilvara, Asha inicialmente via Ilvara como um exemplo a ser seguido. Isso mudou depois que ela viu como Ilvara tratou Jorlan Duskryn, um guerreiro drow veterano que fora amante da comandante até ser gravemente ferido. Ilvara descartou Jorlan sem hesitar, mostrando a Asha a tolice de esperar qualquer recompensa pela lealdade.
 
-Asha is ambitious enough to know she could assume command of the outpost if anything was to happen to Ilvara, but not courageous enough to challenge her superior openly. She also knows that she would have to impress her superiors in the City of Spiders for any such field promotion to become permanent. As such, Asha moves cautiously, fanning the fires of Jorlan's hatred while keeping her own hands clean of any plotting.
+Asha é ambiciosa o suficiente para saber que poderia assumir o comando do posto avançado caso algo acontecesse com Ilvara, mas não tem coragem suficiente para desafiar abertamente sua superiora. Ela também sabe que precisaria impressionar seus superiores na Cidade das Aranhas para que tal promoção em campo se tornasse permanente. Por isso, Asha age com cautela, alimentando o ódio de Jorlan enquanto mantém as próprias mãos limpas de qualquer conspiração. #### Shoor Vandree
 
-#### Shoor Vandree
+Este guerreiro de elite drow assumiu o papel de tenente e amante de Ilvara após os ferimentos sofridos por seu predecessor, Jorlan Duskryn. Shoor é relativamente jovem e bastante arrogante para um drow do sexo masculino, orgulhoso de suas habilidades e feitos. Ele ainda está eufórico com o sucesso em conquistar o favor de Ilvara e em ascender na hierarquia do posto avançado — algo evidente em seu andar presunçoso e na maneira como se impõe sobre todos os outros homens em Velkynvelve, especialmente Jorlan. Ainda inseguro em sua posição, Shoor sente a necessidade de demonstrar sua habilidade e eficiência à sua senhora, bem como de encontrar formas de agradá-la.
 
-This drow elite warrior has assumed the role of Ilvara's lieutenant and lover after the injuries suffered by his predecessor, Jorlan Duskryn. Shoor is relatively young and quite arrogant for a drow male, proud of his abilities and accomplishments. He is still flush with his success in winning the favor of Ilvara and advancing his position within the outpost, which shows in his swagger and the way he lords it over every other male in Velkynvelve, particularly Jorlan. Still insecure in his position, Shoor feels the need to demonstrate his skill and effectiveness to his mistress and to find ways to please her.
-
-As Ilvara's lieutenant, Shoor carries a *wand of viscid globs* (see appendix B), which once belonged to Jorlan and is used to capture and restrain prisoners.
+Como tenente de Ilvara, Shoor porta uma *varinha de glóbulos viscosos* (veja o apêndice B); o item pertencia anteriormente a Jorlan e é utilizado para capturar e imobilizar prisioneiros.
 
 #### Jorlan Duskryn
 
-Jorlan turned a talent for inflicting pain into skill as a warrior, and a certain roguish charm into a way to ingratiate himself with his female superiors. He quickly made himself useful to **Ilvara Mizzrym** as both the field commander of the Velkynvelve garrison and as her lover, enjoying all the benefits that came with both roles.
+Jorlan transformou seu talento para infligir dor......sua habilidade como guerreiro e um certo charme malandro para conquistar o favor de suas superioras. Ele rapidamente tornou-se útil para **Ilvara Mizzrym**, atuando tanto como comandante de campo da guarnição de Velkynvelve quanto como seu amante, desfrutando de todas as vantagens que ambos os papéis proporcionavam.
 
-Jorlan thought that Lolth favored him, or at least that his charms had deflected her malice, until he had the misfortune of a run-in with a black pudding on an otherwise routine raid. Ilvara's healing magic saved his life but couldn't undo the terrible damage wrought by the ooze's acid. With his once-handsome face melted and scarred, and his sword hand twisted and missing two fingers, Jorlan was no longer the warrior he once was.
+Jorlan acreditava que Lolth o favorecia — ou, pelo menos, que seu charme havia desviado a malícia da deusa — até ter o azar de cruzar o caminho de uma *black pudding* (geleia negra) durante uma incursão que, de outra forma, teria sido rotineira. A magia de cura de Ilvara salvou sua vida, mas não conseguiu reverter os danos terríveis causados ​​pelo ácido da criatura. Com o rosto, antes belo, agora derretido e marcado por cicatrizes, e a mão que empunhava a espada deformada e sem dois dedos, Jorlan já não era o guerreiro de outrora.
 
-Ilvara relieved Jorlan of duty during his recuperation, replacing him with the young bravo Shoor Vandree. When she then took Shoor to her bed, Jorlan realized his recovery would never be sufficient to regain what he had lost. His heartbreak and loss has since become a virulent hatred for Ilvara and Shoor that slowly eats at him. Jorlan finds the idea of suicide or reckless self-destruction beneath him, however—unless he can find a way to take Ilvara and her new lover with him.
+Ilvara dispensou Jorlan do serviço durante sua recuperação, substituindo-o pelo jovem e audaz Shoor Vandree. Quando ela levou Shoor para sua cama, Jorlan percebeu que sua recuperação jamais seria suficiente para reconquistar o que havia perdido. Sua mágoa e seu sentimento de perda transformaram-se em um ódio virulento por Ilvara e Shoor, um sentimento que o corrói lentamente. No entanto, Jorlan considera o suicídio ou a autodestruição imprudente algo indigno de si — a menos que encontre uma maneira de levar Ilvara e seu novo amante consigo.
 
-Jorlan knows full well that the sympathy the priestess Asha shows him is an attempt to manipulate him. But he's willing to play along for the time being, hoping to draw Asha closer and potentially use her against Ilvara when the time is right.
+Jorlan sabe muito bem que a simpatia demonstrada pela sacerdotisa Asha não passa de uma tentativa de manipulá-lo. Ainda assim, ele aceita o jogo por enquanto, na esperança de aproximar Asha e, potencialmente, usá-la contra Ilvara quando chegar o momento certo.
 
-Because of his injuries, Jorlan has disadvantage on attack rolls, Dexterity checks, and Dexterity saving throws.
+Devido aos seus ferimentos, Jorlan sofre desvantagem em testes de ataque, testes de Destreza e testes de resistência de Destreza.
 
-#### Drow Warriors
+#### Guerreiros Drow
 
-The remaining drow males garrisoning Velkynvelve are named Balok, Bemeril, Guldor, Honemmeth, Imbros, Jaezred, Jevan, Kalannar, Malagar, Nadal, Nym, and Sorn.
+Os demais drow do sexo masculino que compõem a guarnição de Velkynvelve chamam-se Balok, Bemeril, Guldor, Honemmeth, Imbros, Jaezred, Jevan, Kalannar, Malagar, Nadal, Nym e Sorn.
 
-> ##### Roleplaying the Drow
+> ##### Interpretando os Drow
 >
->The drow are arrogant, cruel, and vicious, viewing their slaves as little more than livestock and treating them with cold disregard. Even the lowest drow understands the inferiority of other creatures, behaving toward the prisoners like sneering nobility. With their superiors, however, the drow are fawning sycophants with a passive-aggressive edge. The males defer to the females, the rank-and-file warriors defer to the elite warriors, and everyone defers to the priestess Ilvara.
->
+> Os drow são arrogantes, cruéis e perversos; veem seus escravos como pouco mais do que gado e tratam-nos com fria indiferença. Mesmo o drow de menor hierarquia compreende a inferioridade das outras criaturas, comportando-se diante dos prisioneiros com a arrogância desdenhosa da nobreza. Diante de seus superiores, no entanto, os drows são bajuladores servis, porém com um traço de passividade-agressividade. Os machos se submetem às fêmeas, os guerreiros comuns se submetem aos guerreiros de elite e todos se submetem à sacerdotisa Ilvara.
 
 ## Velkynvelve
 
-The drow outpost is located high in a cavern, built 100 feet above the rocky floor. The outpost consists of a series of small caves in the cavern walls and four "hanging towers"—hollowed-out stalactites connected by walkways, stairs, and rope bridges. The towers are concealed by the thick webs of giant spiders stretched below them, so that only the lowermost parts of the stalactites are visible from the cavern floor.
+O posto avançado drow está situado no alto de uma caverna, construído a cerca de 30 metros (100 pés) acima do chão rochoso. O posto consiste em uma série de pequenas cavernas nas paredes da gruta e quatro "torres suspensas" — estalactites escavadas conectadas por passarelas, escadas e pontes de corda. As torres são ocultadas pelas densas teias de aranhas gigantes estendidas abaixo delas, de modo que apenas as partes inferiores das estalactites são visíveis a partir do chão da caverna.
 
-With the small amount of dim light used in the outpost shielded from the cavern floor below, one might walk the entire length of the cleft without becoming aware of the outpost overhead, hidden in the darkness above the range of torches and lanterns. The giant spiders also serve as guards, dropping down on their web strands to prey upon creatures that find their way into the cavern. Similarly, drow warriors can drop to the cave floor on lines of spider silk to ambush enemies.
+Como a pouca luz tênue utilizada no posto avançado é protegida para não incidir sobre o chão da caverna abaixo, é possível percorrer toda a extensão da fenda sem perceber a presença do posto acima, oculto na escuridão, além do alcance de tochas e lanternas. As aranhas gigantes também atuam como guardas, descendo por seus fios de teia para atacar criaturas que entram na caverna. Da mesma forma, guerreiros drow podem descer até o chão da caverna usando fios de seda de aranha para emboscar inimigos.
 
-Three caves and two hanging towers surrounding a platform make up the main part of the outpost for the drow warriors. The largest of the hanging towers is reserved for the priestesses and the shrine of Lolth, while the other is a guard tower opposite the cave used to hold slaves. North of the slave pen is the den of the outpost's quaggoth servants. Watch posts lie at either end of the outpost, near the northern and southern entrances to the cavern.
+Três cavernas e duas torres suspensas ao redor de uma plataforma compõem a área principal do posto avançado destinada aos guerreiros drow. A maior das torres suspensas é reservada às sacerdotisas e ao santuário de Lolth, enquanto a outra é uma torre de guarda situada em frente à caverna usada para manter os escravos. Ao norte do recinto dos escravos fica o covil dos servos quaggoth do posto avançado. Postos de sentinela estão localizados em ambas as extremidades do posto avançado, próximos às entradas norte e sul da caverna.
 
-> ##### Velkynvelve: General Features
+> ##### Velkynvelve: Características Gerais
 >
->The following features apply throughout the outpost.
+>As características a seguir aplicam-se a todo o posto avançado.
 >
->***Light.*** The interior spaces of the outpost are dimly illuminated by lanterns containing phosphorescent fungi, while the exterior is dark.
+>***Luz.*** Os espaços internos do posto avançado são tenuemente iluminados por lanternas contendo fungos fosforescentes, enquanto o exterior permanece na escuridão.
 
->***Sound.*** A small waterfall pouring into the cavern creates a constant background noise, negating the cave's tendency to amplify and carry sounds. Checks made to hear things in the cavern are made normally.
+>***Som.*** Uma pequena cachoeira que deságua na caverna cria um ruído de fundo constante, anulando a tendência natural da caverna de amplificar e propagar sons. Testes para ouvir algo na caverna são realizados normalmente. >***Escadas.*** Estas escadas de 1,5 metro (5 pés) de largura estão esculpidas nas paredes de pedra da caverna, entre várias das entradas da gruta.
 
->***Stairs.*** These 5-foot-wide stairs are carved into the stone sides of the cavern between several of the cave entrances.
+>***Pontes.*** Pontes feitas de cordas de teia de aranha conectam as passarelas à torre de guarda e à entrada da torre da sacerdotisa. As pontes oscilantes constituem terreno difícil para criaturas que não sejam drow.
 
->***Bridges.*** Bridges of spider silk rope connect the walkways to the guard tower and the entrance to the priestess's tower. The swaying bridges are difficult terrain for non-drow.
+>***Queda.*** Uma criatura empurrada para fora das escadas, de uma ponte ou da borda de uma plataforma deve tentar um teste de resistência de Destreza (CD 10). Se falhar, a criatura cai, aterrissando nas teias estendidas abaixo do posto avançado. Se obtiver sucesso no teste, a criatura agarra-se à borda e permanece pendurada até conseguir subir novamente com um teste de Força (Atletismo) CD 10, realizado como parte de seu movimento. Uma falha no teste de Força significa que a criatura não consegue se mover e deve tentar novamente; uma falha por 5 ou mais pontos resulta em uma queda nas teias.
 
->***Falling.*** A creature pushed off the stairs, a bridge, or the edge of a platform must attempt a DC 10 Dexterity saving throw. On a failure, the creature falls, landing in the webs stretched beneath the outpost. On a successful save, a creature grabs hold of the edge and hangs there until it can climb back up with a DC 10 Strength (Athletics) check made as part of its movement. A failed Strength check means the creature is unable to move and must check again, while failure by 5 or more means a fall to the webs.
+>***Teias.*** As densas teias de aranhas gigantes mantidas pelos drow ocultam......o posto avançado a partir de baixo. Uma criatura que caia nas teias fica impedida. Como uma ação, uma criatura impedida pode tentar um teste de Força (CD 12) para se libertar das teias. As teias também podem ser atacadas e destruídas (CA 10, 15 PV por seção de 3 metros/10 pés, vulnerabilidade a fogo e imunidade a dano de concussão, veneno e psíquico). Cada metro (ou pé) de movimento nas teias custa 1 metro (ou pé) adicional, e qualquer criatura que não seja uma aranha que entre nas teias ou comece seu turno nelas deve passar em um teste de Força ou Destreza (CD 12) para evitar ficar impedida. Qualquer movimento nas teias atrai a atenção das aranhas gigantes, que atacam e se alimentam das criaturas presas.
 
->***Webs.*** The dense webs of giant spiders kept by the drow conceal the outpost from below. A creature falling into the webs becomes restrained. As an action, a restrained creature can attempt a DC 12 Strength check to break free from the webs. The webs can also be attacked and destroyed (AC 10, 15 hp per 10-foot section, vulnerability to fire, and immunity to bludgeoning, poison, and psychic damage). Each foot of movement in the webs costs 1 extra foot, and any creature other than a spider that enters the webs or starts its turn there must succeed on a DC 12 Strength or Dexterity check to avoid becoming restrained. Any movement in the webs attracts the attention of the giant spiders, which attack and feed on trapped creatures.
+>Uma criatura que caia da teia até o chão da caverna sofre 10d6 de dano de concussão.
 
->A creature falling from the webbing to the cavern floor takes 10d6 bludgeoning damage.
+![Mapa 1.1: Velkynvelve](img/adventure/OotA/005-01-04.webp)![Versão para Jogadores](img/adventure/OotA/006-velkynvelve-player-version.webp)
+## Áreas de Velkynvelve
 
-![Map 1.1: Velkynvelve](img/adventure/OotA/005-01-04.webp)![Player Version](img/adventure/OotA/006-velkynvelve-player-version.webp)
-## Areas of Velkynvelve
+### 1. Posto de Vigilância Sul
 
-### 1. Southern Watch Post
+Perto da passagem sul da caverna, há um nicho usado como posto de vigilância.
 
-Near the southern passage from the cavern is an alcove used as a watch post.
+Dois **drow** estão posicionados aqui o tempo todo, vigiando a passagem e observando a aproximação de quaisquer criaturas. O turno é longo e monótono, por isso os vigias às vezes se distraem. Um teste bem-sucedido de Destreza (Furtividade) contra o valor passivo de Sabedoria (Percepção) dos guardas, que é 12, permite que os personagens passem despercebidos. No entanto, qualquer luz vinda da passagem ou da caverna abaixo atrai automaticamente a atenção dos guardas.
 
-Two **drow** are stationed here at all times, keeping watch over the passage and noting the approach of any creatures. The duty is long and dull, so the watchers are sometimes distracted. A successful Dexterity (Stealth) check made against the guards' passive Wisdom (Perception) score of 12 allows characters to pass unnoticed. Any light from the passage or the cavern below automatically draws the guards' attention, however.
+Os guardas drow têm ordens de relatar intrusos imediatamente e mantê-los sob observação. Eles não tomam nenhuma outra ação, a menos que recebam ordens ou vejam sinais de uma ameaça significativa. Nesse caso, eles tocam uma nota aguda e estridente em uma trombeta de alerta para avisar todo o posto avançado. ### 2. Alojamentos
 
-The drow guards are under orders to report intruders immediately, and to keep them under observation. They take no other action unless ordered or unless they see signs of a significant threat. In that case, they blow a high, shrill note on a warning trumpet to alert the whole outpost.
+Degraus de pedra levam do posto de vigia a uma plataforma de *zurkhwood* (veja "Fungos do Subterrâneo" anteriormente no capítulo 2) com cerca de 30 cm de espessura, que se estende entre duas das torres suspensas e adentra três cavernas adjacentes.
 
-### 2. Barracks
+As duas cavernas mais ao sul servem como alojamentos para os guerreiros drow comuns do posto avançado. Seis guerreiros habitam cada alojamento; cada um dispõe de um estrado para dormir, um pequeno baú de *zurkhwood* para guardar pertences pessoais e equipamentos, e uma mesa de apoio. Redes de corda de seda de aranha nas paredes da caverna possuem ganchos para pendurar lanternas e outros itens, mas os alojamentos raramente são iluminados.
 
-Stone steps lead from the watch post to a 1-foot-thick platform of zurkhwood (see "Fungi of the Underdark" earlier in chapter 2) extending between two of the hanging towers and into three adjoining caverns.
+Um **drow** está presente em cada uma das cavernas de alojamento a qualquer momento, descansando em um transe meditativo. Um drow em repouso levanta-se ao perceber qualquer luz ou ruído significativo, pronto para atacar.
 
-The two southernmost caves serve as barracks for the rank-and-file drow warriors of the outpost. Six warriors dwell in each barracks, each set up with a pallet, a small zurkhwood chest for holding personal possessions and equipment, and a side table. Spider silk rope webbing on the cavern walls is set with hooks for hanging lanterns and other items, but the barracks are rarely lit.
+#### Tesouro
 
-One **drow** is present in each of the barracks caves at any time, resting in a meditative trance. A resting drow rises at any significant light or noise, ready to attack.
+O equipamento do drow em repouso fica guardado sob seu estrado: uma espada curta, uma besta de mão com um estojo contendo 20 virotes, uma cota de malha e um rolo de 30 metros de corda de seda com um pequeno gancho de escalada na ponta.
 
-#### Treasure
+Cada um dos seis baús em cada alojamento contém um frasco de *veneno drow* usado para tratar virotes de besta (veja "*Venenos*" no capítulo 8 do *Guia do Mestre*). Um frasco contém veneno suficiente para tratar 20 virotes. Cada baú também contém dois conjuntos de roupas e 1d4 itens da tabela de *Bugigangas* no capítulo 5 do *Livro do Jogador*.
 
-The equipment of the resting drow is stored under his pallet: a shortsword, a hand crossbow with a case of 20 hand crossbow bolts, a chain shirt, and a 100-foot coil of silk rope with a small grappling hook at the end.
+### 3. Salão Principal
 
-Each of the six chests in each barracks contains a flask of *drow poison* used to treat crossbow bolts (see "*Poisons*" in chapter 8 of the *Dungeon Master's Guide*). One flask has enough poison to treat 20 bolts. Each chest also contains two sets of clothing and 1d4 items from the *Trinkets* table in chapter 5 of the *Player's Handbook*.
+Esta caverna serve como local de reunião e refeição para os guerreiros drow do posto avançado. Ela possui quatro mesas circulares esculpidas em *zurkhwood*, cada uma cercada por cinco cadeiras. Parte do salão é utilizada como área de preparo e armazenamento de alimentos, contendo estoques de fungos secos e frescos, frutas secas, queijos, carnes em conserva e alguns potes de barro com especiarias. Um braseiro de ferro pesado fornece calor para cozinhar, além de uma luz fraca, mas grande parte da comida é servida fria.
 
-### 3. Main Hall
+A qualquer momento, há 25% de chance de que 1d4 **drows** estejam no salão principal comendo ou se divertindo com jogos de dados ou cartas. Se houver drow presentes, 1d4 **quaggoths** também estarão no local, servindo e realizando tarefas de limpeza. Se não houver drow no salão principal, há 25% de chance de um **quaggoth** solitário estar ali cumprindo suas obrigações.
 
-This cave serves as a gathering and eating place for the drow warriors of the outpost. It has four circular tables carved from zurkhwood, each surrounded by five chairs. Part of the hall is used as a food preparation and storage area, containing stocks of dried and fresh fungi, dried fruits, cheeses, preserved meat, and a few clay jars of spices. A heavy iron brazier provides heat for cooking along with dim light, but much of the food is served cold.
+#### Tesouro
 
-At any time, there is a 25 percent chance that 1d4 **drow** are in the main hall eating or entertaining themselves with dice or card games. If any drow are present, 1d4 **quaggoths** are also on hand, serving and cleaning. If there are no drow in the main hall, there is a 25 percent chance that a lone **quaggoth** is here performing its duties.
+Não há nada de valor no salão principal, exceto o que os drow trazem consigo, mas os personagens podem saquear a despensa e obter o equivalente a até 30 dias de rações, limitado à capacidade de carga de cada um. Cada dia de ração para um personagem pesa 2 libras (aprox. 0,9 kg).
 
-#### Treasure
+### 4. Alojamento da Elite
 
-There is nothing of value in the main hall apart from what the drow have on them, but characters can loot the larder for the equivalent of up to 30 days of rations, limited by what they can carry. Each day of rations for one character weighs 2 pounds.
+As duas torres suspensas que flanqueiam a plataforma servem de alojamento para os guerreiros de elite do posto avançado — com exceção do tenente do comandante (atualmente Shoor Vandree), que possui aposentos próprios na torre da sacerdotisa. Cada torre suspensa conta com dois compartimentos, conectados por uma escada de corda que passa através de um alçapão de madeira-zurkh entre os níveis superior e inferior. O mobiliário dos guerreiros de elite é mais refinado, incluindo cadeiras e pequenas mesas de madeira-zurkh ao redor das quais eles se sentam.
 
-### 4. Elite Barracks
+Um **guerreiro de elite drow** fora de serviço descansa em um dos compartimentos a qualquer momento. Há 50% de chance de um **quaggoth** também estar presente, realizando tarefas como limpeza ou transporte de água. Ambos reagem de forma hostil a intrusos, mas podem optar por fugir e alertar o posto avançado em vez de atacar, dependendo......dependendo das probabilidades.
 
-The two hanging towers flanking the platform are the quarters of the elite warriors of the outpost, except for the commander's lieutenant (currently Shoor Vandree) who has his own quarters in the priestess's tower. Each hanging tower has two chambers, with a rope ladder running between the upper and lower chamber through a zurkhwood trapdoor. The elite warriors have finer furniture, including zurkhwood chairs and small tables around which they sit.
+#### Tesouro
 
-One off-duty **drow elite warrior** rests in one of the chambers here at any given time. There is a 50 percent chance that one **quaggoth** is also present, carrying out chores such as cleaning up or delivering water. Either reacts hostilely to intruders, but they might choose to flee and warn the outpost rather than attack, depending on the odds.
+O equipamento do guerreiro drow que descansa ali está guardado sob seu leito: uma espada curta, uma besta de mão com um estojo contendo 20 virotes, uma cota de malha e um rolo de 30 metros (100 pés) de corda de seda com um pequeno gancho de escalada na extremidade.
 
-#### Treasure
+Cada um dos baús nas quatro câmaras contém um frasco de *veneno drow*, usado para tratar virotes de besta. Um frasco contém veneno suficiente para tratar 20 virotes. Cada baú também contém duas mudas de roupa, 2d6 pp, 1d8 po e 1d4 itens da tabela de Pequenos Objetos (Trinkets) no capítulo 5, "*Equipamento*", do *Livro do Jogador* (*Player's Handbook*).
 
-The equipment of the resting drow warrior is stowed beneath his pallet: a shortsword, a hand crossbow with a case of 20 bolts, a chain shirt, and a 100-foot coil of silk rope with a small grappling hook at the end.
+### 5. Elevador
 
-Each of the chests in the four chambers contains a flask of *drow poison* used to treat crossbow bolts. One flask has enough poison to treat 20 bolts. Each chest also contains two changes of clothing, 2d6 sp, 1d8 gp, and 1d4 items from the Trinkets table in chapter 5, "*Equipment*," of the *Player's Handbook*.
+Preso à borda da plataforma do alojamento, há um mecanismo de guincho e cesta que consiste em um grande braço móvel sustentando um cabo fino de seda de aranha resistente. O cabo passa por uma série de polias, indo de um carretel horizontal operado por manivela até uma cesta grande de trama resistente suspensa na extremidade. A cesta permanece na plataforma, exceto quando está em uso.
 
-### 5. Lift
+Dois atendentes **quaggoth** permanecem junto ao elevador, atentos a qualquer sinal vindo de baixo para baixar a cesta. Eles montam guarda para o caso de alguém que não seja um drow ou um de sua própria espécie se aproximar.
 
-Attached to the edge of the barracks platform is a winch-and-basket device consisting of a large swinging arm that carries a thin cord of strong spider silk. The cord runs through a series of pulleys from a hand-cranked horizontal spool to a heavy woven basket suspended at the end. The basket is kept up on the platform except when it is in use.
+#### Usando o Elevador
 
-Two **quaggoth** attendants remain by the lift to watch for a signal from below for the basket to be lowered. They are on guard in case anyone other than a drow or one of their own kind approaches.
+Até quatro criaturas de tamanho Médio cabem, de forma um tanto apertada, na cesta; ela é girada para fora da borda da plataforma e baixada até o chão da caverna ao girar o carretel pelas manivelas acopladas. Isso exige um teste de Força bem-sucedido (CD 18), normalmente realizado por dois servos quaggoth (um deles faz o teste enquanto o outro auxilia com a ação de Ajudar). Uma vez no chão da caverna, a cesta pode ser carregada com outros passageiros ou com até 360 kg (800 libras) de carga, sendo então içada de volta à plataforma da mesma maneira. Leva 4 rodadas para a cesta se deslocar entre a plataforma e o chão em condições normais de operação.
 
-#### Using the Lift
+### 6. Santuário de Lolth
 
-Up to four Medium creatures can fit somewhat snugly in the basket, which is swung out over the edge of the platform and lowered to the cavern floor below by turning the spool using attached handles. This requires a successful DC 18 Strength check, normally provided by two quaggoth servants (one of which makes the check while the other assists with the Help action). Once on the cave floor, the basket can be loaded with other passengers or up to 800 pounds of cargo, then lifted back up to the platform in the same way. It takes 4 rounds for the basket to move between the platform and the floor under normal operation.
+Uma ponte de corda íngreme leva da borda da passarela até o nível mais alto da maior torre suspensa, conhecida como a torre da sacerdotisa. O piso desta câmara circular é coberto por tapetes de seda escura, entrelaçados com um padrão de teia em fios prateados. No meio da câmara (no centro da teia), ergue-se um pedestal largo esculpido em madeira *zurkh*, com uma escultura de aranha de 3 metros de altura no topo. A escultura é tão realista que qualquer pessoa que entre na câmara e a veja sob luz fraca precisa passar em um teste de Sabedoria (Percepção) CD 12 para reconhecê-la. Se falhar, o personagem a confunde com uma aranha gigante real.
 
-### 6. Shrine to Lolth
+Este local é um santuário dedicado a Lolth, a deusa-aranha dos drow, e também serve como aposentos para **Asha**, a sacerdotisa júnior. Ela cuida do santuário, supervisionando rituais rotineiros e oferendas a Lolth.
 
-A steep rope bridge leads from the walkway ledge to the uppermost level of the largest hanging tower, called the priestess's tower. The floor of this circular chamber is covered by dark silken mats with a pale web-strand pattern woven through them in silvery thread. In the middle of the chamber (at the center of the web) stands a broad pedestal carved from zurkhwood, with a 10-foot-high sculpted spider at its head. The carving is so lifelike that anyone initially entering the chamber and seeing it in dim light must succeed on a DC 12 Wisdom (Perception) check to recognize it. On a failure, a character mistakes it for a real giant spider.
+Role 1d6 quando os personagens entrarem no santuário para determinar quem eles podem encontrar.
 
-This place is a shrine to Lolth, the drow's spider goddess, and also serves as quarters for **Asha**, the junior priestess. She tends the shrine, overseeing routine rituals and offerings to Lolth.
+#### Atividade no Santuário
 
-Roll a d6 when the characters enter the shrine to determine who they might meet.
-
-#### Shrine Activity
-
-|  d6 | Activity                                     |
+| d6 | Atividade |
 |:---:|----------------------------------------------|
-| 1–2 | Asha is in the room alone, resting           |
-| 3–4 | Asha and 1d4 **drow** are engaged in worship |
-| 5–6 | The shrine is empty                          |
+| 1–2 | Asha está sozinha na sala, descansando |
+| 3–4 | Asha e 1d4 **drow** estão realizando um culto |
+| 5–6 | O santuário está vazio |
 
-The back half of the chamber, behind the altar, is piled with a semicircle of pillows and cushions. Resting among these is a **giant spider** trained and kept by the priestesses. The cushions give the spider sufficient concealment to hide from anyone entering the tower from the front. A character must succeed on a Wisdom (Perception) check contested by the spider's Dexterity (Stealth) check to spot it before it moves.
+A metade posterior da câmara, atrás do altar, contém uma pilha de travesseiros e almofadas dispostos em semicírculo. Entre eles, repousa uma **aranha gigante** treinada e mantida pelas sacerdotisas. As almofadas oferecem à aranha ocultação suficiente para se esconder de qualquer pessoa que entre na torre pela frente. Um personagem precisa passar em um teste de Sabedoria (Percepção) disputado pelo teste de Destreza (Furtividade) da aranha para avistá-la antes que ela se mova.
 
-#### Treasure
+#### Tesouro
 
-The altar is flanked by a pair of heavy silver candlesticks worth 25 gp each. They hold thick black candles, lit only when a ritual is being performed in the shrine.
+O altar é ladeado por um par de castiçais de prata maciça, valendo 25 po cada. Eles sustentam velas pretas grossas, acesas apenas quando um ritual está sendo realizado no santuário.
 
-The eight "eyes" of the spider statue are eight pieces of polished jet—four small ones worth 5 gp each and four larger ones worth 10 gp each. Any non-drow who possesses these gems falls under a curse from Lolth. All spiders and spiderlike creatures attack the bearer of the stones on sight, and such creatures have advantage on checks to detect the possessor of the stones. The curse lasts until all the stones are given into the safekeeping of a drow worshiper of Lolth or the gems are subject to a *remove curse* spell.
+Os oito "olhos" da estátua de aranha são oito peças de azeviche polido — quatro pequenas, valendo 5 po cada, e quatro maiores, valendo 10 po cada. Qualquer pessoa que não seja drow e possua essas gemas sofre uma maldição de Lolth. Todas as aranhas e criaturas semelhantes a aranhas atacam o portador das pedras assim que o veem, e tais criaturas têm vantagem em testes para detectar quem as possui. A maldição perdura até que todas as pedras sejam entregues aos cuidados de um drow devoto de Lolth ou até que as gemas sejam alvo da magia *remover maldição*.
 
-### 7. Ilvara's Quarters
+### 7. Aposentos de Ilvara
 
-A rope ladder leads down from the shrine into this chamber, which serves as private quarters to Mistress Ilvara, priestess of Lolth and commander of Velkynvelve.
+Uma escada de corda desce do santuário para esta câmara, que serve como aposentos particulares da Mestra Ilvara, sacerdotisa de Lolth e comandante de Velkynvelve.
 
-Inside, the walls are hung with black mesh resembling a spider's web, extending from a central spot on the ceiling out to the walls, then draped down like curtains. Thick, woven mats cover the floor, while a low platform is covered with cushions and pillows to make a broad, divan-like bed. One side of the chamber contains a small table and two chairs, while the other holds a small shrine to Lolth, draped in white silk. A heavy chest of black-stained zurkhwood sits at the foot of the bed.
+No interior, as paredes estão cobertas por uma rede preta que lembra uma teia de aranha, estendendo-se de um ponto central no teto até as paredes e caindo em seguida como cortinas. Esteiras grossas e trançadas cobrem o chão, enquanto uma plataforma baixa é revestida com almofadas e travesseiros, formando uma cama larga semelhante a um divã. Um lado da câmara contém uma mesa pequena e duas cadeiras; o outro abriga um pequeno santuário dedicado a Lolth, adornado com seda branca. Um baú pesado de madeira *zurkh* tingida de preto encontra-se aos pés da cama.
 
-**Ilvara** retreats to her quarters for privacy, rest, and meditation. Roll a d6. On 1–2, the priestess is here. On a roll of 1, **Shoor Vandree** is also here with her. Ilvara is furious if anyone dares to enter her quarters unbidden. If the characters catch her here, she casts *web*, *conjure animals*, or *insect plague* to bedevil them while she flees and calls for help. If Shoor is with Ilvara, he attacks to cover her escape.
+**Ilvara** retira-se para seus aposentos em busca de privacidade, descanso e meditação. Role um d6. Em um resultado de 1 ou 2, a sacerdotisa está no local. Se o resultado for 1, **Shoor Vandree** também está lá com ela.Ilvara fica furiosa se alguém ousar entrar em seus aposentos sem permissão. Se os personagens a encontrarem aqui, ela conjura *teia*, *invocar animais* ou *praga de insetos* para atormentá-los enquanto foge e pede ajuda. Se Shoor estiver com Ilvara, ele ataca para dar cobertura à fuga dela.
 
-#### Trap
+#### Armadilha
 
-The chest is locked, and Ilvara keeps the key in a hidden pocket on the inside of her belt. The lock is trapped with a poison needle tipped with *drow poison* (see "*Poisons*" in chapter 8 of the *Dungeon Master's Guide*), which is activated if any attempt is made to open the lock without the proper key. The victim takes 1 piercing damage and must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. A successful DC 20 Intelligence (Investigation) check reveals the trap. A character using thieves' tools can make a successful DC 15 Dexterity check to disarm it. Picking the lock requires thieves' tools and another successful DC 15 Dexterity check.
+O baú está trancado, e Ilvara guarda a chave em um bolso oculto na parte interna de seu cinto. A fechadura possui uma armadilha com uma agulha envenenada com *veneno drow* (veja "*Venenos*" no capítulo 8 do *Livro do Mestre*), que é ativada se houver qualquer tentativa de abrir a fechadura sem a chave correta. A vítima sofre 1 de dano perfurante e deve passar em um teste de resistência de Constituição (CD 13) ou ficará envenenada por 1 hora. Se o resultado do teste de resistência for 5 ou mais pontos abaixo da CD, o alvo também ficará inconsciente enquanto estiver envenenado dessa forma. Um teste de Inteligência (Investigação) bem-sucedido (CD 20) revela a armadilha. Um personagem usando ferramentas de ladrão pode desarmá-la com um teste de Destreza bem-sucedido (CD 15). Abrir a fechadura exige ferramentas de ladrão e outro teste de Destreza bem-sucedido (CD 15).
 
-#### Treasure
+#### Tesouro
 
-The side table holds a small silver-framed mirror worth 10 gp. The small shrine to Lolth is carved of zurkhwood and bone, and inlaid with semiprecious stones. It is worth 50 gp if the characters can find a buyer for it.
+A mesa lateral contém um pequeno espelho com moldura de prata, avaliado em 10 po. O pequeno altar dedicado a Lolth é esculpido em madeira-zurkh e osso, com incrustações de pedras semipreciosas. Ele vale 50 po, caso os personagens encontrem um comprador.
 
-The chest contains a variety of silken garments and personal items. There is a silver chain headdress set with small onyx stones, worth 50 gp, and a drawstring bag containing two *potions of healing*. A small leather purse contains 24 gp, 30 sp, and a small moonstone worth 20 gp, while another purse is Ilvara's spare spell component pouch.
+O baú contém diversas vestimentas de seda e itens pessoais. Há um adorno de cabeça feito de correntes de prata e pequenas pedras de ônix, avaliado em 50 po, e uma bolsa com fecho de cordão contendo duas *poções de cura*. Uma pequena bolsa de couro contém 24 po, 30 pp e uma pequena pedra-da-lua avaliada em 20 po, enquanto outra bolsa é a reserva de componentes de magia de Ilvara.
 
-Additionally, the chest contains any valuables once held by the characters and NPCs, including any spellbooks, components, focuses, and magic items lost to the adventurers.
+Além disso, o baú contém quaisquer itens de valor que pertenciam aos personagens e NPCs, incluindo grimórios, componentes, focos e itens mágicos perdidos pelos aventureiros.
 
-### 8. Shoor's Quarters
+### 8. Aposentos de Shoor
 
-The lowermost and smallest chamber of the priestess's tower belongs to the commander's lieutenant, the leader of the elite warriors of the outpost. Shoor Vandree, Ilvara's current favorite, is the present occupant. The area's former occupant, Jorlan Duskryn, has been displaced to the elite barracks after his recent injuries.
+O aposento mais baixo e menor da torre da sacerdotisa pertence ao tenente do comandante, o líder dos guerreiros de elite do posto avançado. Shoor Vandree, o atual favorito de Ilvara, é quem ocupa o local no momento. O ocupante anterior da área, Jorlan Duskryn, foi transferido para o alojamento da elite após seus ferimentos recentes.
 
-The chamber contains cushions laid out across floor mats, a small carved table with two chairs, and a sturdy zurkhwood chest.
+O aposento contém almofadas dispostas sobre esteiras no chão, uma pequena mesa entalhada com duas cadeiras e um baú robusto de madeira *zurkhwood*.
 
-Shoor spends most of his off-duty time in Ilvara's quarters, attending to his mistress or awaiting her. Unless you wish him to be found here, his quarters are unoccupied.
+Shoor passa a maior parte de seu tempo de folga nos aposentos de Ilvara, atendendo à sua mestra ou aguardando por ela. A menos que você queira que ele seja encontrado aqui, seus aposentos estão vazios.
 
-#### Trap
+#### Armadilha
 
-The chest is locked, and Shoor keeps the key in his belt pouch. The lock is trapped with a poison needle trap identical to the one in Ilvara's quarters.
+O baú está trancado, e Shoor guarda a chave na bolsa de seu cinto. A fechadura possui uma armadilha de agulha envenenada, idêntica àquela encontrada nos aposentos de Ilvara.
 
-#### Treasure
+#### Tesouro
 
-The table holds a pewter pitcher and a pair of matched goblets, worth a total of 1 gp.
+Sobre a mesa há uma jarra de estanho e um par de cálices combinando, com um valor total de 1 po.
 
-The chest contains Shoor's personal items and clothing, as well as a small purse containing 20 gp, a black velvet mask stitched with silver thread in a spiderweb pattern (worth 25 gp), a set of bone dice engraved with Elvish characters (worth 10 gp), a small black velvet bag containing a spider-shaped onyx brooch (worth 50 gp), and a flask of strong, syrupy blue liquor (worth 10 gp). The liquor leaves anyone who drinks it pleasantly poisoned for 1d4 hours.
+O baú contém os itens pessoais e as roupas de Shoor, bem como uma pequena bolsa com 20 po, uma máscara de veludo preto bordada com fio de prata em um padrão de teia de aranha (avaliada em 25 po), um conjunto de dados de osso gravados com caracteres élficos (avaliado em 10 po), uma pequena bolsa de veludo preto contendo um broche de ônix em formato de aranha (avaliado em 50 po) e um frasco de um licor azul forte e viscoso (avaliado em 10 po). O licor deixa quem o bebe agradavelmente intoxicado por 1d4 horas.
 
-### 9. Waterfall
+### 9. Cachoeira
 
-Water vents through a crack in the ceiling near the eastern wall between the stalactites of the priestess's tower and the guard tower, creating a small waterfall that pours down to the cavern floor and forms a natural pool (see area 14). Quaggoths gather small barrels of water from the head of the waterfall to serve the outpost's needs.
+A água jorra por uma fenda no teto, perto da parede leste e entre as estalactites da torre da sacerdotisa e da torre de guarda, criando uma pequena cachoeira que cai até o chão da caverna e forma uma piscina natural (veja a área 14). Quaggoths coletam pequenos barris de água na nascente da cachoeira para suprir as necessidades do posto avançado.
 
-The water makes the stone wall within 10 feet of it difficult to scale. Any creature attempting to do so has disadvantage on checks made to climb. Any character who falls lands in the pool below, taking no damage.
+A água torna a parede de pedra, num raio de 3 metros (10 pés) ao redor dela, difícil de escalar. Qualquer criatura que tente fazê-lo sofre desvantagem nos testes de escalada. Qualquer personagem que caia aterrissa na piscina abaixo, sem sofrer dano.
 
-### 10. Guard Tower
+### 10. Torre de Guarda
 
-The fourth hanging tower, connected by rope bridges to the slave pen and the walkway alongside the priestess's tower, serves as a guard tower for observing the cavern, the western passage, and the slave pen.
+A quarta torre suspensa — conectada por pontes de corda ao curral de escravos e à passarela ao lado da torre da sacerdotisa — serve como torre de guarda para observar a caverna, a passagem oeste e o curral de escravos. A câmara inferior da torre é ocupada por dois **drows** e um **guerreiro de elite drow** de guarda. Ela contém uma mesa de madeira *zurkhwood* e três cadeiras, uma mesa lateral menor e uma rede de teia de aranha equipada com ganchos para pendurar equipamentos.
 
-The lower chamber of the tower is occupied by two **drow** and one **drow elite warrior** on guard duty. It contains a zurkhwood table and three chairs, a smaller side table, and spider silk webbing set with hooks for hanging equipment.
+Assim como nos postos de observação, a guarda aqui é uma tarefa monótona, e os guardas geralmente estão distraídos o suficiente (conversando ou passando o tempo com jogos de dados) para que prisioneiros possam se mover ou agir sem serem notados, mediante um teste bem-sucedido de Destreza (Furtividade) disputado pelo valor passivo de Sabedoria (Percepção) dos guardas.
 
-As at the watch posts, guard duty here is a dull affair, and the guards are usually distracted enough (talking or passing the time with dice games) that prisoners can move or act unnoticed with a successful Dexterity (Stealth) check contested by the guards' passive Wisdom (Perception) score.
+A câmara superior da torre armazena armas e armaduras extras para o posto avançado. Personagens que conseguem entrar no arsenal podem saqueá-lo facilmente (veja "Tesouro").
 
-The tower's upper chamber stores extra arms and armor for the outpost. Characters who gain entrance to the armory can easily loot it (see "Treasure").
+#### Tesouro
 
-#### Treasure
+O conteúdo do arsenal inclui o seguinte:
 
-The contents of the armory include the following:
+- 6 camisas de malha
+- 6 conjuntos de armadura de couro batido
+- 6 escudos
+- 6 bestas de mão
+- 20 estojos de virotes para besta de mão, cada um contendo 20 virotes
+- 6 espadas curtas e 10 adagas
+- 6 sacos de abrolhos (20 abrolhos por saco)
+- 4 rolos de corda de seda com 30 metros (100 pés) de comprimento
+- 2 buimartelos de construção (inutilizáveis ​​como armas)
+- 2 sacos de estacas de ferro (10 estacas por saco)
 
-- 6 chain shirts
-- 6 suits of studded leather armor
-- 6 shields
-- 6 hand crossbows
-- 20 cases of hand crossbow bolts, each case containing 20 bolts
-- 6 shortswords and 10 daggers
-- 6 bags of caltrops (20 caltrops per bag)
-- 4 100-foot-long coils of silk rope
-- 2 building hammers (not usable as weapons)
-- 2 bags of iron spikes (10 spikes per bag)
+### 11. Cativeiro de Escravos
 
-### 11. Slave Pen
+Esta caverna foi construída para manter cativos até que sejam enviados a Menzoberranzan para serem vendidos como escravos.
 
-This cave is built to hold captives until they are sent to Menzoberranzan to be sold as slaves.
+O portão do cativeiro permanece trancado. Um personagem usando ferramentas de ladrão pode abrir a fechadura com um teste de Destreza (CD 20) bem-sucedido. Um personagem usando ferramentas improvisadas pode tentar o mesmo teste, mas com desvantagem. A tentativa de abrir a fechadura pode atrair a atenção dos guardas, exigindo um teste de Destreza (Furtividade) disputado pelo valor passivo de Sabedoria (Percepção) dos guardas para realizar a ação sem ser notado. Cada guarda de serviço nas outras áreas do posto avançado possui uma chave do portão pendurada em um anel no cinto. Quebrar a fechadura do portão e forçá-lo a abrir exige um teste de Força (CD 20) bem-sucedido.
 
-The gate to the slave pen is kept locked. A character using thieves' tools can pick the lock with a successful DC 20 Dexterity check. A character using makeshift tools can attempt the same check but has disadvantage. A lock-picking attempt might draw the attention of the guards, requiring a Dexterity (Stealth) check contested by the guards' passive Wisdom (Perception) score to carry it off without notice. Each of the guards on duty in the other areas of the outpost has a key to the gate hanging from a belt ring. Breaking the gate's lock and forcing it open requires a successful DC 20 Strength check.
+#### Proteções Mágicas
 
-#### Magical Wards
+Os drow colocaram proteções mágicas poderosas no cativeiro para inibir conjuradores e proteger a área contra tentativas de espionagem mágica (*scrying*).
 
-The drow have placed powerful wards on the slave pen to inhibit spellcasters and shield the area against scrying attempts.
+Magias conjuradas dentro do cativeiro não surtem efeito, e qualquer espaço de magia ou carga de item mágico gasto para conjurar tal magia é consumido. As proteções não suprimem nem anulam efeitos mágicos originados fora do cativeiro. Por exemplo, uma criatura sob o efeito da magia *invisibilidade* permanece invisível ao entrar no cativeiro.
 
-Spells cast within the slave pen have no effect, and any slot or magic item charge expended to cast such a spell is consumed. The wards don't suppress or negate spell effects that originate outside the slave pen. For example, a creature under the effect of an *invisibility* spell remains invisible when it enters the slave pen.
+Criaturas dentro do cativeiro não podem ser alvo de nenhuma magia de adivinhação nem ser percebidas por sensores mágicos de espionagem.
 
-Creatures inside the slave pen can't be targeted by any divination magic or perceived through magical scrying sensors.
+### 12. Covil dos Quaggoths
 
-### 12. Quaggoth Den
+Além do cativeiro e descendo uma escadaria de pedra, esta caverna serve de covil para a dúzia de quaggoths que servem aos drow de Velkynvelve. O interior está repleto de montes de detritos semelhantes a ninhos e ossos espalhados de refeições passadas dos quaggoths.
 
-Beyond the slave pen and down a set of stone steps, this cave is used as a den by the dozen quaggoths that serve the drow of Velkynvelve. The interior is littered with nest-like mounds of debris and the scattered bones of the quaggoths' past meals.
+Esses servos dos drow usam o covil apenas para dormir e comer, com 1d4 **quaggoths** descansando no local a qualquer momento. Os quaggoths atacam qualquer criatura que entre em seu covil e não seja um drow, uma aranha ou um de sua própria espécie. Eles não atacam quaggoths ou drow desconhecidos à primeira vista, mas conhecem todos os designados para o posto avançado e questionarão estranhos. Eles sabem que Derendil e Sarith são prisioneiros.
 
-These servants of the drow use the den only to sleep and eat, with 1d4 **quaggoths** resting here at any given time. The quaggoths attack any creature that comes into their den that isn't a drow, a spider, or one of their kind. They don't initially attack unknown quaggoths or drow on sight, but they know all those assigned to the outpost and will question strangers. Derendil and Sarith's status as prisoners is known to them.
+### 13. Posto de Guarda Norte
 
-### 13. Northern Watch Post
+Esta pequena reentrância, logo após e abaixo do covil dos quaggoths, possui as mesmas características do posto de guarda da área 1.
 
-This small alcove just past and below the quaggoth den has the same features as the watch post at area 1.
+Dois **drow** estão de guarda aqui; eles geralmente detestam essa função devido à proximidade com o covil dos quaggoths, o cercado de escravos e a piscina.
 
-Two **drow** are stationed here on watch, typically hating that duty for its proximity to the quaggoth den, the slave pen, and the pool.
+### 14. Piscina
 
-### 14. Pool
+A água que desce da cachoeira na área 9 forma uma piscina de 6 metros de profundidade antes de fluir para um rio subterrâneo, que percorre vários quilômetros antes de desaguar no Lago Sombrio (Darklake). Como os drow coletam a água de que precisam no topo da cachoeira, eles usam a piscina para descartar dejetos e lixo. Embora isso suje a superfície da piscina, o fluxo constante mantém a água abaixo da superfície limpa.
 
-Water pouring down from the waterfall at area 9 forms a 20-foot-deep pool before flowing out into an underground river that travels several miles before spilling into the Darklake. Since the drow take the water they need from the top of the waterfall, they use the pool to dump waste and garbage. Although this fouls the surface of the pool, the constant flow keeps the water beneath the surface clear.
+Uma **gosma cinzenta** (*gray ooze*) espreita nas partes rasas da piscina, camuflando-se perfeitamente com a pedra escura e úmida. Ela se alimenta dos dejetos descartados na piscina, bem como de alguma criatura ocasional que entra na caverna ou cai na água.
 
-A **gray ooze** lurks in the pool's shallows, blending perfectly with the dark, wet stone. It feeds on the waste dumped into the pool, along with the occasional creature that finds its way into the cavern or falls into the pool.
+Os habitantes de Velkynvelve não sabem que a recente chegada do senhor demoníaco Juiblex ao Subterrâneo (Underdark) tornou essa gosma particularmente agressiva e malevolente. Além de atacar qualquer criatura dentro da piscina, a gosma pode se projetar até 3 metros para fora da água para atacar criaturas na borda. Ao fazer isso, criaturas num raio de 9 metros da gosma ouvem telepaticamente uma voz gritar: "Carne para o Senhor Sem Rosto!"
 
-The inhabitants of Velkynvelve remain unaware that the recent arrival of the demon lord Juiblex in the Underdark has made this ooze particularly aggressive and malevolent. In addition to attacking any creature in the pool, the ooze surges up to 10 feet out of the pool to attack creatures at its edge. When it does so, creatures within 30 feet of the ooze telepathically sense a voice cry out, "Flesh for the Faceless Lord!"
+## Meios de Fuga
 
-## Means of Escape
+A menos que queiram passar o resto de suas vidas como escravos dos drow, os personagens devem começar rapidamente a procurar maneiras de escapar. Embora a tarefa não seja fácil, os personagens podem aproveitar certas oportunidades se usarem a cabeça. ### Aquisições
 
-Unless they want to spend the rest of their lives as drow slaves, the characters should quickly begin looking for ways they can escape. Though the task will not be easy, the characters can take advantage of certain opportunities if they use their heads.
+Um ou mais personagens podem ter itens úteis em sua posse (veja "Pertences Recuperados"), e trabalhar fora do recinto dos escravos cria novas oportunidades para os personagens adquirirem e esconderem pequenos itens, incluindo armas ou ferramentas improvisadas, ou até mesmo furtar a chave do recinto dos escravos de um guarda. O que eles podem adquirir depende do trabalho que realizam e de onde vão. Use a descrição dos diferentes locais do posto avançado como guia para identificar oportunidades. Pegar algo sem ser notado exige um teste bem-sucedido de Destreza (Prestidigitação) disputado por testes de Sabedoria (Percepção) de quaisquer observadores ativos, ou o uso do valor passivo de Sabedoria (Percepção) de um observador como a CD base. Um prisioneiro que falha no teste recebe a ordem de entregar o item, sob pena de morte.
 
-### Acquisitions
+Os equipamentos e tesouros que os personagens obtêm durante a fuga dependem de quanto do posto avançado eles conseguem explorar antes de escapar. Para alguns personagens, pode ser um desafio divertido escapar para o Subterrâneo (Underdark) com pouco mais do que a roupa do corpo. Para outros (incluindo conjuradores que precisam de grimórios ou componentes), considere colocar o equipamento capturado do grupo (normalmente nos aposentos de Ilvara) em um local alternativo caso o......personagens estejam determinados a escapar sem explorar todo o posto avançado, como os alojamentos da elite drow (área 4) ou o arsenal (área 10).
 
-One or more of the characters might have useful items in their possession (see "Scavenged Possessions"), and working outside the slave pen creates new opportunities for the characters to acquire and hide small items, including makeshift weapons or tools, or even lift a key to the slave pen from a guard. What they can acquire depends on the work they do and where they go. Use the description of the different locations throughout the outpost as a guide to opportunities. Taking something without being noticed requires a successful Dexterity (Sleight of Hand) check contested by the Wisdom (Perception) checks of any active observers, or using an observer's passive Wisdom (Perception) score as the base DC. A prisoner that fails the check is commanded to relinquish the item, on pain of death.
+### A Estratégia de Jorlan
 
-What equipment and treasures the characters claim during their escape depend on how much of the outpost they are able to explore before fleeing. For some characters, it might be a fun challenge to escape into the Underdark with little more than the clothes on their backs. For others (including spellcasters who need spellbooks or components), consider placing the party's captured equipment (normally in Ilvara's quarters) in an alternate location if the characters are intent on escaping without exploring all of the outpost, such as the elite drow barracks (area 4) or the armory (area 10).
+Após o contato inicial entre os aventureiros e os outros prisioneiros, Jorlan Duskryn providencia a entrega da comida aos prisioneiros durante seu turno de guarda. (Shoor adora atribuir a Jorlan tarefas tão servis). Enquanto está parado no portão do recinto dos escravos e passa as tigelas, ele murmura para o personagem mais próximo: "Se eu pudesse lhes dar um meio de escapar daqui, vocês o aceitariam?"
 
-### Jorlan's Gambit
+Se a resposta for afirmativa, Jorlan propõe, de forma rápida e discreta, deixar o portão do recinto dos escravos destrancado e criar uma distração durante a troca de turnos da guarda. Ele informa os personagens sobre o arsenal, localizado na câmara acima do posto de guarda, na torre de vigia suspensa em frente ao recinto dos escravos. Os fugitivos podem saltar para as teias abaixo e, em seguida, pular da borda para dentro da piscina, escapando a partir dali.
 
-When the initial contact between the adventurers and the other prisoners has been played out, Jorlan Duskryn arranges to bring the prisoners their food during his guard duty. (Shoor delights in giving Jorlan such menial work). Standing at the gate to the slave pen and passing in bowls, he mutters to the nearest character: "If I could give you a means to escape from here, would you take it?"
+Jorlan não se importa realmente se os prisioneiros conseguirem escapar; por isso, não oferece mais ajuda nem os avisa sobre a **gosma cinzenta** (*gray ooze*) na piscina. Para ele, é igualmente conveniente se os prisioneiros forem mortos durante a tentativa de fuga. Ele simplesmente quer criar uma situação embaraçosa para Shoor e Ilvara.
 
-If the answer is affirmative, Jorlan quickly and quietly proposes to leave the gate to the slave pen unlocked, as well as to create a distraction during the changing of the guards on duty. He tells the characters about the armory, located in the chamber above the guard post in the hanging guard tower in front of the slave pen. The escapees can jump down into the webs below, then over the edge into the pool, making their escape from there.
+Jorlan olha furtivamente ao redor enquanto fala rapidamente com os personagens. Se eles o questionarem ou pedirem alterações no plano, ele insiste que aquilo é tudo o que pode fazer. Se aceitarem, ele cumpre a palavra: deixa o portão destrancado perto da próxima troca de turno da guarda e atrasa a chegada dos guardas substitutos por alguns minutos.
 
-Jorlan doesn't particularly care if the prisoners actually escape, which is why he doesn't offer any further help or warn them about the **gray ooze** in the pool. It suits him just as well if the prisoners are killed during their attempt to flee. He simply wants to create an embarrassing incident for Shoor and Ilvara.
+### Uma Revoada de Demônios
 
-Jorlan furtively glances around as he speaks quickly to the characters. If they question him or ask for changes to the plan, he insists it is all he can do. If they accept, he is true to his word, leaving the gate unlocked close to the next guard shift change and delaying the replacement guards for a few minutes.
+Durante uma troca de guarda, os prisioneiros ouvem um zumbido monótono e horrível ecoando pela caverna, seguido por gritos inumanos. Buzinas de alarme soam enquanto quatro demônios **chasme** perseguem dois demônios **vrock** para dentro da caverna, vindos da passagem ao norte. Os demônios mergulham e zumbem pelo ar, ignorando inicialmente outras criaturas enquanto ambos os grupos se atacam ferozmente. A chegada dos demônios pega todos os drow de surpresa.
 
-### A Flight of Demons
+Os drow correm para defender o posto avançado de um possível ataque. Inicialmente, os demônios passam zumbindo pelas torres suspensas, deixando as passarelas e cavernas fora do alcance dos efeitos de seu zumbido e de seus guinchos estridentes. No entanto, os drow e quaggoths nas torres estão perto o suficiente para serem afetados. A batalha aérea acaba circulando a plataforma e as torres dos guerreiros de elite, enquanto os demônios se despedaçam violentamente.
 
-During a guard change, the prisoners hear a horrible droning buzz echoing through the cavern, followed by inhuman shrieking. Alarm horns sound out as four **chasme** demons pursue a pair of **vrock** demons into the cavern from the northern passage. The demons swoop and buzz around, initially ignoring other creatures as both groups savagely assault each other. The demons' arrival catches all of the drow off guard.
+Os drow avançam para enfrentar os demônios e defender o posto avançado, deixando os personagens com uma oportunidade de escapar. Você pode combinar esse evento com a oferta de Jorlan de deixar o portão destrancado, facilitando a fuga dos personagens. Alternativamente (ou se eles recusarem a oferta de Jorlan), os personagens podem aproveitar a distração para planejar sua própria fuga e, então, decidir como descer até o chão da caverna e para onde ir depois disso.
 
-The drow rush to defend the outpost from a possible attack. The demons initially buzz past the hanging towers, leaving the walkways and caverns out of range of the effects of their droning and screeching. However, drow and quaggoths in the towers are close enough to be affected. The aerial battle eventually circles around the platform and the towers of the elite warriors as the demons savagely tear into each other.
+Descreva o caos do ataque dos demônios e a reação dos drow enquanto os prisioneiros fugitivos tentam escapar. Os personagens podem seguir a sugestão de Jorlan de se deixar cair nas teias e depois mergulhar na piscina, possivelmente enfrentando uma ou duas **aranhas gigantes** e a **gosma cinzenta** (*gray ooze*) pelo caminho. Alternativamente, eles podem procurar outra maneira de descer. Alcançar o elevador exige passar pelos drow aglomerados na plataforma e tentar operá-lo durante o ataque, o que pode ser difícil.
 
-The drow move to engage the demons and defend the outpost, leaving the characters with an opportunity to escape. You can combine this event with Jorlan's offer to leave the gate unlocked, making it easy for the characters to slip away. Alternatively (or if they refuse Jorlan's offer), the characters can use the distraction to engineer their own breakout, then decide how to get down to the cavern floor and where to go after that.
+Se você quiser oferecer um desafio adicional aos personagens, um **vrock** cai quase na frente deles quando chegam ao chão da caverna ou se movem em direção à saída escolhida. O demônio está gravemente ferido, mas, mesmo com apenas 11 pontos de vida restantes e tendo gasto suas habilidades de esporos e guincho atordoante, ele ainda é bastante perigoso. Ele solta um guincho para os personagens, mas, se eles não fizerem nada para ameaçá-lo por 1 rodada, o demônio levanta voo e se lança de volta à luta lá no alto.
 
-Describe the chaos of the demon attack and the drow's response as the escaped prisoners try to flee. The characters can follow Jorlan's suggestion to drop into the webs and then dive into the pool, possibly dealing with a **giant spider** or two and the **gray ooze** along the way. Alternatively, they can look for another way down. Reaching the lift requires getting past the drow clustered on the platform and then attempting to operate it during the attack, which might prove difficult.
+Se os aventureiros enfrentarem o vrock caído e o derrotarem ou escaparem dele, conceda-lhes um quarto de seu valor normal de XP, ou 575 XP, dado o seu estado enfraquecido.
 
-If you want to provide an additional challenge for the characters, a **vrock** tumbles almost in front of them as they reach the cavern floor or move toward their chosen exit. The demon is badly wounded, but even with only 11 hit points remaining and having expended its spores and stunning screech abilities, it is still quite dangerous. It screeches at the characters, but if they do nothing to threaten it for 1 round, the demon takes wing and launches itself back into the fight overhead.
+Se Jorlan estiver vivo quando os demônios atacarem, ele poderá aproveitar a distração para libertar os prisioneiros (conforme descrito em "A Aposta de Jorlan"). Qualquer personagem que pergunte a Jorlan sobre os demônios receberá uma resposta severa: "Os demônios não são obra minha. Enfrentem-nos por sua conta e risco." ## Saindo de Velkynvelve
 
-If the adventurers take on the fallen vrock and defeat or escape from it, award them a quarter of its usual XP value, or 575 XP, given its weakened state.
+Os personagens têm três opções para sair de Velkynvelve: as passagens norte, oeste e sul.
 
-If Jorlan is alive when the demons attack, he might use the distraction to free the prisoners (as described in "Jorlan's Gambit"). Any character who asks Jorlan about the demons gets a stern reply: "The demons are not my doing. Fight them at your own risk."
+### Passagem Norte
 
-## Leaving Velkynvelve
+Ela leva em direção a Menzoberranzan (veja o capítulo 15) e, eventualmente, a Blingdenstone (veja o capítulo 6). A maioria dos companheiros de prisão dos personagens desaconselha seguir viagem rumo à cidade drow, e os gnomos das profundezas sugerem Blingdenstone como uma rota de saída do Subterrâneo. O grupo também pode seguir um caminho indireto para o oeste, em direção ao Lago Sombrio (veja o capítulo 3).
 
-The characters have three choices for leaving Velkynvelve: the north, west, and south passages.
+### Passagem Oeste
 
-### North Passage
+Ela leva mais diretamente ao Lago Sombrio (veja o capítulo 3), embora o grupo possa, mais tarde, desviar para o sul em direção a Gracklstugh (veja o capítulo 4).
 
-This leads toward Menzoberranzan (see chapter 15) and, eventually, Blingdenstone (see chapter 6). Most of the characters' fellow prisoners discourage travel toward the drow city, and the deep gnomes suggest Blingdenstone as a route out of the Underdark. The party can also follow a circuitous route westward toward the Darklake (see chapter 3).
+### Passagem Sul
+O caminho leva à cidade duergar de Gracklstugh (veja o capítulo 4), seguindo uma rota para o sudoeste. Os personagens podem precisar passar por baixo dos demônios que se enfrentam, mas o chão da caverna está bem fora do alcance do zumbido e dos guinchos das criaturas. Os demônios travados em combate ignoram os prisioneiros em fuga, com a possível exceção de um vrock caído (veja "Um Voo de Demônios").
 
-### West Passage
+Independentemente da rota escolhida pelos personagens, o capítulo 2 aborda a travessia deles pelo Subterrâneo em direção ao seu destino final.
 
-This leads most directly toward the Darklake (see chapter 3), although the party could eventually veer south toward Gracklstugh (see chapter 4).
+## Recompensas de XP
 
-### South Passage
-
-This leads toward the duergar city of Gracklstugh (see chapter 4), following a south-westerly route. Characters might need to pass under the battling demons, but the cavern floor is well out of range of their droning and screeching. The demons locked in combat ignore the escaping prisoners, with the possible exception of a fallen vrock (see "A Flight of Demons").
-
-Whichever route the characters take, chapter 2 covers their passage through the Underdark toward their eventual destination.
-
-## XP Awards
-
-In addition to the XP awards earned for overcoming the creatures in this chapter, escaping from Velkynvelve earns the characters a special award of 150 XP (divided equally among all party members).
+Além dos pontos de experiência (XP) obtidos ao vencer as criaturas deste capítulo, escapar de Velkynvelve rende aos personagens uma recompensa especial de 150 XP (dividida igualmente entre todos os membros do grupo).
