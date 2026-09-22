@@ -3,34 +3,67 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Munição (Dado de Munição)</title>
+<title>Crafting Improvisado</title>
 <link rel="stylesheet" href="../css/campanha.css">
 </head>
 <body>
 
 <div class="site-wrapper">
-<header class="site-header" data-site-header></header>
+  <header class="site-header" data-site-header></header>
 
-<main class="site-main secao">
-<div class="container content-layout">
+  <main class="site-main secao">
+    <div class="container content-layout-sembarra ">
 
-<article class="prosa">
-  <div class="page-header">
-    <span class="badge">Regra · Giffyglyph</span>
-    <h1>Crafting Improvisado</h1>
-  </div>
+      <article class="prosa">
+        <div class="page-header">
+          <span class="badge">Regra · Giffyglyph</span>
+          <h1>Crafting Improvisado</h1>
+          <p>Sem ferreiros, sem lojas, sem tempo de sobra — os personagens usam materiais genéricos encontrados no Underdark (pedra, osso, quitina, fungo endurecido) pra criar versões improvisadas de itens comuns. Mesma função, qualidade inferior. </p>
+        </div>
 
+<table class="tabela">
+    <thead><tr> <th>Atributo</th> <th>Formula</th> <th>Arredondamento</th> </tr></thead>
+    <tbody>
+      <tr> <td>Bulk</td> <td>Valor normal * 1,25</td> <td>Pra cima</td> </tr>
+      <tr> <td>Notches até quebrar</td> <td>Valor normal * 0,75</td> <td>Pra baixo</td> </tr>
+    </tbody>
+</table>
 
+<h2>Sobre dano</h2>
+<p>O dano sempre igual ao item padrão equivalente — o improviso não piora o que o item faz, só sua durabilidade e peso.</p>
 
+  <table class="tabela">
+    <thead><tr> <th>Item</th> <th>Bulk</th> <th>Notches (Robusto)</th> </tr></thead>
+    <tbody>
+      <tr> <td>Machado comprado</td> <td>2</td> <td>10</td> </tr>
+      <tr> <td>Machado de Pedra (improvisado)</td> <td>3</td> <td>7</td> </tr>
+    </tbody>
+  </table>
+    <h2>Processo de Criação</h2>
+    <ul>
+    <li>Tempo: minutos a horas (não dias) — defina caso a caso, algo como 10min-1h de trabalho manual</li>
+    <li>Teste: perícia relevante (Sobrevivência, Arcana, ou ferramenta improvisada tipo Smith's/Woodcarver's kit) + DC definida pelo mestre no momento</li>
+    <li>Material: só precisa "ter à mão" algo genericamente adequado (não precisa procurar material raro específico) — reforça o tom de improviso/sobrevivência, não de artesanato refinado</li>
+    </ul>
+
+    <h2>Casos Especiais</h2>
+    <p>Itens Delicados (1 notch original) não recebem a fórmula — já são frágeis o suficiente, tratar como "improvisado por natureza".</p>
+    <p>Itens Indestrutíveis (100+) também ficam fora da fórmula — presume-se que sejam feitos de material que já é naturalmente resistente demais pra esse tipo de degradação simples.</p>
+    <p>A fórmula se aplica apenas a Bulk e Notches — não altera dano, alcance, propriedades especiais do item, nem categoria de proficiência necessária pra usá-lo.</p>
+
+<!-- 
 <aside class="painel sidebar">
   <div class="painel-titulo">Referência Rápida</div>
   <div class="info-item"><span class="info-label">Fonte</span><span class="info-value">Giffyglyph — Darker Dungeons</span></div>
   <div class="info-item"><span class="info-label">Ex1</span><span class="info-value">Descrição do exemplo 1</span></div>
   <div class="info-item"><span class="info-label">Ex2</span><span class="badge badge-destaque">Descrição do exemplo 2</span></div>
-</aside>
+</aside> -->
+
+
 
 </div>
 </main>
+
 
 <footer class="site-footer" data-site-footer></footer>
 </div>

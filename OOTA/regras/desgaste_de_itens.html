@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Munição (Dado de Munição)</title>
+<title>Desgaste de Itens</title>
 <link rel="stylesheet" href="../css/campanha.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
 <header class="site-header" data-site-header></header>
 
 <main class="site-main secao">
-<div class="container content-layout">
+<div class="container content-layout-sembarra ">
 
 <article class="prosa">
   <div class="page-header">
@@ -27,14 +27,39 @@
   <li>Falha crítica em teste usando item genérico → 1 notch</li>
 
   <h2>Efeito dos Notch</h2>
+  <table class="tabela">
+    <thead><tr> <th>Tipo de item</th> <th>Efeito</th> </tr>
+    </thead>
+    <tbody>
+      <tr> <td>Armadura</td> <td>−1 CA (cumulativo)</td> </tr>
+      <tr> <td>Arma</td> <td>Degrada o dado de dano um degrau (1d12→1d10→1d8→1d6→1d4→1, mín. 1)</td> </tr>
+      <tr> <td>Foco de conjuração</td> <td>−1 na habilidade de conjuração ao usar esse foco</td> </tr>
+      <tr> <td>Item diverso</td> <td>−1 cumulativo nos usos do item</td> </tr>
+    </tbody>
+  </table>
 
+  <h2>Reparo</h2>
+  <p><b>Quando um item quebra:</b> não pode mais ser usado até reparo.</p>
+<table class="tabela">
+    <thead><tr> <th>Fragilidade</th> <th>Descrição</th> <th>Notches até quebrar</th> </tr></thead>
+    <tbody>
+      <tr> <td>Delicado</td> <td>Vidro fino, cerâmica, mecanismos pequenos/complexos</td> <td>1</td> </tr>
+      <tr> <td>Robusto</td> <td>Madeira, metal, itens bem-feitos (a maioria de armas/armaduras)</td> <td>10</td> </tr>
+      <tr> <td>Indestrutível</td> <td>Pedra espessa, metais muito resistentes</td> <td>100+</td> </tr>
+    </tbody>
+  </table>
 
-<aside class="painel sidebar">
+<!-- <aside class="painel sidebar">
   <div class="painel-titulo">Referência Rápida</div>
   <div class="info-item"><span class="info-label">Fonte</span><span class="info-value">Giffyglyph — Darker Dungeons</span></div>
   <div class="info-item"><span class="info-label">Gatilho de queda</span><span class="info-value">Rolar 1 ou 2</span></div>
   <div class="info-item"><span class="info-label">Status</span><span class="badge badge-destaque">Ativo nesta campanha</span></div>
-</aside>
+</aside> -->
+
+
+
+
+
 
 </div>
 </main>

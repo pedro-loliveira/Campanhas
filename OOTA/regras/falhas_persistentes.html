@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Munição (Dado de Munição)</title>
+<title>Falhas Persistentes</title>
 <link rel="stylesheet" href="../css/campanha.css">
 </head>
 <body>
@@ -20,14 +20,40 @@
     <h1>Falhas Persistentes</h1>
   </div>
 
+<p>Gatilho: Ao cair a 0 HP, ganha a condição Morrendo:</p>
+<ul>
+  <li>Solta o que estiver segurando, cai prostrado</li>
+  <li>Não pode se mover, agir ou usar reações</li>
+  <li>Percebe o que acontece num raio de 15ft</li>
+  <li>Pode falar no máximo 2 palavras por rodada</li>
+  <li>Ataques contra você têm vantagem</li>
+  <li>Falha automaticamente em testes de resistência de FOR/DES</li>
+  <li>Deve fazer um teste de resistência de morte no início do seu turno</li>
+</ul>
+<br>
+<table class="tabela">
+    <thead><tr> <th>Resultado</th> <th>Efeito</th> </tr></thead>
+    <tbody>
+      <tr> <td>1</td> <td>Falha dupla (2 falhas de uma vez)</td> </tr>
+      <tr> <td>2-9</td> <td>Falha simples (1 falha)</td> </tr>
+      <tr> <td>10-19</td> <td>Nada acontece</td> </tr>
+      <tr> <td>20</td> <td>Recupera 1 HP, condição termina</td> </tr>
+    </tbody>
+  </table>
+<br>
+
+<p>Falhas persistentes: Não resetam em descanso curto — só recupera 1 falha por descanso longo completo. Ou seja, se você 
+ficou com 2 falhas acumuladas numa sessão, ainda carrega esse risco pra próxima aventura até descansar direito.</p>
+
+<p>Dano enquanto Morrendo: Qualquer ataque que te acerte enquanto caído = 1 falha automática.</p>
 
 
-<aside class="painel sidebar">
+<!-- <aside class="painel sidebar">
   <div class="painel-titulo">Referência Rápida</div>
   <div class="info-item"><span class="info-label">Fonte</span><span class="info-value">Giffyglyph — Darker Dungeons</span></div>
   <div class="info-item"><span class="info-label">Ex1</span><span class="info-value">Descrição do exemplo 1</span></div>
   <div class="info-item"><span class="info-label">Ex2</span><span class="badge badge-destaque">Descrição do exemplo 2</span></div>
-</aside>
+</aside> -->
 
 </div>
 </main>
