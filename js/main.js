@@ -27,6 +27,8 @@
             ["Regras", "regras/", "Regras especiais, sistemas e informações utilizadas na campanha."]
         ];
 
+        const todas = new URL("../index.html", C.raiz).href;   // página inicial com todas as campanhas
+
         const aqui = location.pathname.replace(/\/$/, "/index.html");
         const menu = (C.menu || MENU_PADRAO).map(([nome, caminho, desc]) => {
             const url = new URL(caminho, C.raiz);
@@ -44,11 +46,12 @@
 
         montar("[data-site-header]", `
             <div class="container header-content">
-                <a href="${C.raiz}index.html" class="site-logo">${C.nome}</a>
+                <a href="${C.raiz}index.html" class="site-logo">${C.abreviacao}</a>
                 <nav class="main-nav" data-menu aria-label="Navegação da campanha">${links}</nav>
                 <div class="header-acoes">
+                    <a href="${todas}" class="btn btn-pequeno">Campanhas</a>
                     <button type="button" class="btn btn-pequeno" data-tema-toggle aria-label="Alternar tema">◐</button>
-                    <a href="${new URL("../index.html", C.raiz).href}" class="btn btn-pequeno">Campanhas</a> 
+                    <button type="button" class="btn btn-pequeno menu-toggle" data-menu-toggle aria-expanded="false" aria-label="Abrir menu de seções">☰</button>
                 </div>
             </div>`);
 
@@ -56,8 +59,7 @@
             <div class="container">
                 <div class="footer-content">
                     <div><h3>${C.nome}</h3><p>${C.slogan || ""}</p></div>
-                   
-                    <div><h3>Campanhas do Pero</h3><p><a href="${new URL("../index.html", C.raiz).href}">Todas as campanhas</a></p></div>
+                    <div><h3>Campanhas do Pero</h3><p><a href="${todas}">Todas as campanhas</a></p></div>
                 </div>
                 <div class="footer-bottom"><p>© ${ano} ${C.nome}.</p></div>
             </div>`);
