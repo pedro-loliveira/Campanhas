@@ -21,6 +21,9 @@
     --raio: 8px;
     --transicao: 200ms ease;
     --largura: 1200px;
+
+    --cor-overlay: 0 0 0;       /* preto, em "R G B" sem vírgulas */
+
 }
 
 body.light-theme {
@@ -34,6 +37,8 @@ body.light-theme {
     --cor-titulo: #17191d;
     --cor-destaque: #9a7227;
     --cor-destaque-texto: #ffffff;
+    --cor-overlay: 255 255 255; /* branco */
+
 }
 
 /* reset */

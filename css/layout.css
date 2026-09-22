@@ -23,7 +23,7 @@
 
 /* hero (com ou sem imagem de fundo) */
 .hero {
-    position: relative; min-height: 450px;
+    position: relative; min-height: 600px;
     display: flex; align-items: center; overflow: hidden;
     border-bottom: 1px solid var(--cor-borda);
     background:
@@ -33,9 +33,10 @@
 .hero-background { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .hero:has(.hero-background)::after {
     content: ""; position: absolute; inset: 0;
-    background: linear-gradient(90deg, rgb(0 0 0 / .9), rgb(0 0 0 / .1));
+    background: linear-gradient(90deg, rgb(var(--cor-overlay) / .9), rgb(var(--cor-overlay) / .1));
 }
-.hero:has(.hero-background) :is(h1, p) { color: #fff; }
+.hero:has(.hero-background) .hero-titulo { color: var(--cor-titulo); }
+.hero:has(.hero-background) .hero-subtitulo { color: var(--cor-texto-secundario); }
 .hero-content { position: relative; z-index: 1; max-width: 700px; padding: 60px 0; }
 .hero-titulo { margin: .75rem 0 1rem; }
 .hero-subtitulo { max-width: 650px; margin-bottom: 1.5rem; font-size: 1.1rem; color: var(--cor-texto-secundario); }
