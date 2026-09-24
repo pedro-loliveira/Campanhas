@@ -72,6 +72,7 @@ blockquote {
     background: var(--cor-card); color: var(--cor-texto-secundario);
     border-left: 3px solid var(--cor-destaque);
 }
+
 ::selection { background: var(--cor-destaque); color: var(--cor-destaque-texto); }
 :focus-visible { outline: 2px solid var(--cor-destaque); outline-offset: 3px; }
 

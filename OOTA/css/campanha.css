@@ -7,12 +7,14 @@
 
 /* Fonte própria (opcional): coloque o @import do Google Fonts logo acima e use o nome em --fonte-titulo. */
 
+  /* cor de fundo do bloco de conversa */
+
 /* tema escuro */
 :root {
     --cor-destaque: #5ab9ca;
     --cor-destaque-texto: #ffffff;
     --fonte-titulo: Georgia, "Times New Roman", serif;
-
+    --cor-conversation: #fffb1f; 
     /* opcionais: --cor-fundo, --cor-fundo-secundario, --cor-card, --cor-borda ... */
 }
 
@@ -21,6 +23,11 @@ body.light-theme {
     --cor-destaque: #1b646e;
     --cor-destaque-texto: #ffffff;
 
+}
+blockquote.conversation {
+    margin: 1.5rem 0; padding: 1rem 1.5rem;
+    background: var(--cor-card); color: var(--cor-texto-secundario);
+    border-left: 3px solid var(--cor-conversation);
 }
 
 .hero { min-height: 600px; }                   /* o padrão é 450px */
