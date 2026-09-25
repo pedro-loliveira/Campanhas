@@ -26,6 +26,14 @@
 .badge-destaque { background: var(--cor-destaque); border-color: var(--cor-destaque); color: var(--cor-destaque-texto); }
 .badge-perigo { background: var(--cor-perigo); border-color: var(--cor-perigo); color: #fff; }
 
+/* divisor gradiente*/
+.divider-gradient {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--cor-destaque), transparent);
+  margin: 24px 0;
+}
+
 /* card */
 .card {
     display: flex; flex-direction: column; overflow: hidden;
