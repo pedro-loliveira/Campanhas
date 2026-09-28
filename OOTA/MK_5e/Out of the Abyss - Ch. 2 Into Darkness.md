@@ -5,9 +5,6 @@ Once the adventurers escape from Velkynvelve, they'll want to escape the Underda
 This chapter presents guidelines for the characters' travels between the various Underdark locales detailed in the other chapters of *Out of the Abyss*. Specific areas (including the Darklake region in chapter 3) offer modifications to these guidelines to suit those areas' particular qualities. This chapter also offers guidelines for the drow pursuit of the escaped prisoners, along with additional encounters you can place along the adventurers' route as they travel.
 
 ## Where to Go?
-
-![](img/adventure/OotA/007-ooa02-01.webp)
-
 The players' first question upon escaping from Velkynvelve is likely, "Where do we go next?" The adventurers must find a way out of the Underdark and back to the surface world. Their NPC companions have destinations of their own in mind, and are the ones best able to navigate the subterranean realms. As such, the adventurers will be dependent on their guidance. The NPCs can offer directions and suggestions as follows:
 
 - **Buppido** knows how to reach Gracklstugh from the southern route out of Velkynvelve. He can also find a route to Gracklstugh from the Darklake. **Buppido** urges the characters to go to Gracklstugh to acquire better equipment, and out of a desire to return to his people. He also intends to murder the characters one by one along the way, believing them to be divine offerings delivered into his hands.
