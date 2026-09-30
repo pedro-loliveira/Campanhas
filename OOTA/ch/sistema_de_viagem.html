@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Underdark</title>
+    <link rel="stylesheet" href="../css/campanha.css" />
+</head>
+
+<body>
+    <!-- MODELO DE PÁGINA DE ITEM (personagem, local, facção, criatura, regra, sessão).
+     Copie para <seção>/nome.html. Os caminhos já estão para UMA pasta de profundidade. -->
+    <div class="site-wrapper">
+
+        <header class="site-header" data-site-header></header>
+
+        <main class="site-main secao">
+            <div class="container content-layout-sembarra">
+                <article class="prosa">
+                    <div class="page-header">
+                    </div>
+
+                    <style>
+                        /* Exemplo de estilo — migrar para components.css depois */
+                        .node-grid {
+                            display: grid;
+                            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+                            gap: 16px;
+                            margin: 20px 0;
+                        }
+
+                        .node-card {
+                            border-radius: 10px;
+                            padding: 14px 16px;
+                            background: rgba(255, 255, 255, 0.03);
+                            border-left: 5px solid var(--node-color, #888);
+                            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+                        }
+
+                        .node-card .node-title {
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+                            font-weight: bold;
+                            color: var(--node-color, #ccc);
+                            margin-bottom: 6px;
+                            font-size: 1.05em;
+                        }
+
+                        .node-card .node-shape {
+                            display: inline-block;
+                            width: 16px;
+                            height: 16px;
+                            background: var(--node-color, #888);
+                            flex-shrink: 0;
+                        }
+
+                        .shape-square {
+                            border-radius: 3px;
+                        }
+
+                        .shape-circle {
+                            border-radius: 50%;
+                        }
+
+                        .shape-diamond {
+                            transform: rotate(45deg);
+                        }
+
+                        .shape-octagon {
+                            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+                        }
+
+                        .shape-star {
+                            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+                        }
+
+                        .shape-triangle {
+                            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+                        }
+
+                        .node-card .node-desc {
+                            font-size: 0.92em;
+                            opacity: 0.85;
+                        }
+
+                        .node-tag {
+                            display: inline-block;
+                            font-size: 0.75em;
+                            padding: 2px 8px;
+                            border-radius: 999px;
+                            background: var(--node-color, #888);
+                            color: #111;
+                            font-weight: bold;
+                            margin-top: 6px;
+                        }
+                    </style>
+
+                    <h3>Sistema de Travessia: Fluxograma de Nós</h3>
+                    <br>
+
+                    <p>
+                        Registro das decisões de design para o sistema que substitui a travessia tradicional do
+                        Underdark por um
+                        fluxograma de nós narrativos, inspirado em roguelikes de sala-a-sala (The Binding of Isaac,
+                        Hades). Cada rota
+                        de fuga de Velkynvelve vira uma sequência de nós conectados, com bifurcações reais de escolha do
+                        jogador.
+                    </p>
+
+                    <hr class="divider-gradient">
+
+                    <h4>Conceito Geral</h4>
+                    <p>
+                        Em vez de simular a distância real do hex map (1 hex = 24 milhas), cada rota entre pontos
+                        importantes da
+                        campanha (ex: Velkynvelve → Gracklstugh) é representada como um fluxograma. Cada nó é um evento,
+                        decisão ou
+                        marco de viagem. O jogador não vê o fluxograma completo — apenas o próximo nó e, às vezes,
+                        pistas vagas dadas
+                        por NPCs guias sobre o que pode vir a seguir.
+                    </p>
+                    <p>
+                        Como a mesa usa regras estilo GRIT (dano permanente ao zerar HP por certos ataques), o sistema
+                        precisa
+                        identificar visualmente, nos meus próprios registros de mestre, quais nós carregam esse risco —
+                        daí a
+                        necessidade de formatos e tags específicas para nós de boss/elite, não só cor.
+                    </p>
+
+                    <hr class="divider-gradient">
+
+                    <h4>Tipos de Nó (exemplo, não definitivo)</h4>
+
+                    <div class="node-grid">
+
+                        <div class="node-card" style="--node-color:#dc2626;">
+                            <div class="node-title"><span class="node-shape shape-square"></span> Combate</div>
+                            <div class="node-desc">Encontro hostil comum. Patrulha drow, monstro isolado do Underdark.
+                            </div>
+                            <span class="node-tag">Vermelho · Quadrado</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#7f1d1d;">
+                            <div class="node-title"><span class="node-shape shape-star"></span> Boss / Elite</div>
+                            <div class="node-desc">
+                                Encontro com criatura de ameaça elevada.
+                                Criatura pode causar lesão permanente. Formato distinto para
+                                deixar claro, nos
+                                meus registros, que esse nó carrega risco de dano permanente.
+                            </div>
+                            <span class="node-tag">Vermelho-escuro · Octógono</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#b91c1c;">
+                            <div class="node-title"><span class="node-shape shape-triangle"></span> Armadilha</div>
+                            <div class="node-desc">
+                                Perigo não-criatura: fosso, gás, mecanismo drow, fungo explosivo. Separado do "perigo
+                                ambiental" comum
+                                porque costuma exigir teste de Percepção/Investigação prévio, e não é encontro reativo.
+                            </div>
+                            <span class="node-tag">Vermelho-alaranjado · Triângulo</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#6b7280;">
+                            <div class="node-title"><span class="node-shape shape-square"></span> Perigo Ambiental</div>
+                            <div class="node-desc">Dano ou condição do próprio ambiente, sem inimigo ativo: fungo
+                                tóxico, colapso, rio.</div>
+                            <span class="node-tag">Cinza · Quadrado</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#16a34a;">
+                            <div class="node-title"><span class="node-shape shape-square"></span> Recurso</div>
+                            <div class="node-desc">Comida, água, materiais úteis para a travessia. Consumível, não
+                                permanente.</div>
+                            <span class="node-tag">Verde · Quadrado</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#facc15;">
+                            <div class="node-title"><span class="node-shape shape-circle"></span> Tesouro</div>
+                            <div class="node-desc">Item de valor, equipamento ou magia. Recompensa permanente, não um
+                                recurso consumido em viagem.</div>
+                            <span class="node-tag">Dourado · Círculo</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#0ea5e9;">
+                            <div class="node-title"><span class="node-shape shape-circle"></span> Descanso / Santuário
+                            </div>
+                            <div class="node-desc">Ponto seguro para recuperar HP, remover exaustão ou fazer descanso
+                                longo sem risco de encontro.</div>
+                            <span class="node-tag">Azul-claro · Círculo</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#2563eb;">
+                            <div class="node-title"><span class="node-shape shape-circle"></span> Informação / NPC</div>
+                            <div class="node-desc">Encontro não-hostil com viajante, ruína ou lenda local. Pode revelar
+                                pistas sobre nós futuros.</div>
+                            <span class="node-tag">Azul · Círculo</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#ca8a04;">
+                            <div class="node-title"><span class="node-shape shape-diamond"></span> Decisão</div>
+                            <div class="node-desc">Bifurcação de caminho ou escolha moral, com pelo menos duas saídas
+                                distintas.</div>
+                            <span class="node-tag">Amarelo · Losango</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#9333ea;">
+                            <div class="node-title"><span class="node-shape shape-square"></span> Evento de Facção</div>
+                            <div class="node-desc">Disputa política, patrulha de outra raça, negociação com grupo
+                                organizado.</div>
+                            <span class="node-tag">Roxo · Quadrado</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#f59e0b;">
+                            <div class="node-title"><span class="node-shape shape-star"></span> Convergência</div>
+                            <div class="node-desc">Ponto onde vários caminhos diferentes se reencontram, controlando o
+                                crescimento do fluxograma.</div>
+                            <span class="node-tag">Dourado · Estrela</span>
+                        </div>
+
+                        <div class="node-card" style="--node-color:#475569;">
+                            <div class="node-title"><span class="node-shape shape-circle"></span> Segredo</div>
+                            <div class="node-desc">Nó oculto, só acessível com teste específico ou escolha anterior
+                                correta. Não aparece no "menu" normal de opções.</div>
+                            <span class="node-tag">Cinza-azulado · Círculo tracejado*</span>
+                        </div>
+
+                    </div>
+                    <p style="font-size:0.85em; opacity:0.7;">*Tracejado é só indicação textual aqui; no CSS real dá pra
+                        usar <code>border: 2px dashed</code>.</p>
+
+                    <hr class="divider-gradient">
+
+                    <h4>Sobre Recompensas (nem todo nó precisa ter uma)</h4>
+                    <p>
+                        Como em Isaac/Hades, nem toda sala precisa oferecer algo — isso é o que torna as recompensas
+                        significativas.
+                        Ideia de proporção para um trecho de 5-6 nós:
+                    </p>
+                    <ul>
+                        <li>1 nó de combate ou boss (nem toda rota precisa ter boss)</li>
+                        <li>1 a 2 nós neutros (informação, decisão, ambiente)</li>
+                        <li>0 a 1 nó de recurso ou tesouro (não todo trecho tem)</li>
+                        <li>0 a 1 nó de descanso (mais raro, funciona como "checkpoint")</li>
+                    </ul>
+                    <p>
+                        Nós de boss/elite podem, opcionalmente, garantir um tesouro maior logo em seguida como
+                        recompensa de risco —
+                        assim como em Hades, onde a sala mais perigosa costuma ter a melhor recompensa visível antes de
+                        entrar.
+                    </p>
+
+                    <hr class="divider-gradient">
+
+                    <h4>Diferenciação entre Rotas (exemplo)</h4>
+                    <ul>
+                        <li><strong>Passagem Sul (Gracklstugh):</strong> rota curta e direta, menos nós de decisão, mais
+                            nós de combate
+                            que de boss — rota "rápida e arriscada, mas sem grande clímax".</li>
+                        <li><strong>Passagem Oeste (Sloobludop / Lago Sombrio):</strong> duração média, mais nós de
+                            recurso e
+                            informação, com talvez 1 nó de boss ligado à travessia do lago.</li>
+                        <li><strong>Passagem Norte (Menzoberranzan / Blingdenstone):</strong> rota mais longa, maior
+                            densidade de
+                            combate e evento de facção, e o único trecho com chance real de mais de um nó de boss/elite.
+                        </li>
+                    </ul>
+
+                    <hr class="divider-gradient">
+
+                    <h4>Regras de Bastidor (para mim, mestre)</h4>
+                    <ul>
+                        <li>O fluxograma completo não é mostrado aos jogadores — apenas o nó atual e pistas vagas de
+                            NPCs guias.</li>
+                        <li>Todo nó de combate ou boss precisa ter uma saída além do confronto direto (fuga, negociação,
+                            furtividade),
+                            mesmo que arriscada.</li>
+                        <li>Nó de boss/elite deve ser sinalizado de forma clara nos meus registros (formato octógono)
+                            para eu lembrar
+                            de aplicar a regra de lesão permanente ao zerar o HP de um jogador nesse encontro
+                            específico.</li>
+                        <li>Um "medidor de perseguição" pode subir a cada nó em que o grupo gastar tempo demais ou fizer
+                            barulho,
+                            aumentando a chance de nós vermelhos/boss aparecerem mais à frente.</li>
+                    </ul>
+
+                    <hr class="divider-gradient">
+
+                    <h4>Próximos Passos</h4>
+                    <p>
+                        Base conceitual pronta. As rotas específicas (Sul, Oeste, Norte), com nós, dias de viagem e
+                        conteúdo real de
+                        cada evento — incluindo onde exatamente entra um boss como o troll — serão desenvolvidas
+                        separadamente, uma
+                        rota por vez.
+                    </p>
+
+        </main>
+
+        <footer class="site-footer" data-site-footer></footer>
+    </div>
+
+    <script src="../campanha.js"></script>
+    <script src="../../js/main.js"></script>
+</body>
+
+</html>
