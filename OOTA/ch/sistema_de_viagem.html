@@ -22,79 +22,7 @@
                     </div>
 
                     <style>
-                        /* Exemplo de estilo — migrar para components.css depois */
-                        .node-grid {
-                            display: grid;
-                            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-                            gap: 16px;
-                            margin: 20px 0;
-                        }
 
-                        .node-card {
-                            border-radius: 10px;
-                            padding: 14px 16px;
-                            background: rgba(255, 255, 255, 0.03);
-                            border-left: 5px solid var(--node-color, #888);
-                            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-                        }
-
-                        .node-card .node-title {
-                            display: flex;
-                            align-items: center;
-                            gap: 8px;
-                            font-weight: bold;
-                            color: var(--node-color, #ccc);
-                            margin-bottom: 6px;
-                            font-size: 1.05em;
-                        }
-
-                        .node-card .node-shape {
-                            display: inline-block;
-                            width: 16px;
-                            height: 16px;
-                            background: var(--node-color, #888);
-                            flex-shrink: 0;
-                        }
-
-                        .shape-square {
-                            border-radius: 3px;
-                        }
-
-                        .shape-circle {
-                            border-radius: 50%;
-                        }
-
-                        .shape-diamond {
-                            transform: rotate(45deg);
-                        }
-
-                        .shape-octagon {
-                            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-                        }
-
-                        .shape-star {
-                            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-                        }
-
-                        .shape-triangle {
-                            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-                        }
-
-                        .node-card .node-desc {
-                            font-size: 0.92em;
-                            opacity: 0.85;
-                        }
-
-                        .node-tag {
-                            display: inline-block;
-                            font-size: 0.75em;
-                            padding: 2px 8px;
-                            border-radius: 999px;
-                            background: var(--node-color, #888);
-                            color: #111;
-                            font-weight: bold;
-                            margin-top: 6px;
-                        }
                     </style>
 
                     <h3>Sistema de Travessia: Fluxograma de Nós</h3>
@@ -142,7 +70,7 @@
                             <span class="node-tag">Vermelho · Quadrado</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#7f1d1d;">
+                        <div class="node-card" style="--node-color:#c038ff;">
                             <div class="node-title"><span class="node-shape shape-star"></span> Boss / Elite</div>
                             <div class="node-desc">
                                 Encontro com criatura de ameaça elevada.
@@ -153,7 +81,7 @@
                             <span class="node-tag">Vermelho-escuro · Octógono</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#b91c1c;">
+                        <div class="node-card" style="--node-color:#eb9515;">
                             <div class="node-title"><span class="node-shape shape-triangle"></span> Armadilha</div>
                             <div class="node-desc">
                                 Perigo não-criatura: fosso, gás, mecanismo drow, fungo explosivo. Separado do "perigo
@@ -163,28 +91,28 @@
                             <span class="node-tag">Vermelho-alaranjado · Triângulo</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#6b7280;">
+                        <div class="node-card" style="--node-color:#5f995a;">
                             <div class="node-title"><span class="node-shape shape-square"></span> Perigo Ambiental</div>
                             <div class="node-desc">Dano ou condição do próprio ambiente, sem inimigo ativo: fungo
                                 tóxico, colapso, rio.</div>
                             <span class="node-tag">Cinza · Quadrado</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#16a34a;">
+                        <div class="node-card" style="--node-color:#23e269;">
                             <div class="node-title"><span class="node-shape shape-square"></span> Recurso</div>
                             <div class="node-desc">Comida, água, materiais úteis para a travessia. Consumível, não
                                 permanente.</div>
                             <span class="node-tag">Verde · Quadrado</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#facc15;">
+                        <div class="node-card" style="--node-color:#ffee00;">
                             <div class="node-title"><span class="node-shape shape-circle"></span> Tesouro</div>
                             <div class="node-desc">Item de valor, equipamento ou magia. Recompensa permanente, não um
                                 recurso consumido em viagem.</div>
                             <span class="node-tag">Dourado · Círculo</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#0ea5e9;">
+                        <div class="node-card" style="--node-color:#7fc7e9;">
                             <div class="node-title"><span class="node-shape shape-circle"></span> Descanso / Santuário
                             </div>
                             <div class="node-desc">Ponto seguro para recuperar HP, remover exaustão ou fazer descanso
@@ -192,35 +120,35 @@
                             <span class="node-tag">Azul-claro · Círculo</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#2563eb;">
+                        <div class="node-card" style="--node-color:#e670c2;">
                             <div class="node-title"><span class="node-shape shape-circle"></span> Informação / NPC</div>
                             <div class="node-desc">Encontro não-hostil com viajante, ruína ou lenda local. Pode revelar
                                 pistas sobre nós futuros.</div>
                             <span class="node-tag">Azul · Círculo</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#ca8a04;">
+                        <div class="node-card" style="--node-color:#cecece;">
                             <div class="node-title"><span class="node-shape shape-diamond"></span> Decisão</div>
                             <div class="node-desc">Bifurcação de caminho ou escolha moral, com pelo menos duas saídas
                                 distintas.</div>
                             <span class="node-tag">Amarelo · Losango</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#9333ea;">
+                        <div class="node-card" style="--node-color:#5956ff;">
                             <div class="node-title"><span class="node-shape shape-square"></span> Evento de Facção</div>
                             <div class="node-desc">Disputa política, patrulha de outra raça, negociação com grupo
                                 organizado.</div>
                             <span class="node-tag">Roxo · Quadrado</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#f59e0b;">
+                        <div class="node-card" style="--node-color:#cecece;">
                             <div class="node-title"><span class="node-shape shape-star"></span> Convergência</div>
                             <div class="node-desc">Ponto onde vários caminhos diferentes se reencontram, controlando o
                                 crescimento do fluxograma.</div>
                             <span class="node-tag">Dourado · Estrela</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#475569;">
+                        <div class="node-card" style="--node-color:#917946;">
                             <div class="node-title"><span class="node-shape shape-circle"></span> Segredo</div>
                             <div class="node-desc">Nó oculto, só acessível com teste específico ou escolha anterior
                                 correta. Não aparece no "menu" normal de opções.</div>
@@ -296,6 +224,7 @@
                         separadamente, uma
                         rota por vez.
                     </p>
+
 
         </main>
 
