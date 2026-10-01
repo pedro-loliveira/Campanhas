@@ -166,3 +166,26 @@ a.card:hover { transform: translateY(-3px); border-color: var(--cor-destaque); }
     font-weight: bold;
     margin-top: 6px;
 }
+
+  .fluxo-scroll{overflow-x:auto;padding:1rem 0 2.5rem}
+  .fluxo-trilha{display:flex;align-items:flex-start;gap:0;min-width:max-content;padding:0 1rem}
+  .fluxo-coluna{display:flex;flex-direction:column;align-items:center;width:220px;flex:none}
+  .fluxo-trilho{display:flex;align-items:center;width:100%}
+  .fluxo-trilho::before,.fluxo-trilho::after{content:"";flex:1;height:2px;background:currentColor;opacity:.25}
+  .fluxo-coluna:first-child .fluxo-trilho::before{opacity:0}
+  .fluxo-coluna:last-child .fluxo-trilho::after{opacity:0}
+  .fluxo-ponto{width:14px;height:14px;border-radius:50%;background:currentColor;opacity:.85;flex:none}
+  .fluxo-capitulo{display:block;width:100%;margin-top:.9rem;border:1px solid rgba(128,128,128,.35);border-radius:.6rem;padding:1rem 1.1rem;text-decoration:none;color:inherit;text-align:center;transition:border-color .15s,transform .15s}
+  .fluxo-capitulo:hover{border-color:currentColor;transform:translateY(-3px)}
+  .fluxo-capitulo h3{margin:.2rem 0 .3rem;font-size:1.05rem}
+  .fluxo-capitulo p{margin:0;font-size:.8rem;opacity:.7}
+  .fluxo-sub{position:relative;margin-top:1.6rem;display:flex;flex-direction:column;gap:.6rem;width:100%}
+  .fluxo-sub::before{content:"";position:absolute;left:50%;top:-1rem;width:2px;height:1rem;background:currentColor;opacity:.3}
+  .fluxo-sidequest{display:block;border:1px dashed rgba(128,128,128,.45);border-radius:.5rem;padding:.6rem .75rem;text-decoration:none;color:inherit;font-size:.8rem;transition:border-color .15s}
+  .fluxo-sidequest:hover{border-style:solid;border-color:currentColor}
+  .fluxo-sidequest .fluxo-tag{display:block;font-size:.65rem;text-transform:uppercase;letter-spacing:.03em;opacity:.6;margin-bottom:.15rem}
+  .fluxo-sidequest h4{margin:0 0 .15rem;font-size:.85rem}
+  .fluxo-sidequest p{margin:0;opacity:.65}
+  .fluxo-tag-cap{display:block;font-size:.65rem;text-transform:uppercase;letter-spacing:.03em;opacity:.55;margin-bottom:.1rem}
+  .fluxo-legenda{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:.5rem;font-size:.85rem;opacity:.75}
+
