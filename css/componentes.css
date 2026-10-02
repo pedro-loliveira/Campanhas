@@ -167,25 +167,101 @@ a.card:hover { transform: translateY(-3px); border-color: var(--cor-destaque); }
     margin-top: 6px;
 }
 
-  .fluxo-scroll{overflow-x:auto;padding:1rem 0 2.5rem}
-  .fluxo-trilha{display:flex;align-items:flex-start;gap:0;min-width:max-content;padding:0 1rem}
-  .fluxo-coluna{display:flex;flex-direction:column;align-items:center;width:220px;flex:none}
-  .fluxo-trilho{display:flex;align-items:center;width:100%}
-  .fluxo-trilho::before,.fluxo-trilho::after{content:"";flex:1;height:2px;background:currentColor;opacity:.25}
-  .fluxo-coluna:first-child .fluxo-trilho::before{opacity:0}
-  .fluxo-coluna:last-child .fluxo-trilho::after{opacity:0}
-  .fluxo-ponto{width:14px;height:14px;border-radius:50%;background:currentColor;opacity:.85;flex:none}
-  .fluxo-capitulo{display:block;width:100%;margin-top:.9rem;border:1px solid rgba(128,128,128,.35);border-radius:.6rem;padding:1rem 1.1rem;text-decoration:none;color:inherit;text-align:center;transition:border-color .15s,transform .15s}
-  .fluxo-capitulo:hover{border-color:currentColor;transform:translateY(-3px)}
-  .fluxo-capitulo h3{margin:.2rem 0 .3rem;font-size:1.05rem}
-  .fluxo-capitulo p{margin:0;font-size:.8rem;opacity:.7}
-  .fluxo-sub{position:relative;margin-top:1.6rem;display:flex;flex-direction:column;gap:.6rem;width:100%}
-  .fluxo-sub::before{content:"";position:absolute;left:50%;top:-1rem;width:2px;height:1rem;background:currentColor;opacity:.3}
-  .fluxo-sidequest{display:block;border:1px dashed rgba(128,128,128,.45);border-radius:.5rem;padding:.6rem .75rem;text-decoration:none;color:inherit;font-size:.8rem;transition:border-color .15s}
-  .fluxo-sidequest:hover{border-style:solid;border-color:currentColor}
-  .fluxo-sidequest .fluxo-tag{display:block;font-size:.65rem;text-transform:uppercase;letter-spacing:.03em;opacity:.6;margin-bottom:.15rem}
-  .fluxo-sidequest h4{margin:0 0 .15rem;font-size:.85rem}
-  .fluxo-sidequest p{margin:0;opacity:.65}
-  .fluxo-tag-cap{display:block;font-size:.65rem;text-transform:uppercase;letter-spacing:.03em;opacity:.55;margin-bottom:.1rem}
-  .fluxo-legenda{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:.5rem;font-size:.85rem;opacity:.75}
+/* FLUXOGRAMA */
+/* Container externo: permite rolar horizontalmente quando o fluxograma
+   fica mais largo que a tela. Padding em cima/baixo pra dar respiro
+   (embaixo é maior pra sobrar espaço pra barra de rolagem). */
+.fluxo-scroll{overflow-x:auto;padding:1rem 0 2.5rem}
 
+/* A "trilha" é a fileira horizontal de colunas (capítulos).
+   flex coloca tudo lado a lado; min-width:max-content impede que o
+   flexbox encolha as colunas pra caber na tela (é isso que força o
+   scroll horizontal em vez de quebrar linha); padding lateral dá
+   respiro nas pontas. */
+.fluxo-trilha{display:flex;align-items:flex-start;gap:0;min-width:max-content;padding:0 1rem}
+
+/* Cada coluna = 1 capítulo + suas sidequests embaixo.
+   width fixa garante que todas as colunas tenham o mesmo tamanho;
+   flex:none impede que o flexbox tente redimensionar a coluna. */
+.fluxo-coluna{display:flex;flex-direction:column;align-items:center;width:220px;flex:none}
+
+/* A linha horizontal (trilho) que liga um capítulo ao outro, com o
+   ponto/bolinha no meio. align-items:center alinha a linha e a
+   bolinha verticalmente. */
+.fluxo-trilho{display:flex;align-items:center;width:100%}
+
+/* ::before e ::after criam os dois pedaços de linha (esquerda e
+   direita da bolinha) usando flex:1 pra ocupar o espaço disponível
+   igualmente. currentColor + opacity:.25 deixa a linha discreta,
+   seguindo a cor do texto em qualquer tema (claro/escuro). */
+.fluxo-trilho::before,.fluxo-trilho::after{content:"";flex:1;height:1px;background:currentColor;opacity:.50}
+
+/* Esconde a pontinha de linha que sobraria "pendurada" antes do
+   primeiro capítulo e depois do último (senão pareceria que a trilha
+   continua pra fora da tela nas duas pontas). */
+.fluxo-coluna:first-child .fluxo-trilho::before{opacity:0}
+.fluxo-coluna:last-child .fluxo-trilho::after{opacity:0}
+
+/* A bolinha (nó) sobre a linha, marcando a posição do capítulo.
+   flex:none evita que ela seja espremida pelos ::before/::after. */
+.fluxo-ponto{width:5px;height:5px;border-radius:100%;background:currentColor;opacity:.85;flex:none}
+
+/* O card grande do capítulo (clicável). border sutil em cinza com
+   transparência (rgba) pra funcionar em qualquer fundo; transition
+   deixa a borda e o pequeno "levantar" (hover) suaves em vez de
+   instantâneos. */
+.fluxo-capitulo{display:block;width:90%;margin-top:.9rem;border:1px solid var(--cor-borda);border-radius:.6rem;padding:1rem 1.1rem;text-decoration:none;color:inherit;text-align:center;transition:border-color .15s,transform .15s}
+
+/* Efeito ao passar o mouse: a borda fica sólida/opaca (currentColor
+   sem transparência) e o card sobe 3px, dando feedback de que é
+   clicável. */
+.fluxo-capitulo:hover{border-color: var(--cor-destaque);transform:translateY(-8px)}
+
+/* Ajustes de espaçamento/tamanho do título e da descrição dentro do
+   card de capítulo, pra ficarem compactos e centralizados. */
+.fluxo-capitulo h3{margin:.2rem 0 .3rem;font-size:1.05rem}
+.fluxo-capitulo p{margin:0;font-size:.8rem;opacity:.7}
+
+/* Container das sidequests, abaixo do capítulo. position:relative é
+   necessário pro ::before (o conectorzinho vertical) conseguir se
+   posicionar em relação a este elemento. gap separa as sidequests
+   entre si quando há mais de uma (ex: Sloobludop). */
+.fluxo-sub{position:relative;margin-top:1.6rem;display:flex;flex-direction:column;gap:.6rem;width:90%}
+
+/* O traço vertical curto que desce do capítulo até a primeira
+   sidequest, criando a sensação de "ramo pendurado". left:50%
+   centraliza ele embaixo do capítulo. */
+.fluxo-sub::before{content:"";position:absolute;left:50%;top:-1rem;width:1px;height:1rem;background:currentColor;opacity:.3}
+
+/* O card pequeno da sidequest. Borda tracejada (dashed) ao invés de
+   sólida é o que visualmente diferencia "sidequest/opcional" do
+   "capítulo principal" (que usa borda sólida). Fonte menor também
+   reforça a hierarquia visual. */
+.fluxo-sidequest{display:block;border:1px dashed var(--cor-borda);border-radius:.5rem;padding:.6rem .75rem;text-decoration:none;color:inherit;font-size:.8rem;transition:border-color .15s}
+
+/* Hover da sidequest: a borda tracejada vira sólida (border-style) e
+   fica com a cor cheia — mesmo princípio do hover do capítulo, só que
+   sem o "levantar", pra manter a hierarquia (sidequest é menos
+   "importante" visualmente que o capítulo). */
+.fluxo-sidequest:hover{border-style:solid;border-color: var(--cor-destaque)}
+
+/* A etiqueta pequena dentro da sidequest (ex: "Presságio · p. 34").
+   uppercase + letter-spacing dá aquele visual de "selo/tag" discreto
+   acima do título. */
+.fluxo-sidequest .fluxo-tag{display:block;font-size:.65rem;text-transform:uppercase;letter-spacing:.03em;opacity:.6;margin-bottom:.15rem}
+
+/* Título e texto da sidequest, mais compactos que os do capítulo
+   grande (hierarquia: capítulo > sidequest em tamanho de fonte). */
+.fluxo-sidequest h4{margin:0 0 .15rem;font-size:.85rem}
+.fluxo-sidequest p{margin:0;opacity:.65}
+
+/* A etiqueta do CAPÍTULO (ex: "Capítulo 1", "Fim de arco") — mesmo
+   estilo visual da tag da sidequest, mas levemente mais escura
+   (opacity:.55 vs .6) já que fica dentro de um card com borda sólida,
+   que já chama mais atenção por conta própria. */
+.fluxo-tag-cap{display:block;font-size:.65rem;text-transform:uppercase;letter-spacing:.03em;opacity:.55;margin-bottom:.1rem}
+
+/* A legenda no topo da página ("⬤ capítulo" / "┊ sidequest").
+   flex-wrap permite quebrar linha em telas estreitas sem cortar
+   texto. */
+.fluxo-legenda{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:.5rem;font-size:.85rem;opacity:.75}
