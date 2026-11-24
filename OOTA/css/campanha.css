@@ -32,3 +32,25 @@ blockquote.conversation {
 
 .hero { min-height: 600px; }                   /* o padrão é 450px */
 .hero-background { object-position: center 75%; }   /* qual parte da imagem aparece */
+
+
+/**/
+.btn-spoiler {
+  margin-top: 1.5rem;
+  padding: .5rem 1rem;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.btn-spoiler:hover { opacity: .8; }
+
+.spoiler-mestre {
+  margin-top: 1rem;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid #8b1e1e;
+  background: rgba(139, 30, 30, .08);
+}
+.spoiler-mestre[hidden] { display: none; }

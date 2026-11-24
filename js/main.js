@@ -1,7 +1,7 @@
 /* CAMPANHAS DO PERO — JS compartilhado (substitui main.js + navigation.js)
    - monta cabeçalho, menu e rodapé a partir de window.CAMPANHA (definido em <campanha>/campanha.js)
    - preenche [data-campanha="nome|slogan|status"] e [data-secoes]
-   - tema claro/escuro, menu mobile e ano atual */
+   - tema claro/escuro, menu mobile, botão de spoiler e ano atual */
 (() => {
     const $ = (seletor) => document.querySelector(seletor);
     const montar = (seletor, html) => { const el = $(seletor); if (el) el.innerHTML = html; };
@@ -96,6 +96,18 @@
         aplicarTema(claro);
         localStorage.setItem("tema", claro ? "claro" : "escuro");
     }));
+
+    /* spoiler do mestre: <button class="btn-spoiler" aria-controls="id"> mostra/oculta o elemento com esse id */
+    document.querySelectorAll(".btn-spoiler").forEach((b) => {
+        const alvo = document.getElementById(b.getAttribute("aria-controls"));
+        if (!alvo) return;
+        b.addEventListener("click", () => {
+            const abrir = alvo.hidden;
+            alvo.hidden = !abrir;
+            b.setAttribute("aria-expanded", String(abrir));
+            b.textContent = abrir ? "Ocultar spoiler" : "Spoiler";
+        });
+    });
 
     /* ano atual */
     document.querySelectorAll("[data-ano-atual]").forEach((el) => { el.textContent = ano; });

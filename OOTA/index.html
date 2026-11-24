@@ -1,93 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início</title>
     <link rel="stylesheet" href="css/campanha.css">
 </head>
+
 <body>
-<div class="site-wrapper">
+    <div class="site-wrapper">
 
-    <header class="site-header" data-site-header></header>
+        <header class="site-header" data-site-header></header>
 
-    <main class="site-main">
+        <main class="site-main">
 
-        <section class="hero">
-            <!-- Imagem opcional: <img src="assets/capa.jpg" class="hero-background" alt=""> -->
-            <img  src="assets/images/thedarklake.avif" class="hero-background" alt="" onerror="this.remove()">
-            <div class="container">
-                <div class="hero-content">
-                    <span class="badge badge-destaque">Campanha</span> 
-                    <h1 class="hero-titulo" data-campanha="apelido"></h1>
-                    <p class="hero-subtitulo">
-                        Página central da campanha. Aqui será apresentada a identidade,
-                        atmosfera e proposta geral da aventura.
-                    </p>
-                    <div class="flex gap">
-                        <a href="resumo-da-campanha.html" class="btn btn-destaque">Conhecer a campanha</a>
-                        <a href="sessoes/index.html" class="btn btn-outline">Ver sessões</a>
-                        <a href="personagens/index.html" class="btn btn-outline">Personagens</a>
+            <section class="hero">
+                <!-- Imagem opcional: <img src="assets/capa.jpg" class="hero-background" alt=""> -->
+                <img src="assets/images/thedarklake.avif" class="hero-background" alt="" onerror="this.remove()">
+                <div class="container">
+                    <div class="hero-content">
+                        <span class="badge badge-destaque">Campanha</span>
+                        <h1 class="hero-titulo" data-campanha="apelido"></h1>
+                        <p class="hero-subtitulo">
+                            Página central da campanha. Aqui será apresentada a identidade,
+                            atmosfera e proposta geral da aventura.
+                        </p>
+                        <div class="flex gap">
+                            <a href="resumo_campanha/resumo-da-campanha.html" class="btn btn-destaque">Conhecer a
+                                campanha</a>
+                            <a href="sessoes/index.html" class="btn btn-outline">Ver sessões</a>
+                            <a href="personagens/index.html" class="btn btn-outline">Personagens</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="secao">
-            <div class="container">
-                <div class="secao-titulo">
-                    <h2>Explorar a campanha como jogador</h2>
-                    <p class="texto-secundario">Navegue pelas diferentes partes da campanha destinadas aos jogadores.</p>
+            <section class="secao">
+                <div class="container">
+                    <div class="secao-titulo">
+                        <h2>Explorar a campanha como jogador</h2>
+                        <p class="texto-secundario">Navegue pelas diferentes partes da campanha destinadas aos
+                            jogadores.</p>
+                    </div>
+                    <!-- os cards vêm do menu definido em js/main.js -->
+                    <div class="grid" data-secoes></div>
                 </div>
-                <!-- os cards vêm do menu definido em js/main.js -->
-                <div class="grid" data-secoes></div>
-            </div>
-        </section>
+            </section>
 
-        <section class="secao">
-            <div class="container content-layout">
-                <div>
-                    <div class="page-header">
-                        <h2>Sobre Rage of Demons</h2>
-                        <p>Este espaço será utilizado para uma apresentação curta da campanha.</p>
+            <section class="secao">
+                <div class="container content-layout">
+                    <div>
+                        <div class="page-header">
+                            <h2>Sobre Rage of Demons</h2>
+                            <p>Este espaço será utilizado para uma apresentação curta da campanha.</p>
+                        </div>
+                        <div class="bloco-texto">
+                            <p>O conteúdo definitivo da campanha será inserido posteriormente.</p>
+                            <p>A estrutura foi preparada para que informações, sessões, personagens, locais e demais
+                                elementos possam ser adicionados sem alterar a base do site.</p>
+                        </div>
+                        <p>
+                        <h2>Tom da campanha</h2>
+                        </p>
+                        <div class="info-grid">
+                            <div class="info-item"><span class="info-label">Estilo</span><span class="info-value">A
+                                    definir</span></div>
+                            <div class="info-item"><span class="info-label">Sistema</span><span class="info-value">D&D
+                                    5e (2014)</span></div>
+                            <div class="info-item"><span class="info-label">Cenário</span><span
+                                    class="info-value">Forgoten Realms</span></div>
+                            <div class="info-item"><span class="info-label">Ex1</span><span class="info-value">A
+                                    definir</span></div>
+                        </div>
+
                     </div>
-                    <div class="bloco-texto">
-                        <p>O conteúdo definitivo da campanha será inserido posteriormente.</p>
-                        <p>A estrutura foi preparada para que informações, sessões, personagens, locais e demais elementos possam ser adicionados sem alterar a base do site.</p>
-                    </div>
-                <p>
-                    <h2>Tom da campanha</h2>
-                </p>
-                <div class="info-grid">
-                    <div class="info-item"><span class="info-label">Estilo</span><span class="info-value">A definir</span></div>
-                    <div class="info-item"><span class="info-label">Sistema</span><span class="info-value">D&D 5e (2014)</span></div>
-                    <div class="info-item"><span class="info-label">Cenário</span><span class="info-value">Forgoten Realms</span></div>
-                    <div class="info-item"><span class="info-label">Ex1</span><span class="info-value">A definir</span></div>
+
+                    <aside class="painel">
+                        <div class="painel-titulo">Informações</div>
+                        <div class="info-item">
+                            <span class="info-label">Campanha</span>
+                            <span class="info-value" data-campanha="nome"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Status</span>
+                            <span class="badge badge-destaque" data-campanha="status"></span>
+                        </div>
+                    </aside>
                 </div>
-                    
-                </div>
+            </section>
 
-                <aside class="painel">
-                    <div class="painel-titulo">Informações</div>
-                    <div class="info-item">
-                        <span class="info-label">Campanha</span>
-                        <span class="info-value" data-campanha="nome"></span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">Status</span>
-                        <span class="badge badge-destaque" data-campanha="status"></span>
-                    </div>
-                </aside>
-            </div>
-        </section>
+        </main>
 
-    </main>
+        <footer class="site-footer" data-site-footer></footer>
 
-    <footer class="site-footer" data-site-footer></footer>
+    </div>
 
-</div>
-
-<script src="campanha.js"></script>
-<script src="../js/main.js"></script>
+    <script src="campanha.js"></script>
+    <script src="../js/main.js"></script>
 </body>
+
 </html>
