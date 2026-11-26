@@ -1,0 +1,11 @@
+[
+  { "meta": "Modulo externo", "titulo": "Dado de Munição", "texto": "Regra específica para o uso de dados em situações de munição.", "href": "dado_de_municao.html" },
+  { "meta": "Modulo externo", "titulo": "Slots de Inventário", "texto": "Regra específica para o uso de slots ao invez de peso.", "href": "slot_de_inventario.html" },
+  { "meta": "Modulo externo", "titulo": "Desgaste de Itens", "texto": "Regra específica para o uso do desgaste em itens.", "href": "desgaste_de_itens.html" },
+  { "meta": "Modulo externo", "titulo": "Crafting Improvisado", "texto": "Regra específica para o uso de crafting improvisado.", "href": "crafting_improvisado.html" },
+  { "meta": "Modulo externo", "titulo": "Falhas Persistentes", "texto": "Regra específica para o salva-guarda de morte.", "href": "falhas_persistentes.html" },
+  { "meta": "Modulo externo", "titulo": "Iniciativa e Inteligência", "texto": "Regra específica para o uso de iniciativa com inteligência.", "href": "iniciativa_inteligencia.html" },
+  { "meta": "Modulo externo", "titulo": "Lesões Permanentes", "texto": "Regra específica para criticos e inimigos violentos.", "href": "lesoes_permanentes.html" },
+  { "meta": "Criação para esta Campanha", "titulo": "Bonus de Npcs", "texto": "Regra para auxilio inicial de personagens de baixos niveis.", "href": "bonus_npcs.html" },
+  { "meta": "Criação para esta Campanha", "titulo": "Sistema de Viagem", "texto": "Um novo modo de conduzir encontros entre viagens.", "href": "../ch/sistema_de_viagem.html" }
+]

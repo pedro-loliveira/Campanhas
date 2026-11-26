@@ -1,0 +1,13 @@
+[
+  { "titulo": "Buppido",       "texto": "O sabio Derro.",             "href": "Buppido.html" },
+  { "titulo": "Derendil",      "texto": "O misterioso Principe.",     "href": "Derendil.html" },
+  { "titulo": "Eldeth",        "texto": "A exploradora anã.",         "href": "Eldeth-Feldrun.html" },
+  { "titulo": "Jimjar",        "texto": "O apostador astuto.",        "href": "Jimjar.html" },
+  { "titulo": "Ront",          "texto": "O furioso Orc.",             "href": "Ront.html" },
+  { "titulo": "Sarith",        "texto": "O louco.",                   "href": "Sarith-Kzekarit.html" },
+  { "titulo": "Shushar",       "texto": "O kuo-toa desperto.",        "href": "Shushar.html" },
+  { "titulo": "Stool",         "texto": "O mudo.",                    "href": "Stool.html" },
+  { "titulo": "Topsy & Turvy", "texto": "Os gêmeos estranhos.",       "href": "Topsy-Turvy.html" }
+]
+
+

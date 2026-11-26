@@ -18,13 +18,14 @@
         // Só itens com descrição viram card no "Explorar campanha".
         const MENU_PADRAO = [
             ["Início", "index.html"],
-            ["Campanha", "resumo_campanha/", "Resumo da campanha, história, status e informações gerais."],
+            ["Conhecimento", "conhecimento/", "Resumo da campanha, história, personagens e informações gerais."],
             ["Sessões", "sessoes/", "Registro cronológico das sessões e acontecimentos da campanha."],
             ["Npcs", "npcs/", "Npcs e figuras importantes."],
             ["Locais", "locais/", "Regiões, cidades, masmorras e outros locais."],
             ["Facções", "faccoes/", "Organizações, grupos, alianças e inimigos."],
             ["Criaturas", "criaturas/", "Criaturas encontradas, catalogadas ou relevantes para a campanha."],
-            ["Regras", "regras/", "Regras especiais, sistemas e informações utilizadas na campanha."]
+            ["Regras", "regras/", "Regras especiais, sistemas e informações utilizadas na campanha."],
+            ["Capitulos", "ch/", "Capítulos, fluxogramas e histórias da campanha."],
         ];
 
         const todas = new URL("../index.html", C.raiz).href;   // página inicial com todas as campanhas
@@ -118,10 +119,19 @@
             if (!resp.ok) throw new Error(`${resp.status} ao ler ${grid.dataset.grid}`);
             const itens = await resp.json();
 
+            // imagem do card: campo "imagem" do item, ou data-imagem-padrao do grid (some sozinha se o arquivo não existir)
+            const padrao = grid.dataset.imagemPadrao;
+            const classeImg = grid.dataset.imagemClasse || "card-imagem-quadrada";
+
             grid.innerHTML = itens.map((i) => {
+                const src = i.imagem || padrao;
+                const img = src
+                    ? `<img class="card-imagem ${esc(classeImg)}" src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">`
+                    : "";
                 const corpo = `
+                    ${img}
                     <div class="card-corpo">
-                        <span class="card-meta">${esc(i.meta)}</span>
+                        ${i.meta ? `<span class="card-meta">${esc(i.meta)}</span>` : ""}
                         <h3 class="card-titulo">${esc(i.titulo)}</h3>
                         <p class="card-texto">${esc(i.texto)}</p>
                     </div>`;

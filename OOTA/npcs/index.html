@@ -14,123 +14,25 @@
         <header class="site-header" data-site-header></header>
 
         <main class="site-main secao">
-            <div class="container content-layout">
+            <div class="container content-layout-sembarra">
 
                 <div>
                     <div class="page-header">
                         <span class="badge" data-campanha="nome"></span>
                         <h1>Npcs</h1>
                         <p>Npcs e figuras importantes da campanha.</p>
+                        <p>
+                            Alguns deles terão um botão de <b>SPOILER</b> que revelará informações que serão
+                            importantes para mestres, mas
+                            para jogadores, podem estragar a experiência de jogo. Então, se você é jogador, não clique
+                            nesse botão.
+                        </p>
                     </div>
 
-                    <div class="grid">
-                        <a href="Buppido.html" class="card">
-                            <img class="card-imagem card-imagem-quadrada"
-                                src="../assets/images/Npcs/Npc-placeholder.jpg" alt="" loading="lazy"
-                                onerror="this.remove()">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">Buppido</h3>
-                                <p class="card-texto">O sabio Derro.</p>
-                            </div>
-                        </a>
-
-                        <a href="Derendil.html" class="card">
-                            <img class="card-imagem card-imagem-quadrada"
-                                src="../assets/images/Npcs/Npc-placeholder.jpg" alt="" loading="lazy"
-                                onerror="this.remove()">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">Derendil</h3>
-                                <p class="card-texto">O misterioso Principe.</p>
-                            </div>
-                        </a>
-
-                        <a href="Eldeth-Feldrun.html" class="card">
-                            <img class="card-imagem card-imagem-quadrada"
-                                src="../assets/images/Npcs/Npc-placeholder.jpg" alt="" loading="lazy"
-                                onerror="this.remove()">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">Eldeth</h3>
-                                <p class="card-texto">A exploradora anã.</p>
-                            </div>
-                        </a>
-
-                        <a href="Jimjar.html" class="card">
-                            <img class="card-imagem card-imagem-quadrada"
-                                src="../assets/images/Npcs/Npc-placeholder.jpg" alt="" loading="lazy"
-                                onerror="this.remove()">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">Jimjar</h3>
-                                <p class="card-texto">O apostador astuto.</p>
-                            </div>
-                        </a>
-
-                        <a href="Ront.html" class="card">
-                            <img class="card-imagem card-imagem-quadrada"
-                                src="../assets/images/Npcs/Npc-placeholder.jpg" alt="" loading="lazy"
-                                onerror="this.remove()">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">Ront</h3>
-                                <p class="card-texto">O furioso Orc.</p>
-                            </div>
-                        </a>
-
-                        <a href="Sarith-Kzekarit.html" class="card">
-                            <img class="card-imagem card-imagem-quadrada"
-                                src="../assets/images/Npcs/Npc-placeholder.jpg" alt="" loading="lazy"
-                                onerror="this.remove()">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">Sarith</h3>
-                                <p class="card-texto">O louco.</p>
-                            </div>
-                        </a>
-
-                        <a href="Shushar.html" class="card">
-                            <img class="card-imagem card-imagem-quadrada"
-                                src="../assets/images/Npcs/Npc-placeholder.jpg" alt="" loading="lazy"
-                                onerror="this.remove()">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">Shushar</h3>
-                                <p class="card-texto">O kuo-toa desperto.</p>
-                            </div>
-                        </a>
-
-                        <a href="Stool.html" class="card">
-                            <img class="card-imagem card-imagem-quadrada"
-                                src="../assets/images/Npcs/Npc-placeholder.jpg" alt="" loading="lazy"
-                                onerror="this.remove()">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">Stool</h3>
-                                <p class="card-texto">O mudo.</p>
-                            </div>
-                        </a>
-                        <a href="Topsy-Turvy.html" class="card">
-                            <img class="card-imagem card-imagem-quadrada"
-                                src="../assets/images/Npcs/Npc-placeholder.jpg" alt="" loading="lazy"
-                                onerror="this.remove()">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">Topsy & Turvy</h3>
-                                <p class="card-texto">Os gêmeos estranhos.</p>
-                            </div>
-                        </a>
-
-                        <!-- <div class="card card-em-breve">
-                            <div class="card-corpo">
-                                <h3 class="card-titulo">[Inserir Nome]</h3>
-                                <p class="card-texto">[Inserir Descrição]</p>
-                            </div>
-                        </div> -->
-                    </div>
+                    <!-- cards montados pelo main.js a partir de npcs/itens.json -->
+                    <div class="grid" data-grid="itens.json"
+                        data-imagem-padrao="../assets/images/Npcs/Npc-placeholder.jpg"></div>
                 </div>
-
-                <aside class="painel sidebar">
-                    <div class="painel-titulo">Informações</div>
-                    <div class="info-item"><span class="info-label">Campanha</span><span class="info-value"
-                            data-campanha="nome"></span></div>
-                    <div class="info-item"><span class="info-label">Npcs</span><span class="info-value">1
-                            registrado</span></div>
-                    <div class="info-item"><span class="info-label">Status</span><span class="badge badge-destaque"
-                            data-campanha="status"></span></div>
-                </aside>
 
             </div>
         </main>

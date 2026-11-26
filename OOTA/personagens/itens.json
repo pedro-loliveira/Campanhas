@@ -1,0 +1,6 @@
+[
+  { "meta": "Personagem", "titulo": "Nome do Personagem", "texto": "Breve descrição do Personagem.", "href": "personagem01.html" },
+  { "meta": "Personagem", "titulo": "Nome do Personagem", "texto": "Breve descrição do Personagem.", "href": "personagem02.html" },
+  { "meta": "Personagem", "titulo": "Nome do Personagem", "texto": "Breve descrição do Personagem.", "href": "personagem03.html" },
+  { "meta": "Personagem", "titulo": "Nome do Personagem", "texto": "Breve descrição do Personagem.", "href": "personagem04.html" }
+]
