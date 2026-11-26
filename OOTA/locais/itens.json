@@ -1,0 +1,20 @@
+[
+  {
+    "meta": "Local",
+    "titulo": "Velkynvelve",
+    "texto": "Posto avançado drow onde a campanha começa.",
+    "href": "velkynvelve.html"
+  },
+  {
+    "meta": "Local",
+    "titulo": "Gracklstugh",
+    "texto": "Cidade dos duergar.",
+    "href": "underdark/gracklstugh.html"
+  },
+  {
+    "meta": "Em breve",
+    "titulo": "Sloobludop",
+    "texto": "Cidade kuo-toa no Lago Sombrio.",
+    "embreve": true
+  }
+]

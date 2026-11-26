@@ -1,7 +1,7 @@
 /* CAMPANHAS DO PERO — JS compartilhado (substitui main.js + navigation.js)
    - monta cabeçalho, menu e rodapé a partir de window.CAMPANHA (definido em <campanha>/campanha.js)
    - preenche [data-campanha="nome|slogan|status"] e [data-secoes]
-   - tema claro/escuro, menu mobile, botão de spoiler e ano atual */
+   - tema claro/escuro, menu mobile, botão de spoiler, grids a partir de JSON e ano atual */
 (() => {
     const $ = (seletor) => document.querySelector(seletor);
     const montar = (seletor, html) => { const el = $(seletor); if (el) el.innerHTML = html; };
@@ -18,7 +18,7 @@
         // Só itens com descrição viram card no "Explorar campanha".
         const MENU_PADRAO = [
             ["Início", "index.html"],
-            ["Campanha", "resumo-da-campanha.html"],
+            ["Campanha", "resumo_campanha/", "Resumo da campanha, história, status e informações gerais."],
             ["Sessões", "sessoes/", "Registro cronológico das sessões e acontecimentos da campanha."],
             ["Npcs", "npcs/", "Npcs e figuras importantes."],
             ["Locais", "locais/", "Regiões, cidades, masmorras e outros locais."],
@@ -107,6 +107,35 @@
             b.setAttribute("aria-expanded", String(abrir));
             b.textContent = abrir ? "Ocultar spoiler" : "Spoiler";
         });
+    });
+
+    /* grids automáticos: <div class="grid" data-grid="itens.json"> monta os cards a partir do JSON da pasta */
+    const esc = (t = "") => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+    document.querySelectorAll("[data-grid]").forEach(async (grid) => {
+        try {
+            const resp = await fetch(new URL(grid.dataset.grid, location.href));
+            if (!resp.ok) throw new Error(`${resp.status} ao ler ${grid.dataset.grid}`);
+            const itens = await resp.json();
+
+            grid.innerHTML = itens.map((i) => {
+                const corpo = `
+                    <div class="card-corpo">
+                        <span class="card-meta">${esc(i.meta)}</span>
+                        <h3 class="card-titulo">${esc(i.titulo)}</h3>
+                        <p class="card-texto">${esc(i.texto)}</p>
+                    </div>`;
+                return i.embreve || !i.href
+                    ? `<div class="card card-em-breve">${corpo}</div>`
+                    : `<a href="${esc(i.href)}" class="card">${corpo}</a>`;
+            }).join("");
+
+            const registrados = itens.filter((i) => !i.embreve).length;
+            document.querySelectorAll("[data-total]").forEach((el) => { el.textContent = registrados; });
+        } catch (erro) {
+            console.error("Grid automático falhou:", erro);
+            grid.innerHTML = '<p class="card-texto">Não foi possível carregar a lista.</p>';
+        }
     });
 
     /* ano atual */
