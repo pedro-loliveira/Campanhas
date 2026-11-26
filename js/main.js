@@ -117,7 +117,8 @@
         try {
             const resp = await fetch(new URL(grid.dataset.grid, location.href));
             if (!resp.ok) throw new Error(`${resp.status} ao ler ${grid.dataset.grid}`);
-            const itens = await resp.json();
+            const todos = await resp.json();
+            const itens = todos.filter((i) => !i.oculto);   // itens com "oculto": true ficam de fora
 
             // imagem do card: campo "imagem" do item, ou data-imagem-padrao do grid (some sozinha se o arquivo não existir)
             const padrao = grid.dataset.imagemPadrao;
