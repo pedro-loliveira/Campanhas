@@ -4,13 +4,25 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Underdark</title>
+    <title>Sistema de Travessia</title>
     <link rel="stylesheet" href="../css/campanha.css" />
+    <style>
+        /* tipos de nó diferenciados só pela FORMA (ícones SVG usam a cor do texto do tema) */
+        .node-card {
+            --node-color: #8a8a8a;
+        }
+
+        .node-title svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            vertical-align: middle;
+            margin-right: .5rem;
+            flex: none;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- MODELO DE PÁGINA DE ITEM (personagem, local, facção, criatura, regra, sessão).
-     Copie para <seção>/nome.html. Os caminhos já estão para UMA pasta de profundidade. -->
     <div class="site-wrapper">
 
         <header class="site-header" data-site-header></header>
@@ -18,215 +30,134 @@
         <main class="site-main secao">
             <div class="container content-layout-sembarra">
                 <article class="prosa">
-                    <div class="page-header">
-                    </div>
+                    <div class="page-header"></div>
 
-                    <style>
-
-                    </style>
-
-                    <h3>Sistema de Travessia: Fluxograma de Nós</h3>
+                    <h3>Sistema de Travessia: Mapa de Nós</h3>
                     <br>
 
                     <p>
-                        Registro das decisões de design para o sistema que substitui a travessia tradicional do
-                        Underdark por um
-                        fluxograma de nós narrativos, inspirado em roguelikes de sala-a-sala (The Binding of Isaac,
-                        Hades). Cada rota
-                        de fuga de Velkynvelve vira uma sequência de nós conectados, com bifurcações reais de escolha do
-                        jogador.
+                        Em vez de contar milhas e rolar encontros aleatórios, cada trecho da fuga é um
+                        <strong>mapa de nós conectados</strong>, inspirado em roguelikes como The Binding of Isaac e
+                        Hades. Cada nó é um evento, e nas bifurcações é o grupo quem decide por onde seguir.
                     </p>
 
                     <hr class="divider-gradient">
 
-                    <h4>Conceito Geral</h4>
-                    <p>
-                        Em vez de simular a distância real do hex map (1 hex = 24 milhas), cada rota entre pontos
-                        importantes da
-                        campanha (ex: Velkynvelve → Gracklstugh) é representada como um fluxograma. Cada nó é um evento,
-                        decisão ou
-                        marco de viagem. O jogador não vê o fluxograma completo — apenas o próximo nó e, às vezes,
-                        pistas vagas dadas
-                        por NPCs guias sobre o que pode vir a seguir.
-                    </p>
-                    <p>
-                        Como a mesa usa regras estilo GRIT (dano permanente ao zerar HP por certos ataques), o sistema
-                        precisa
-                        identificar visualmente, nos meus próprios registros de mestre, quais nós carregam esse risco —
-                        daí a
-                        necessidade de formatos e tags específicas para nós de boss/elite, não só cor.
-                    </p>
+                    <h4>Como funciona</h4>
+                    <ul>
+                        <li>Cada rota é uma sequência de nós ligados por linhas. O grupo não vê o mapa inteiro: conhece
+                            o próximo nó e o que guias, pistas e exploração revelarem. Um nó desconhecido aparece como
+                            <strong>"?"</strong>.
+                        </li>
+                        <li>A <strong>forma</strong> do nó mostra o tipo de evento. Os detalhes só se revelam ao
+                            chegar.</li>
+                        <li>Em uma <strong>decisão</strong>, o grupo escolhe o caminho. Atalhos costumam ser mais
+                            arriscados, e caminhos longos, mais seguros.</li>
+                        <li>Nem todo nó dá recompensa. É isso que faz as recompensas valerem a pena.</li>
+                        <li>Combate raramente é a única saída: fuga, negociação e furtividade costumam funcionar, com
+                            risco.</li>
+                        <li>Quando dois caminhos se encontram, o nó onde eles se juntam pode ter qualquer forma.</li>
+                    </ul>
 
                     <hr class="divider-gradient">
 
-                    <h4>Tipos de Nó (exemplo, não definitivo)</h4>
+                    <h4>Formas dos nós</h4>
 
                     <div class="node-grid">
 
-                        <div class="node-card" style="--node-color:#dc2626;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Combate</div>
-                            <div class="node-desc">Encontro hostil comum. Patrulha drow, monstro isolado do Underdark.
+                        <div class="node-card">
+                            <div class="node-title">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="10" fill="currentColor" />
+                                </svg>
+                                Combate
                             </div>
-                            <span class="node-tag">Vermelho</span>
-                        </div>
-
-                        <div class="node-card" style="--node-color:#c038ff;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Boss / Elite</div>
-                            <div class="node-desc">
-                                Encontro com criatura de ameaça elevada.
-                                Criatura pode causar lesão permanente. Formato distinto para
-                                deixar claro, nos
-                                meus registros, que esse nó carrega risco de dano permanente.
+                            <div class="node-desc">Encontro hostil comum: patrulha, monstro isolado do Subterrâneo.
                             </div>
-                            <span class="node-tag">Lilas</span>
+                            <span class="node-tag">Círculo</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#eb9515;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Armadilha</div>
-                            <div class="node-desc">
-                                Perigo não-criatura: fosso, gás, mecanismo drow, fungo explosivo. Separado do "perigo
-                                ambiental" comum
-                                porque costuma exigir teste de Percepção/Investigação prévio, e não é encontro reativo.
+                        <div class="node-card">
+                            <div class="node-title">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" />
+                                    <circle cx="12" cy="12" r="5.5" fill="currentColor" />
+                                </svg>
+                                Elite / Chefe
                             </div>
-                            <span class="node-tag">Amarelo</span>
-                        </div>
-
-                        <div class="node-card" style="--node-color:#5f995a;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Perigo Ambiental</div>
-                            <div class="node-desc">Dano ou condição do próprio ambiente, sem inimigo ativo: fungo
-                                tóxico, colapso, rio.</div>
-                            <span class="node-tag">Verde Musgo</span>
-                        </div>
-
-                        <div class="node-card" style="--node-color:#23e269;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Recurso</div>
-                            <div class="node-desc">Comida, água, materiais úteis para a travessia. Consumível, não
-                                permanente.</div>
-                            <span class="node-tag">Verde Claro</span>
-                        </div>
-
-                        <div class="node-card" style="--node-color:#ffee00;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Tesouro</div>
-                            <div class="node-desc">Item de valor, equipamento ou magia. Recompensa permanente, não um
-                                recurso consumido em viagem.</div>
-                            <span class="node-tag">Dourado</span>
-                        </div>
-
-                        <div class="node-card" style="--node-color:#7fc7e9;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Descanso / Santuário
+                            <div class="node-desc">Criatura de ameaça elevada. Pode causar
+                                <a href="../regras/lesoes_permanentes.html">lesão permanente</a>.
                             </div>
-                            <div class="node-desc">Ponto seguro para recuperar HP, remover exaustão ou fazer descanso
-                                longo sem risco de encontro.</div>
-                            <span class="node-tag">Azul bebe</span>
+                            <span class="node-tag">Círculo duplo</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#e670c2;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Informação / NPC</div>
-                            <div class="node-desc">Encontro não-hostil com viajante, ruína ou lenda local. Pode revelar
-                                pistas sobre nós futuros.</div>
-                            <span class="node-tag">Rosa bebe</span>
+                        <div class="node-card">
+                            <div class="node-title">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <polygon points="12,2 23,22 1,22" fill="currentColor" />
+                                </svg>
+                                Perigo
+                            </div>
+                            <div class="node-desc">Armadilha ou perigo do ambiente: fosso, gás, fungo tóxico, colapso.
+                                Pode exigir testes para perceber ou evitar.</div>
+                            <span class="node-tag">Triângulo</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#cecece;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Decisão</div>
-                            <div class="node-desc">Bifurcação de caminho ou escolha moral, com pelo menos duas saídas
-                                distintas.</div>
-                            <span class="node-tag">Cinza</span>
+                        <div class="node-card">
+                            <div class="node-title">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <rect x="2" y="5" width="20" height="14" fill="currentColor" />
+                                </svg>
+                                Encontro
+                            </div>
+                            <div class="node-desc">Evento não hostil: viajante, ruína, lenda local, negociação ou
+                                disputa
+                                entre grupos. Pode revelar pistas sobre nós futuros.</div>
+                            <span class="node-tag">Retângulo</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#5956ff;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Evento de Facção</div>
-                            <div class="node-desc">Disputa política, patrulha de outra raça, negociação com grupo
-                                organizado.</div>
-                            <span class="node-tag">Azul</span>
+                        <div class="node-card">
+                            <div class="node-title">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <polygon points="12,1 23,12 12,23 1,12" fill="currentColor" />
+                                </svg>
+                                Decisão
+                            </div>
+                            <div class="node-desc">Bifurcação de caminho ou escolha moral, com pelo menos duas saídas.
+                            </div>
+                            <span class="node-tag">Losango</span>
                         </div>
 
-                        <div class="node-card" style="--node-color:#cecece;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Convergência</div>
-                            <div class="node-desc">Ponto onde vários caminhos diferentes se reencontram, controlando o
-                                crescimento do fluxograma.</div>
-                            <span class="node-tag">Cinza</span>
-                        </div>
-
-                        <div class="node-card" style="--node-color:#917946;">
-                            <div class="node-title"><span class="node-shape shape-circle"></span> Segredo</div>
-                            <div class="node-desc">Nó oculto, só acessível com teste específico ou escolha anterior
-                                correta. Não aparece no "menu" normal de opções.</div>
-                            <span class="node-tag">Marrom</span>
+                        <div class="node-card">
+                            <div class="node-title">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <ellipse cx="12" cy="12" rx="11" ry="6.5" fill="currentColor" />
+                                </svg>
+                                Pausa / Recompensa
+                            </div>
+                            <div class="node-desc">Algo bom: suprimentos, um tesouro ou um ponto seguro para descansar.
+                                O tipo exato só se revela ao chegar.</div>
+                            <span class="node-tag">Elipse</span>
                         </div>
 
                     </div>
 
                     <hr class="divider-gradient">
 
-                    <h4>Sobre Recompensas (nem todo nó precisa ter uma)</h4>
+                    <h4>Proporção de um trecho</h4>
                     <p>
-                        Como em Isaac/Hades, nem toda sala precisa oferecer algo — isso é o que torna as recompensas
-                        significativas.
-                        Ideia de proporção para um trecho de 5-6 nós:
+                        Num trecho de 5 a 6 nós, espere em geral:
                     </p>
                     <ul>
-                        <li>1 nó de combate ou boss (nem toda rota precisa ter boss)</li>
-                        <li>1 a 2 nós neutros (informação, decisão, ambiente)</li>
-                        <li>0 a 1 nó de recurso ou tesouro (não todo trecho tem)</li>
-                        <li>0 a 1 nó de descanso (mais raro, funciona como "checkpoint")</li>
+                        <li>1 combate ou chefe (nem toda rota tem chefe)</li>
+                        <li>1 a 2 encontros ou decisões</li>
+                        <li>0 a 1 pausa ou recompensa</li>
                     </ul>
                     <p>
-                        Nós de boss/elite podem, opcionalmente, garantir um tesouro maior logo em seguida como
-                        recompensa de risco —
-                        assim como em Hades, onde a sala mais perigosa costuma ter a melhor recompensa visível antes de
-                        entrar.
+                        Um chefe pode ser seguido de uma recompensa maior, como compensação pelo risco.
                     </p>
-
-                    <hr class="divider-gradient">
-
-                    <h4>Diferenciação entre Rotas (exemplo)</h4>
-                    <ul>
-                        <li><strong>Passagem Sul (Gracklstugh):</strong> rota curta e direta, menos nós de decisão, mais
-                            nós de combate
-                            que de boss — rota "rápida e arriscada, mas sem grande clímax".</li>
-                        <li><strong>Passagem Oeste (Sloobludop / Lago Sombrio):</strong> duração média, mais nós de
-                            recurso e
-                            informação, com talvez 1 nó de boss ligado à travessia do lago.</li>
-                        <li><strong>Passagem Norte (Menzoberranzan / Blingdenstone):</strong> rota mais longa, maior
-                            densidade de
-                            combate e evento de facção, e o único trecho com chance real de mais de um nó de boss/elite.
-                        </li>
-                    </ul>
-
-                    <hr class="divider-gradient">
-
-                    <h4>Regras de Bastidor (para mim, mestre)</h4>
-                    <ul>
-                        <li>O fluxograma completo não é mostrado aos jogadores — apenas o nó atual e pistas vagas de
-                            NPCs guias.</li>
-                        <li>Todo nó de combate ou boss precisa ter uma saída além do confronto direto (fuga, negociação,
-                            furtividade),
-                            mesmo que arriscada.</li>
-                        <li>Nó de boss/elite deve ser sinalizado de forma clara nos meus registros (formato octógono)
-                            para eu lembrar
-                            de aplicar a regra de lesão permanente ao zerar o HP de um jogador nesse encontro
-                            específico.</li>
-                        <li>Um "medidor de perseguição" pode subir a cada nó em que o grupo gastar tempo demais ou fizer
-                            barulho,
-                            aumentando a chance de nós vermelhos/boss aparecerem mais à frente.</li>
-                    </ul>
-
-                    <hr class="divider-gradient">
-
-                    <h4>Próximos Passos</h4>
-                    <p>
-                        Base conceitual pronta. As rotas específicas (Sul, Oeste, Norte), com nós, dias de viagem e
-                        conteúdo real de
-                        cada evento — incluindo onde exatamente entra um boss como o troll — serão desenvolvidas
-                        separadamente, uma
-                        rota por vez.
-                    </p>
-
-                    <h2>Exemplo na prática</h2>
-                    <p>
-                        <img src="../assets/images/Exemplo_sistema_viagem.png" alt="Exemplo de fluxograma de nós" />
-                    </p>
+                </article>
+            </div>
         </main>
 
         <footer class="site-footer" data-site-footer></footer>

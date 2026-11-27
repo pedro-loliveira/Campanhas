@@ -7,5 +7,5 @@
   { "meta": "Giffyglyph", "titulo": "Iniciativa e Inteligência", "texto": "Regra específica para o uso de iniciativa com inteligência.", "href": "iniciativa_inteligencia.html" },
   { "meta": "Giffyglyph", "titulo": "Lesões Permanentes", "texto": "Regra específica para criticos e inimigos violentos.", "href": "lesoes_permanentes.html" },
   { "meta": "Criação para esta Campanha", "titulo": "Bonus de Npcs", "texto": "Regra para auxilio inicial de personagens de baixos niveis.", "href": "bonus_npcs.html" },
-  { "meta": "Criação para esta Campanha", "titulo": "Sistema de Viagem", "texto": "Um novo modo de conduzir encontros entre viagens.", "href": "../ch/sistema_de_viagem.html" }
+  { "meta": "Criação para esta Campanha", "titulo": "Sistema de Viagem", "texto": "Um novo modo de conduzir encontros entre viagens.", "href": "sistema_de_viagem.html" }
 ]
