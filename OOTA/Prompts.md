@@ -1,4 +1,4 @@
-Modelo para todos:
+###Modelo para todos:
 
 Use the attached images ONLY as a style, palette, lighting and texture reference.
 Do not copy their compositions, characters or buildings.
@@ -15,7 +15,7 @@ border, no watermark.
 
 Framing: [FRAMING]
 
-Buppido:
+###Buppido:
 Use the attached images ONLY as a style, palette, lighting and texture reference.
 Do not copy their compositions, characters or buildings.
 
@@ -31,4 +31,4 @@ dusty purple]. Gloomy, decadent, ancient atmosphere. No text, no logo, no
 border, no watermark.
 
 Framing:
-head-and-shoulders portrait, centered, filling about 70% of the frame...
+head-and-shoulders portrait, 
